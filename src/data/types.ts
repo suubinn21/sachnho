@@ -83,6 +83,7 @@ export interface UserPreferences {
   theme: ThemeMode;
   readerZoom: number;
   activeCategory: string;
+  musicVolume?: number;
 }
 
 export interface PersonalBookRecord {
@@ -107,8 +108,9 @@ export interface AudioTrackItem {
   id: string;
   title: string;
   bpm: number;
-  sourceType: 'synth' | 'local-mp3';
+  sourceType: 'synth' | 'static-file' | 'local-mp3';
   presetIndex?: number;
+  url?: string;
 }
 
 export interface FilterCriteria {

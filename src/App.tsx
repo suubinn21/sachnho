@@ -7,6 +7,7 @@ import { Bookshelf3D } from './components/Bookshelf3D';
 import { BottomDock } from './components/BottomDock';
 import { CategoryTabs } from './components/CategoryTabs';
 import { Header } from './components/Header';
+import { MeadowBackdrop } from './components/MeadowBackdrop';
 import { NewBooksModal } from './components/NewBooksModal';
 
 const PersonalLibraryOverlay = lazy(() =>
@@ -16,6 +17,7 @@ const PersonalLibraryOverlay = lazy(() =>
 );
 import { siteConfig } from './config/site';
 import { getCatalog, getCategoryGroups } from './data/adapter';
+import { getBundledAudioTracks } from './data/audioLoader';
 import { DEFAULT_FILTERS, filterBooks, pickRandomBook } from './data/filters';
 import {
   PERSONAL_TAB_ID,
@@ -134,6 +136,13 @@ export function App() {
   }
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
+  const musicVolume = preferences.musicVolume ?? 0.75;
+
+  useEffect(() => {
+    audioEngineRef.current?.setVolume(musicVolume);
+  }, [musicVolume]);
+
+  const bundledAudioTracks = useMemo(() => getBundledAudioTracks(), []);
 
   const allTracks: AudioTrackItem[] = useMemo(() => {
     const custom: AudioTrackItem[] = personalTracks.map((t) => ({
@@ -142,8 +151,8 @@ export function App() {
       bpm: t.bpm,
       sourceType: 'local-mp3',
     }));
-    return [...siteConfig.defaultAudioTracks, ...custom];
-  }, [personalTracks]);
+    return [...bundledAudioTracks, ...siteConfig.defaultAudioTracks, ...custom];
+  }, [bundledAudioTracks, personalTracks]);
 
   const personalTrackBlobMap = useMemo(() => {
     const map = new Map<string, Blob>();
@@ -158,6 +167,17 @@ export function App() {
       const safeIdx = ((idx % allTracks.length) + allTracks.length) % allTracks.length;
       const track = allTracks[safeIdx];
       setCurrentTrackIndex(safeIdx);
+      if (track.sourceType === 'static-file' && track.url) {
+        try {
+          await engine.playUrl(track.url, () => {
+            void startTrackAt(safeIdx + 1);
+          });
+          setIsMusicPlaying(true);
+          return;
+        } catch {
+          showToast('Không thể phát tệp nhạc này.');
+        }
+      }
       if (track.sourceType === 'local-mp3') {
         const blob = personalTrackBlobMap.get(track.id);
         if (blob) {
@@ -356,17 +376,18 @@ export function App() {
 
   const handleUploadMp3Files = useCallback(
     async (files: FileList) => {
+      const audioExtRe = /\.(mp3|wav|ogg|m4a|aac|flac)$/i;
       let added = 0;
       for (const file of Array.from(files)) {
         if (
-          !file.name.toLowerCase().endsWith('.mp3') &&
+          !audioExtRe.test(file.name) &&
           !file.type.startsWith('audio/')
         ) {
           continue;
         }
         const rec: PersonalTrackRecord = {
           id: `mp3-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
-          title: file.name.replace(/\.mp3$/i, ''),
+          title: file.name.replace(audioExtRe, ''),
           bpm: 72,
           audioBlob: file,
           addedAt: new Date().toISOString(),
@@ -377,9 +398,9 @@ export function App() {
       if (added > 0) {
         const refreshed = await listPersonalTracks();
         setPersonalTracks(refreshed);
-        showToast(`Đã thêm ${added} bản nhạc MP3 cá nhân.`);
+        showToast(`Đã thêm ${added} bản nhạc cá nhân.`);
       } else {
-        showToast('Chỉ hỗ trợ tệp âm thanh .mp3.');
+        showToast('Chỉ hỗ trợ tệp âm thanh (.mp3, .wav, .ogg, .m4a).');
       }
     },
     [showToast],
@@ -390,11 +411,13 @@ export function App() {
       await removePersonalTrack(trackId);
       const refreshed = await listPersonalTracks();
       setPersonalTracks(refreshed);
-      if (currentTrackIndex >= siteConfig.defaultAudioTracks.length + refreshed.length) {
+      const totalRemaining =
+        bundledAudioTracks.length + siteConfig.defaultAudioTracks.length + refreshed.length;
+      if (currentTrackIndex >= totalRemaining) {
         setCurrentTrackIndex(0);
       }
     },
-    [currentTrackIndex],
+    [bundledAudioTracks.length, currentTrackIndex],
   );
 
   const handleApplyRestore = useCallback(
@@ -421,6 +444,8 @@ export function App() {
 
   return (
     <div className="meadow-backdrop relative flex min-h-screen flex-col justify-between overflow-hidden">
+      <MeadowBackdrop theme={preferences.theme} />
+
       <Header
         totalBooks={allBooks.length}
         readCount={readCount}
@@ -475,6 +500,7 @@ export function App() {
         tracks={allTracks}
         currentTrackIndex={currentTrackIndex}
         isMusicPlaying={isMusicPlaying}
+        musicVolume={musicVolume}
         onChangeFilters={(next) => setFilters(next)}
         onResetFilters={() => setFilters(DEFAULT_FILTERS)}
         onToggleTheme={() =>
@@ -490,6 +516,9 @@ export function App() {
         onOpenDetail={(book) => setDetailBook(book)}
         onPickRandom={handlePickRandom}
         onToggleMusic={handleToggleMusic}
+        onChangeMusicVolume={(v) =>
+          setPreferences((p) => ({ ...p, musicVolume: v }))
+        }
         onPrevTrack={() => void startTrackAt(currentTrackIndex - 1)}
         onNextTrack={() => void startTrackAt(currentTrackIndex + 1)}
         onSelectTrack={(idx) => void startTrackAt(idx)}

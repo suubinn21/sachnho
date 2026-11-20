@@ -12,6 +12,8 @@ import {
   SlidersHorizontal,
   Sun,
   Trash2,
+  Volume2,
+  VolumeX,
   X,
 } from 'lucide-react';
 import { searchBooks } from '../data/search';
@@ -38,6 +40,7 @@ interface BottomDockProps {
   tracks: AudioTrackItem[];
   currentTrackIndex: number;
   isMusicPlaying: boolean;
+  musicVolume: number;
   onChangeFilters: (next: FilterCriteria) => void;
   onResetFilters: () => void;
   onToggleTheme: () => void;
@@ -45,6 +48,7 @@ interface BottomDockProps {
   onOpenDetail: (book: BookMeta) => void;
   onPickRandom: (pool: BookMeta[]) => void;
   onToggleMusic: () => void;
+  onChangeMusicVolume: (volume: number) => void;
   onPrevTrack: () => void;
   onNextTrack: () => void;
   onSelectTrack: (index: number) => void;
@@ -66,6 +70,7 @@ export function BottomDock({
   tracks,
   currentTrackIndex,
   isMusicPlaying,
+  musicVolume,
   onChangeFilters,
   onResetFilters,
   onToggleTheme,
@@ -73,6 +78,7 @@ export function BottomDock({
   onOpenDetail,
   onPickRandom,
   onToggleMusic,
+  onChangeMusicVolume,
   onPrevTrack,
   onNextTrack,
   onSelectTrack,
@@ -289,7 +295,11 @@ export function BottomDock({
                           isSelected ? 'text-white/80' : 'text-[var(--muted)]'
                         }`}
                       >
-                        {track.sourceType === 'local-mp3' ? 'MP3' : `${track.bpm} bpm`}
+                        {track.sourceType === 'local-mp3'
+                          ? 'MP3 cá nhân'
+                          : track.sourceType === 'static-file'
+                            ? 'Nhạc sẵn'
+                            : `${track.bpm} bpm`}
                       </span>
                     </button>
                     {track.sourceType === 'local-mp3' && (
@@ -307,11 +317,39 @@ export function BottomDock({
               })}
             </ul>
 
-            <div className="mt-3 flex items-center justify-between border-t border-[var(--border-soft)] pt-2.5">
+            <div className="mt-3 flex items-center gap-2.5 border-t border-[var(--border-soft)] pt-2.5">
+              <button
+                type="button"
+                onClick={() => onChangeMusicVolume(musicVolume > 0 ? 0 : 0.75)}
+                aria-label={musicVolume > 0 ? 'Tắt tiếng' : 'Bật lại âm lượng'}
+                className="cursor-pointer text-[var(--muted)] hover:text-[var(--ink)]"
+              >
+                {musicVolume > 0 ? (
+                  <Volume2 className="h-4 w-4 text-[var(--cobalt)]" />
+                ) : (
+                  <VolumeX className="h-4 w-4" />
+                )}
+              </button>
+              <input
+                type="range"
+                min={0}
+                max={1}
+                step={0.05}
+                value={musicVolume}
+                aria-label="Âm lượng nhạc nền"
+                onChange={(e) => onChangeMusicVolume(Number(e.target.value))}
+                className="h-1.5 flex-1 cursor-pointer accent-[var(--cobalt)]"
+              />
+              <span className="w-8 text-right font-sans-ui text-[11px] tabular-nums text-[var(--muted)]">
+                {Math.round(musicVolume * 100)}%
+              </span>
+            </div>
+
+            <div className="mt-2.5 flex items-center justify-between border-t border-[var(--border-soft)] pt-2.5">
               <input
                 ref={mp3InputRef}
                 type="file"
-                accept=".mp3,audio/mpeg,audio/mp3"
+                accept=".mp3,.wav,.ogg,.m4a,audio/*"
                 multiple
                 className="hidden"
                 onChange={(e) => {

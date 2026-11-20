@@ -66,30 +66,124 @@ body {
 
 /* Sunlit sky & grassy meadow atmospheric backdrop */
 .meadow-backdrop {
-  background:
-    radial-gradient(circle at 18% 14%, rgba(255, 250, 224, 0.72), transparent 44%),
-    linear-gradient(
-      180deg,
-      var(--sky-top) 0%,
-      var(--sky-mid) 36%,
-      var(--sky-horizon) 62%,
-      var(--meadow-top) 67%,
-      var(--meadow-bottom) 100%
-    );
+  background: linear-gradient(
+    180deg,
+    var(--sky-top) 0%,
+    var(--sky-mid) 44%,
+    var(--sky-horizon) 76%,
+    var(--meadow-top) 100%
+  );
   transition: background 320ms ease;
 }
 
 html.dark .meadow-backdrop {
-  background:
-    radial-gradient(circle at 82% 16%, rgba(120, 162, 255, 0.16), transparent 42%),
-    linear-gradient(
-      180deg,
-      var(--sky-top) 0%,
-      var(--sky-mid) 40%,
-      var(--sky-horizon) 63%,
-      var(--meadow-top) 68%,
-      var(--meadow-bottom) 100%
-    );
+  background: linear-gradient(
+    180deg,
+    var(--sky-top) 0%,
+    var(--sky-mid) 48%,
+    var(--sky-horizon) 78%,
+    var(--meadow-top) 100%
+  );
+}
+
+/* Lively background field & sky animations (GPU transform/opacity only) */
+@keyframes cloudDrift {
+  0% {
+    transform: translate3d(-15vw, 0, 0);
+  }
+  100% {
+    transform: translate3d(125vw, 0, 0);
+  }
+}
+
+@keyframes sunPulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.78;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.12);
+    opacity: 0.96;
+  }
+}
+
+@keyframes grassSway {
+  0%, 100% {
+    transform: rotate(-3deg) skewX(-1.5deg);
+  }
+  50% {
+    transform: rotate(4deg) skewX(2deg);
+  }
+}
+
+@keyframes moteFloat {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.8);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.85;
+  }
+  70% {
+    opacity: 0.75;
+  }
+  100% {
+    transform: translate3d(24px, -90px, 0) scale(1.15);
+    opacity: 0;
+  }
+}
+
+@keyframes starTwinkle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes birdGlide {
+  0% {
+    transform: translate3d(-10vw, 6px, 0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.55;
+  }
+  85% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate3d(118vw, -28px, 0);
+    opacity: 0;
+  }
+}
+
+.cloud-drift-slow {
+  animation: cloudDrift 78s linear infinite;
+}
+.cloud-drift-medium {
+  animation: cloudDrift 56s linear -22s infinite;
+}
+.cloud-drift-fast {
+  animation: cloudDrift 44s linear -12s infinite;
+}
+.sun-glow {
+  animation: sunPulse 7s ease-in-out infinite;
+}
+.grass-sway {
+  animation: grassSway 4.8s ease-in-out infinite;
+}
+.mote-float {
+  animation: moteFloat 8s ease-in-out infinite;
+}
+.star-twinkle {
+  animation: starTwinkle 3.5s ease-in-out infinite;
+}
+.bird-glide {
+  animation: birdGlide 36s linear 2s infinite;
 }
 
 /* Circular reveal for Book Detail Modal */
@@ -182,7 +276,15 @@ html.dark .meadow-backdrop {
   .animate-flip-prev,
   .eq-bar-1,
   .eq-bar-2,
-  .eq-bar-3 {
+  .eq-bar-3,
+  .cloud-drift-slow,
+  .cloud-drift-medium,
+  .cloud-drift-fast,
+  .sun-glow,
+  .grass-sway,
+  .mote-float,
+  .star-twinkle,
+  .bird-glide {
     animation: none !important;
     transition: none !important;
   }

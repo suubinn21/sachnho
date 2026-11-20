@@ -20,6 +20,7 @@ export const DEFAULT_PREFERENCES: UserPreferences = {
   theme: 'light',
   readerZoom: 100,
   activeCategory: 'Tất cả',
+  musicVolume: 0.75,
 };
 
 function safeReadJson<T>(key: string, fallback: T): T {

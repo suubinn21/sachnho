@@ -146,7 +146,7 @@ export function Bookshelf3D({
               type="button"
               onClick={() => onOpenDetail(activeBook)}
               aria-label={`Xem chi tiết sách ${activeBook.title}`}
-              className="group cursor-pointer rounded-xl px-4 py-1 transition hover:bg-black/5 dark:hover:bg-white/10"
+              className="group cursor-pointer rounded-2xl border border-[var(--border-soft)] bg-[var(--glass)] px-5 py-2 shadow-sm backdrop-blur-md transition hover:border-[var(--cobalt)]"
             >
               <h2 className="font-serif-book text-xl font-medium leading-snug text-[var(--ink)] group-hover:text-[var(--cobalt)] sm:text-2xl">
                 {activeBook.title}
@@ -169,7 +169,7 @@ export function Bookshelf3D({
             </button>
           </div>
 
-          <p className="font-sans-ui mt-1 text-[11px] text-[var(--muted)]">
+          <p className="mt-1.5 rounded-full bg-[var(--glass)] px-3 py-0.5 font-sans-ui text-[11px] text-[var(--muted)] backdrop-blur-sm">
             Nhấp lại vào cuốn sách đang chọn để xem chi tiết &amp; đọc · ({activeIndex + 1}/{books.length})
           </p>
         </div>

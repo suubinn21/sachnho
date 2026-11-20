@@ -49,9 +49,11 @@ describe('Real 128-book dataset integrity', () => {
     const ids = new Set<number>();
 
     for (const file of files) {
-      const firstLine = fs
-        .readFileSync(path.join(RAW_DIR, file), 'utf8')
-        .split(/\r?\n/)[0];
+      const fd = fs.openSync(path.join(RAW_DIR, file), 'r');
+      const buf = Buffer.alloc(512);
+      const bytesRead = fs.readSync(fd, buf, 0, buf.length, 0);
+      fs.closeSync(fd);
+      const firstLine = buf.toString('utf8', 0, bytesRead).split(/\r?\n/)[0];
       const header = parseBookHeader(firstLine);
       expect(header.author).not.toBe('Khuyết danh');
       ids.add(header.numericId);

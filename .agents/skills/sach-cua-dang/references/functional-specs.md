@@ -134,8 +134,9 @@ Giao diện chính là SPA một màn hình nền không gian thiên nhiên nh�
 #### `FR-09`: Trình phát nhạc nền đọc sách (Ambient Music Player)
 - Công tắc `Bật nhạc`, nút `Bài trước` / `Bài sau`, hiển thị tên bài hát + chỉ số bài + hiệu ứng equalizer 3 chấm khi đang phát.
 - Popover `Danh sách phát`:
-  - Hiển thị các track mặc định (nếu thư mục `public/audio/` có sẵn file nhạc cấu hình trong `siteConfig`; nếu chưa có sẵn file audio nào, hiển thị hướng dẫn gọn và nút `+ Thêm nhạc MP3` mà không báo lỗi giả).
-  - Nút **`+ Thêm nhạc MP3`**: Chọn một hoặc nhiều file `.mp3` từ thiết bị cá nhân, kiểm tra định dạng, lưu vào `IndexedDB` để tự động có mặt lại ở các lần mở web sau.
+  - Tự động nạp các tệp nhạc (`.mp3`, `.wav`, `.ogg`, `.m4a`, `.flac`) đặt trong `src/data/audio/` (ưu tiên hiển thị đầu danh sách) cùng 10 bản piano không lời tạo âm đa âm + hồi âm phòng ấm qua Web Audio API (`AmbientAudioEngine`, 60–82 BPM).
+  - Thanh trượt điều chỉnh âm lượng (`0%`–`100%`) và nút tắt/bật tiếng nhanh, lưu trong `preferences`.
+  - Nút **`+ Thêm nhạc MP3`**: Chọn một hoặc nhiều tệp âm thanh từ thiết bị cá nhân, kiểm tra định dạng, lưu vào `IndexedDB` để tự động có mặt lại ở các lần mở web sau.
 
 #### `FR-10`: Thư viện sách cá nhân (`Sách của bạn` — Local PDF)
 - Mở lớp phủ `Thư viện sách cá nhân` khi chọn tab `Sách của bạn`.
