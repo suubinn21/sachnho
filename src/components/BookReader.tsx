@@ -612,8 +612,8 @@ export function BookReader({
         </div>
       )}
 
-      {/* Main Two-Page Spread Workspace */}
-      <main className="relative flex flex-1 items-center justify-center overflow-hidden p-2 sm:p-5">
+      {/* Main Two-Page Spread Workspace on Reading Desk */}
+      <main className="book-desk-surface relative flex flex-1 items-center justify-center overflow-hidden p-2 sm:p-5">
         {isLoading && (
           <div className="flex flex-col items-center gap-2 text-center">
             <Loader2 className="h-7 w-7 animate-spin text-[var(--cobalt)]" />
@@ -640,40 +640,47 @@ export function BookReader({
 
         {!isLoading && !loadError && paginated && (
           <div
-            ref={spreadContainerRef}
-            key={`${leftPageNum}-${isMobile ? '1p' : '2p'}`}
-            onAnimationEnd={() => setFlipDirection('none')}
-            className={`relative grid h-full max-h-[760px] w-full max-w-5xl overflow-hidden rounded-2xl border border-[var(--border-soft)] bg-[var(--sheet)] shadow-[0_24px_54px_rgba(0,0,0,0.18)] ${
-              isMobile ? 'grid-cols-1' : 'grid-cols-2'
-            } ${
-              flipDirection === 'next'
-                ? 'animate-flip-next'
-                : flipDirection === 'prev'
-                  ? 'animate-flip-prev'
-                  : ''
-            }`}
+            className="flex h-full max-h-[780px] w-full max-w-[1060px] rounded-[20px] p-1.5 shadow-[0_28px_64px_rgba(0,0,0,0.26)] sm:p-2.5"
+            style={{
+              background: `linear-gradient(140deg, ${book.spinePalette.bg} 0%, ${book.spinePalette.bgDark} 100%)`,
+            }}
           >
-            {/* Left / Single Page Leaf */}
-            <article className="reader-leaf-scroll relative flex h-full flex-col overflow-y-auto px-5 py-6 sm:px-9 sm:py-8">
-              <div className="flex-1">{renderPageContent(leftPage)}</div>
-              <footer className="mt-4 flex items-center justify-between border-t border-[var(--border-soft)] pt-2 font-sans-ui text-[11px] text-[var(--muted)]">
-                <span className="truncate">{book.title}</span>
-                <span className="tabular-nums">Trang {leftPageNum}</span>
-              </footer>
-            </article>
-
-            {/* Right Page Leaf (Desktop / Tablet 2-page spread) */}
-            {!isMobile && (
-              <article className="reader-leaf-scroll relative flex h-full flex-col overflow-y-auto border-l border-[var(--border-soft)] px-9 py-8 shadow-[inset_14px_0_24px_-18px_rgba(0,0,0,0.22)]">
-                <div className="flex-1">{renderPageContent(rightPage)}</div>
+            <div
+              ref={spreadContainerRef}
+              key={`${leftPageNum}-${isMobile ? '1p' : '2p'}`}
+              onAnimationEnd={() => setFlipDirection('none')}
+              className={`relative grid h-full w-full overflow-hidden rounded-[14px] border border-black/15 bg-[var(--sheet)] shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2),0_4px_14px_rgba(0,0,0,0.22)] ${
+                isMobile ? 'grid-cols-1' : 'grid-cols-2'
+              } ${
+                flipDirection === 'next'
+                  ? 'animate-flip-next'
+                  : flipDirection === 'prev'
+                    ? 'animate-flip-prev'
+                    : ''
+              }`}
+            >
+              {/* Left / Single Page Leaf */}
+              <article className="reader-leaf-scroll relative flex h-full flex-col overflow-y-auto px-5 py-6 shadow-[inset_-14px_0_24px_-18px_rgba(0,0,0,0.16)] sm:px-9 sm:py-8">
+                <div className="flex-1">{renderPageContent(leftPage)}</div>
                 <footer className="mt-4 flex items-center justify-between border-t border-[var(--border-soft)] pt-2 font-sans-ui text-[11px] text-[var(--muted)]">
-                  <span className="truncate">{currentChapterTitle ?? book.author}</span>
-                  <span className="tabular-nums">
-                    {rightPageNum ? `Trang ${rightPageNum}` : ''}
-                  </span>
+                  <span className="truncate">{book.title}</span>
+                  <span className="tabular-nums">Trang {leftPageNum}</span>
                 </footer>
               </article>
-            )}
+
+              {/* Right Page Leaf (Desktop / Tablet 2-page spread) */}
+              {!isMobile && (
+                <article className="reader-leaf-scroll relative flex h-full flex-col overflow-y-auto border-l border-[var(--border-soft)] px-9 py-8 shadow-[inset_18px_0_28px_-18px_rgba(0,0,0,0.26)]">
+                  <div className="flex-1">{renderPageContent(rightPage)}</div>
+                  <footer className="mt-4 flex items-center justify-between border-t border-[var(--border-soft)] pt-2 font-sans-ui text-[11px] text-[var(--muted)]">
+                    <span className="truncate">{currentChapterTitle ?? book.author}</span>
+                    <span className="tabular-nums">
+                      {rightPageNum ? `Trang ${rightPageNum}` : ''}
+                    </span>
+                  </footer>
+                </article>
+              )}
+            </div>
           </div>
         )}
       </main>

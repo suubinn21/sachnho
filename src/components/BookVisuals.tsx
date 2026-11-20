@@ -8,12 +8,12 @@ interface BookCoverArtProps {
 
 /**
  * Render real cover image when available, or an editorial hardcover SVG/HTML
- * book cover with paper grain, inner foil frame, and Newsreader typography.
+ * book cover with cloth sheen, inner foil frame, and Newsreader typography.
  */
 export function BookCoverArt({ book, size = 'lg', className = '' }: BookCoverArtProps) {
   if (book.coverUrl) {
     return (
-      <div className={`relative overflow-hidden rounded-md shadow-xl ${className}`}>
+      <div className={`relative overflow-hidden rounded-r-lg rounded-l-[3px] shadow-xl ${className}`}>
         <img
           src={book.coverUrl}
           alt={`Bìa sách ${book.title}`}
@@ -30,32 +30,41 @@ export function BookCoverArt({ book, size = 'lg', className = '' }: BookCoverArt
 
   return (
     <div
-      className={`relative flex flex-col justify-between overflow-hidden rounded-r-lg rounded-l-[3px] select-none shadow-[0_18px_38px_-10px_rgba(0,0,0,0.45)] ${className}`}
+      className={`relative flex flex-col justify-between overflow-hidden rounded-r-lg rounded-l-[2px] select-none shadow-[0_20px_42px_-12px_rgba(0,0,0,0.48)] ${className}`}
       style={{
-        background: `linear-gradient(145deg, ${bg} 0%, ${bgDark} 100%)`,
+        background: `linear-gradient(148deg, ${bg} 0%, ${bgDark} 100%)`,
         color: text,
       }}
       aria-label={`Bìa minh họa sách ${book.title}`}
     >
-      {/* Left spine binding crease */}
+      {/* Subtle linen bookcloth sheen */}
       <div
-        className="pointer-events-none absolute inset-y-0 left-0 w-3 opacity-35"
+        className="pointer-events-none absolute inset-0 opacity-25"
         style={{
-          background:
-            'linear-gradient(90deg, rgba(0,0,0,0.45) 0%, rgba(255,255,255,0.22) 55%, rgba(0,0,0,0.18) 100%)',
+          backgroundImage:
+            'radial-gradient(circle at 22% 18%, rgba(255,255,255,0.28) 0%, transparent 52%), repeating-linear-gradient(45deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 3px)',
         }}
       />
 
-      {/* Decorative editorial border frame */}
+      {/* Left spine hinge groove */}
+      <div
+        className="pointer-events-none absolute inset-y-0 left-0 w-3.5 opacity-45"
+        style={{
+          background:
+            'linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(255,255,255,0.24) 45%, rgba(0,0,0,0.18) 85%, transparent 100%)',
+        }}
+      />
+
+      {/* Decorative foil border frame */}
       <div
         className={`relative flex h-full flex-col justify-between border ${
           isCompact ? 'm-1.5 p-2' : isMedium ? 'm-2.5 p-3' : 'm-3.5 p-5'
         }`}
-        style={{ borderColor: `${accent}55` }}
+        style={{ borderColor: `${accent}66` }}
       >
-        <div className="flex items-center justify-between gap-2">
+        <div className="flex items-center justify-between gap-2 pl-1">
           <span
-            className={`font-sans-ui uppercase tracking-[0.16em] opacity-85 ${
+            className={`font-sans-ui uppercase tracking-[0.16em] opacity-90 ${
               isCompact ? 'text-[7px]' : isMedium ? 'text-[9px]' : 'text-[10px]'
             }`}
             style={{ color: accent }}
@@ -64,7 +73,7 @@ export function BookCoverArt({ book, size = 'lg', className = '' }: BookCoverArt
           </span>
           {!isCompact && (
             <span
-              className="font-sans-ui rounded-full border px-2 py-0.5 text-[9px] font-medium opacity-80"
+              className="font-sans-ui rounded-full border px-2 py-0.5 text-[9px] font-medium opacity-85"
               style={{ borderColor: `${accent}66`, color: accent }}
             >
               #{book.numericId}
@@ -74,7 +83,7 @@ export function BookCoverArt({ book, size = 'lg', className = '' }: BookCoverArt
 
         <div className="my-auto py-2 pl-1">
           <div
-            className={`mb-2 h-[2px] w-8 rounded-full ${isCompact ? 'w-4 mb-1' : ''}`}
+            className={`mb-2 h-[2px] rounded-full ${isCompact ? 'mb-1 w-4' : 'w-9'}`}
             style={{ backgroundColor: accent }}
           />
           <h3
@@ -92,14 +101,14 @@ export function BookCoverArt({ book, size = 'lg', className = '' }: BookCoverArt
 
         <div className="pl-1">
           <p
-            className={`font-sans-ui font-medium opacity-90 ${
+            className={`font-sans-ui font-medium opacity-95 ${
               isCompact ? 'truncate text-[8px]' : isMedium ? 'truncate text-[11px]' : 'text-xs'
             }`}
           >
             {book.author}
           </p>
           {!isCompact && (
-            <p className="font-sans-ui mt-0.5 text-[10px] opacity-65">
+            <p className="font-sans-ui mt-0.5 text-[10px] opacity-70">
               {book.categoryGroup} · {book.chapterCount} chương
             </p>
           )}
@@ -117,8 +126,9 @@ interface BookSpine3DProps {
 }
 
 /**
- * 3D vertical spine card with subtle cover swatch at top, vertical title,
- * author badge, and an angled front-cover reveal when active.
+ * Tactile 3D hardcover book spine with cylindrical shading, embossed foil spine bands,
+ * contact shadow on the walnut shelf, and an open-angle front cover + cream page block
+ * edge reveal when active.
  */
 export function BookSpine3D({
   book,
@@ -128,8 +138,7 @@ export function BookSpine3D({
 }: BookSpine3DProps) {
   const { bg, bgDark, text, accent } = book.spinePalette;
   const titleLen = book.title.length;
-  // Slightly vary height/thickness organically like real printed volumes
-  const heightPx = 224 + ((book.numericId * 7) % 28);
+  const heightPx = 226 + ((book.numericId * 7) % 30);
   const spineWidth = isActive ? 54 : 44 + (book.wordCount > 180000 ? 8 : 0);
 
   return (
@@ -143,35 +152,55 @@ export function BookSpine3D({
       }
       aria-pressed={isActive}
       className={`group relative shrink-0 cursor-pointer border-0 bg-transparent p-0 text-left outline-none transition-all duration-300 ease-out focus-visible:ring-2 focus-visible:ring-[var(--cobalt)] focus-visible:ring-offset-2 ${
-        isActive ? '-translate-y-3 z-20' : 'hover:-translate-y-2 z-10'
+        isActive ? '-translate-y-3 z-20' : 'hover:-translate-y-2.5 z-10'
       }`}
       style={{
         height: `${heightPx}px`,
-        perspective: '1000px',
+        perspective: '1100px',
       }}
     >
+      {/* Grounded contact shadow on the wooden shelf */}
+      <div
+        aria-hidden="true"
+        className={`pointer-events-none absolute -bottom-1.5 left-1 right-1 h-2.5 rounded-full bg-black/45 blur-[4px] transition-opacity duration-300 ${
+          isActive ? 'opacity-75' : 'opacity-45 group-hover:opacity-65'
+        }`}
+      />
+
       <div
         className="relative flex h-full items-stretch transition-transform duration-300 ease-out"
         style={{
           transformStyle: 'preserve-3d',
-          transform: isActive ? 'rotateY(-18deg) scale(1.04)' : 'rotateY(0deg)',
+          transform: isActive
+            ? 'rotateY(-20deg) scale(1.05)'
+            : 'rotateY(0deg)',
         }}
       >
-        {/* Spine surface */}
+        {/* Cylindrical Hardcover Spine */}
         <div
-          className="relative flex h-full flex-col items-center justify-between overflow-hidden rounded-l-[4px] border-r border-black/25 px-1.5 py-2.5 shadow-[4px_8px_18px_rgba(0,0,0,0.32)]"
+          className="relative flex h-full flex-col items-center justify-between overflow-hidden rounded-l-[4px] border-r border-black/30 px-1.5 py-2.5 shadow-[4px_10px_20px_rgba(0,0,0,0.34)]"
           style={{
             width: `${spineWidth}px`,
-            background: `linear-gradient(90deg, ${bgDark} 0%, ${bg} 35%, ${bg} 82%, ${bgDark} 100%)`,
+            background: `linear-gradient(90deg, ${bgDark} 0%, ${bg} 28%, ${bg} 74%, ${bgDark} 100%)`,
             color: text,
           }}
         >
-          {/* Top cover swatch / emblem */}
-          <div className="flex w-full flex-col items-center gap-1">
+          {/* Cylindrical curvature sheen */}
+          <div
+            className="pointer-events-none absolute inset-0"
+            style={{
+              background:
+                'linear-gradient(90deg, rgba(0,0,0,0.22) 0%, rgba(255,255,255,0.16) 24%, rgba(255,255,255,0.03) 56%, rgba(0,0,0,0.26) 100%)',
+            }}
+          />
+
+          {/* Top foil band & cover emblem */}
+          <div className="relative flex w-full flex-col items-center gap-1">
+            <span className="h-[2px] w-full opacity-55" style={{ backgroundColor: accent }} />
             <div
-              className="h-5 w-6 overflow-hidden rounded-[2px] border shadow-inner"
+              className="mt-0.5 h-5 w-6 overflow-hidden rounded-[2px] border shadow-inner"
               style={{
-                borderColor: `${accent}88`,
+                borderColor: `${accent}99`,
                 background: book.coverUrl ? undefined : `linear-gradient(135deg, ${accent}44, ${bgDark})`,
               }}
             >
@@ -191,13 +220,13 @@ export function BookSpine3D({
                 </span>
               )}
             </div>
-            <span className="h-[1px] w-4 opacity-50" style={{ backgroundColor: accent }} />
+            <span className="h-[1px] w-5 opacity-55" style={{ backgroundColor: accent }} />
           </div>
 
           {/* Vertical book title */}
-          <div className="writing-vertical my-1 flex max-h-[138px] items-center justify-center overflow-hidden">
+          <div className="writing-vertical relative my-1 flex max-h-[138px] items-center justify-center overflow-hidden">
             <span
-              className={`font-serif-book font-medium leading-none tracking-tight ${
+              className={`font-serif-book font-medium leading-none tracking-tight drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)] ${
                 titleLen > 34 ? 'text-[11px]' : 'text-[12.5px]'
               }`}
             >
@@ -205,8 +234,8 @@ export function BookSpine3D({
             </span>
           </div>
 
-          {/* Bottom metadata + optional reading indicator */}
-          <div className="flex w-full flex-col items-center gap-1">
+          {/* Bottom foil band & author surname */}
+          <div className="relative flex w-full flex-col items-center gap-1">
             {bookState?.status && (
               <span
                 className="text-[10px] leading-none"
@@ -222,19 +251,30 @@ export function BookSpine3D({
               </span>
             )}
             <span
-              className="w-full truncate text-center font-sans-ui text-[8.5px] opacity-80"
+              className="w-full truncate text-center font-sans-ui text-[8.5px] font-medium opacity-85"
               style={{ color: accent }}
             >
               {book.author.split(' ').slice(-1)[0]}
             </span>
+            <span className="h-[2px] w-full opacity-55" style={{ backgroundColor: accent }} />
           </div>
         </div>
 
-        {/* Angled Front Cover Peek when book is active */}
+        {/* Active Book: Angled Front Cover + 3D Cream Page Block Edge */}
         {isActive && (
-          <div className="h-full w-[124px] origin-left overflow-hidden rounded-r-md shadow-[10px_14px_26px_rgba(0,0,0,0.38)]">
-            <BookCoverArt book={book} size="sm" className="h-full w-full" />
-          </div>
+          <>
+            <div className="h-full w-[124px] origin-left overflow-hidden rounded-r-[4px] shadow-[8px_16px_28px_rgba(0,0,0,0.42)]">
+              <BookCoverArt book={book} size="sm" className="h-full w-full" />
+            </div>
+            <div
+              aria-hidden="true"
+              className="my-[3px] w-[7px] rounded-r-[2px] border-y border-r border-black/20"
+              style={{
+                background:
+                  'repeating-linear-gradient(90deg, #f4efe3 0px, #e3dac7 1.5px, #f7f3e8 3px)',
+              }}
+            />
+          </>
         )}
       </div>
     </button>

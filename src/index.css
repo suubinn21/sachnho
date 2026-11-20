@@ -19,21 +19,21 @@
 }
 
 html.dark {
-  --paper: #141619;
-  --sheet: #1C1F24;
-  --ink: #EDEBE6;
-  --muted: #A3A098;
-  --cobalt: #5F83FF;
-  --border-soft: rgba(237, 235, 230, 0.14);
-  --glass: rgba(24, 27, 32, 0.86);
-  --glass-strong: rgba(24, 27, 32, 0.95);
-  --sky-top: #0d1522;
-  --sky-mid: #162235;
-  --sky-horizon: #1d2939;
-  --meadow-top: #1c2e22;
-  --meadow-bottom: #111c15;
-  --shelf-wood: #2a2621;
-  --shelf-edge: #1a1713;
+  --paper: #191714;
+  --sheet: #23201b;
+  --ink: #EDE6D9;
+  --muted: #A79E8E;
+  --cobalt: #7BA0FF;
+  --border-soft: rgba(237, 230, 217, 0.14);
+  --glass: rgba(28, 25, 22, 0.84);
+  --glass-strong: rgba(28, 25, 22, 0.94);
+  --sky-top: #0b1322;
+  --sky-mid: #132033;
+  --sky-horizon: #1b2838;
+  --meadow-top: #182b20;
+  --meadow-bottom: #0f1b14;
+  --shelf-wood: #3d2c20;
+  --shelf-edge: #261b13;
 }
 
 * {
@@ -186,6 +186,19 @@ html.dark .meadow-backdrop {
   animation: birdGlide 36s linear 2s infinite;
 }
 
+@keyframes windmillSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.windmill-spin {
+  animation: windmillSpin 18s linear infinite;
+}
+
 /* Circular reveal for Book Detail Modal */
 @keyframes circleReveal {
   from {
@@ -284,8 +297,52 @@ html.dark .meadow-backdrop {
   .grass-sway,
   .mote-float,
   .star-twinkle,
-  .bird-glide {
+  .bird-glide,
+  .windmill-spin {
     animation: none !important;
     transition: none !important;
   }
+}
+
+/* Luxury walnut wood shelf texture & open book paper stack */
+.wood-shelf-top {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.03) 0px,
+      rgba(0, 0, 0, 0.03) 18px,
+      rgba(255, 255, 255, 0.02) 42px
+    ),
+    linear-gradient(180deg, #cda97d 0%, #b58c5f 48%, #9b7349 100%);
+}
+
+html.dark .wood-shelf-top {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.025) 0px,
+      rgba(0, 0, 0, 0.06) 20px,
+      rgba(255, 255, 255, 0.015) 44px
+    ),
+    linear-gradient(180deg, #4b3526 0%, #3a281c 55%, #2b1d14 100%);
+}
+
+.wood-shelf-fascia {
+  background: linear-gradient(180deg, #8b633c 0%, #6d4b2b 100%);
+}
+
+html.dark .wood-shelf-fascia {
+  background: linear-gradient(180deg, #2d1f15 0%, #1c130c 100%);
+}
+
+.book-desk-surface {
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255, 245, 224, 0.25), transparent 65%),
+    var(--paper);
+}
+
+html.dark .book-desk-surface {
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255, 214, 150, 0.07), transparent 65%),
+    var(--paper);
 }

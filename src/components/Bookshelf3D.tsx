@@ -124,9 +124,11 @@ export function Bookshelf3D({
           })}
         </div>
 
-        {/* Physical bookshelf ledge */}
-        <div className="mx-auto h-3.5 w-[94%] rounded-t-sm bg-[var(--shelf-wood)] shadow-[0_6px_14px_rgba(0,0,0,0.22)]" />
-        <div className="mx-auto h-2 w-[96%] rounded-b-md bg-[var(--shelf-edge)] shadow-md" />
+        {/* Crafted walnut library shelf ledge */}
+        <div className="relative mx-auto w-[95%]">
+          <div className="wood-shelf-top h-4 w-full rounded-t-[6px] border-t border-white/30 shadow-[inset_0_1px_0_rgba(255,255,255,0.35)]" />
+          <div className="wood-shelf-fascia h-2.5 w-full rounded-b-lg shadow-[0_14px_26px_-6px_rgba(0,0,0,0.45)]" />
+        </div>
       </div>
 
       {/* Active Book Controls & Caption */}
