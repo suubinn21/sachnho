@@ -1,0 +1,981 @@
+=== SÁCH [85]: Emil và những thám tử (Erich Kästner) ===
+
+[CHƯƠNG 1 - rtit] Giới thiệu sách và tác giả
+[rtx]
+Erich Kästner (1899–1974) là nhà văn, nhà thơ và nhà báo người Đức. “Emil và những thám tử” được xuất bản lần đầu năm 1929. Bản tiếng Việt trong sách được chuyển ngữ từ bản tiếng Anh của May Massee.
+
+[CHƯƠNG 2 - rtit] Đôi lời về những cái tên
+[rtx]
+Chẳng cần phải nói thì các bạn cũng biết: chúng tôi thích câu chuyện này và tin rằng các bạn cũng sẽ thích, nếu không thì đã chẳng dịch nó cho các bạn. Nhưng cần nói đôi lời về những cái tên tiếng Đức. Một trong những cách chơi đùa với ngôn ngữ là bịa ra những cái tên nghe như tên thật khi lăn qua lăn lại trên đầu lưỡi, hoặc là tên thật nhưng được dùng như một trò chơi chữ, hay để pha chút giễu cợt. Các bạn còn nhớ Henry Hagglyhoagly trong Truyện xứ Rootabaga chứ? Cái tên ấy nghe vui tai, và ta biết ngay là ông Sandburg đã rất thích thú khi nghĩ ra nó. Trong chuyện về Emil, chúng tôi nghĩ ông Kästner cũng đã tự mua vui khi đặt tên cho các nhân vật.
+Có những cái tên không mang ý nghĩa gì đặc biệt, nhưng có những cái tên thì có, và tất cả đều nghe rất "Đức". Vì vậy chúng tôi giữ nguyên các tên như trong bản tiếng Đức. Chúng tôi nghĩ các bạn sẽ muốn tập đọc những cái tên ấy. Nhưng để các bạn biết nghĩa của một số cái tên, nếu muốn, chúng tôi xin giải thích ở đây, theo thứ tự xuất hiện trong sách. Đọc qua một lượt, các bạn sẽ hiểu những cái tên khi gặp chúng. Trước hết xin nói: Herr nghĩa là "ông", Frau là "bà", còn Fräulein là "cô". Rồi xin nhớ rằng chữ e thường đọc như a dài, và chữ i thường đọc như i dài, nên Emil đọc nghe như bắt đầu bằng một âm "ê" kéo dài. Đó là một cái tên hay.
+Petersilie nghĩa là Rau mùi tây, một cái tên ngộ nghĩnh trong bất cứ thứ tiếng nào. Diamantenwaschfrau Lehmann nghĩa là bà Lehmann chuyên rửa kim cương. Fiedelbogen là Vĩ đàn. Nietenführ là Người tán đinh, và cái tên này có lý do của nó, các bạn sẽ thấy. Neugebauers là Những người xây mới. Tischbein là Chân bàn. Frau Friseuse Tischbein được xem là khá sang trọng vì Friseuse là tiếng Pháp, nghĩa là Thợ làm tóc. Klempnermeister là Thợ hàn ống nước bậc thầy. Pony Hütchen nghĩa là Pony Mũ nhỏ, dĩ nhiên là một biệt danh. Cô bé có vẻ gan dạ như một chú ngựa con và hơi bướng bỉnh. Müller là Người xay bột. Bäckermeister Wirth thực ra là hai cái tên ghép lại.
+Bäckermeister là Thợ làm bánh bậc thầy, còn Wirth nghĩa là Chủ quán, đương nhiên là một nhân vật rất quan trọng. Naumann là Người mới. Fleischermeister là Thợ đồ tể bậc thầy. Grundeis là Băng đáy. Kurzhals là Cổ ngắn. Neustadt là Thành phố mới. Dienstag là Thứ Ba, nghĩa là ngày làm việc, hay ngày văn phòng, nên các bạn sẽ thấy cậu bé Dienstag được đặt tên rất đúng. Krummbiegel nghĩa là Chân vòng kiềng. Stuhlbein là Chân ghế, Fischbein là Chân cá, và Überbein là Chân thừa. Nếu dịch ra thì những cái tên này nghe sẽ không còn giống tên người nữa, nhưng trong tiếng Đức, chúng đều nghe như những cái tên bình thường.
+Chỉ khi dừng lại nghĩ xem chúng có nghĩa gì, ta mới không nhịn được mà mỉm cười. Chúng là một kiểu đùa nho nhỏ với những cái tên Đức. Vì thế chúng tôi để nguyên và mong các bạn thích chúng cùng với câu chuyện. Chúng tôi chỉ còn phải gửi lời cảm ơn chân thành đến Donald Robinson, người đã sửa toàn bộ bản dịch như thể đó là bài tập ở trường, đến Rosika Schwimmer và Gretchen Gugler, những người đã đọc bản dịch đã sửa rất kỹ và giúp đỡ nhiều về thành ngữ và tiếng lóng, và đến Ernest Reichl, người đã tìm thấy cuốn sách này cho chúng tôi. MAY MASSEE Garden City, New York, tháng Tám năm 1930.
+
+[CHƯƠNG 3 - rtit] Nhưng câu chuyện chưa bắt đầu đâu
+[rtx]
+Tôi nói thật cho các bạn biết: chuyện của Emil làm tôi ngạc nhiên lắm. Thực ra tôi định viết một cuốn sách hoàn toàn khác: một cuốn sách có những con hổ nghiến răng ken két và những cây chà là run lên bần bật, làm lục lạc những quả dừa của mình vì khiếp sợ! Còn cô hầu gái ăn thịt người bé xíu kẻ ô đen trắng, bơi qua Thái Bình Dương để kiếm một cái bàn chải đánh răng từ hãng Drinkwater & Company ở San Francisco, thì sẽ tên là Petersilie. Dĩ nhiên chỉ gọi bằng tên thôi. Tôi muốn viết một mối tình thực sự xứ Nam Hải. Vì có lần một người đàn ông râu ông già Noel bảo tôi rằng các bạn thích đọc thứ ấy nhất. Ba chương đầu đã viết xong đến từng dấu chấm.
+Tù trưởng Quạ Đen, còn gọi là Tàu Tốc Hành, đang lăm lăm con dao cắm đầy táo nướng, nhắm bắn một cách lạnh lùng và đếm thật nhanh đến ba trăm chín mươi bảy... Bỗng nhiên tôi không biết con cá voi có bao nhiêu cái chân! Tôi nằm sõng soài ra sàn, vì nằm vậy bao giờ tôi cũng suy nghĩ tốt hơn, và tôi nghĩ ngợi mãi. Nhưng lần này chẳng ăn thua gì. Tôi lục bộ bách khoa toàn thư. Tôi tìm khắp quyển vần "C", chẳng có lấy một chữ nào về chuyện đó. Mà tôi phải biết chắc chắn thì mới viết tiếp được. Tôi nhất định phải biết. Bởi vì trừ phi ngay lúc này con cá voi chân khoèo từ rừng nguyên sinh bước ra, thì tù trưởng Quạ Đen, còn gọi là Tàu Tốc Hành, không thể nào bắn trúng nó.
+Mà nếu ông ta không bắn trúng cá voi bằng những quả táo nướng, thì cô hầu gái ăn thịt người bé xíu kẻ ô đen trắng tên là Petersilie sẽ chẳng bao giờ gặp bà Diamantenwaschfrau Lehmann. Mà nếu Petersilie không gặp bà Lehmann thì cô sẽ không bao giờ nhận được tấm phiếu đổi quà, thứ phải nộp cho hãng Drinkwater & Company ở San Francisco nếu muốn nhận không một cái bàn chải đánh răng mới tinh, sáng bóng. Vâng, và rồi thì... Mối tình xứ Nam Hải của tôi, mà tôi đã hài lòng biết bao, đắm tàu, có thể nói thế, vì mấy cái chân cá voi! Tôi mong các bạn hiểu cho. Tôi buồn kinh khủng. Và khi tôi kể chuyện ấy với cô Fiedelbogen, cô suýt khóc.
+Có điều cô thật sự lúc đó không có thời gian, vì phải dọn bàn ăn tối, nên cô hoãn việc khóc lại sau. Rồi cô quên tuốt. Đúng là phụ nữ! Tôi định đặt tên cuốn sách là Petersilie trong rừng rậm. Một cái tên tuyệt vời, phải không? Nhưng hiện giờ ba chương đầu đang nằm ở nhà, kê dưới chân bàn cho khỏi lung lay. Tôi hỏi các bạn, đó có phải là công việc xứng đáng cho một mối tình bắt đầu từ xứ Nam Hải không? Anh bồi trưởng Nietenführ, người mà tôi thường trò chuyện về công việc của mình, vài hôm sau hỏi tôi xem có thật tôi đã từng đến những nơi ấy chưa.
+— Nơi nào cơ? tôi hỏi anh.
+— Thì Nam Hải, rồi Úc, rồi Sumatra, rồi Borneo, và quanh quanh đó.
+— Không, tôi đáp, nhưng sao vậy?
+— Vì người ta chỉ có thể viết về những điều mình biết và mình đã thấy, anh lạnh lùng đáp.
+— Tôi xin phép không đồng ý, anh Nietenführ thân mến.
+— Nhưng điều đó rõ như mực đặc, anh nói tiếp.
+— Nhà Neugebauer, họ ở ngay khu mình đây, từng có một cô hầu gái chưa bao giờ thấy ai quay gà vịt. Giáng sinh năm ngoái cô ta được giao quay con ngỗng trong lúc bà Neugebauer đi mua sắm, và khi bà về thì ôi thôi, một cảnh tượng! Cô ta bỏ con ngỗng vào lò y như lúc mua ngoài chợ. Không thui lông, không mổ bụng, không làm sạch. Mùi thối kinh khủng, tôi nói thật đấy.
+— Thế thì sao? tôi đáp.
+— Từ chuyện đó, tôi phải suy ra rằng anh nghĩ quay ngỗng và viết sách là một chứ gì? Đừng phật lòng nhé, anh Nietenführ thân mến, nhưng tôi không nhịn được cười. Anh chờ tôi cười xong. Cũng chẳng lâu lắm. Rồi anh nói:
+— Cái xứ Nam Hải của ông, những kẻ ăn thịt người của ông, những rạn san hô của ông, cả cái màn ấy, đó là con ngỗng của ông. Còn câu chuyện là cái lò, nơi cả Thái Bình Dương, cô bé Petersilie và đàn hổ sẽ bị nấu chín. Nếu ông không biết cách nấu cái nồi lẩu thập cẩm ấy thì sẽ có một mùi thơm lừng. Y như ở nhà Neugebauer với cô hầu gái nhỏ.
+— Nhưng phần lớn các tác giả viết đúng như vậy mà! tôi kêu lên.
+— Chúc họ ăn ngon miệng. Anh chỉ nói có thế. Tôi nghĩ ngợi về chuyện đó một lúc. Rồi tôi mở lại cuộc trò chuyện.
+— Anh Nietenführ, anh có biết Schiller không? Schiller à? Ông nói Schiller làm đốc công ở xưởng bia Castle phải không? Không phải, tôi nói, mà là nhà thơ Friedrich von Schiller, người đã viết nhiều vở kịch cho nhà hát, cách đây hơn một trăm năm.
+— À, Schiller đó! Người có bao nhiêu là tượng đài!
+— Đúng. Có lần ông ấy viết một vở về chuyện đã xảy ra ở Thụy Sĩ. Tên là Wilhelm Tell. Học sinh lúc nào cũng phải làm bài luận về vở ấy.
+— Tụi tôi cũng vậy, Nietenführ nói.
+— Tôi biết ông Tell đó. Vở hay thật. Phải công nhận Schiller. Phải cho ông ấy cái xứng đáng. Nhưng mấy câu hỏi thầy đặt cho tụi tôi về vở ấy thì thật khủng khiếp. Tôi còn nhớ một câu: "Vì sao Tell không run khi nhắm vào quả táo?" Câu đó tôi bị điểm Năm. Nhưng mà thi cử chưa bao giờ là sở trường của tôi.
+— Phải, phải, nhưng giờ để tôi nói, tôi bảo.
+— Và anh để ý nhé, dù cả đời Schiller chưa từng đặt chân tới Thụy Sĩ, vở Wilhelm Tell vẫn mang chất Thụy Sĩ đến từng dấu phẩy.
+— Chắc ông ấy đọc sách dạy nấu ăn trước rồi, Nietenführ nhận xét.
+— Sách dạy nấu ăn?
+— Chứ còn gì. Cái chỗ cái gì cũng có: Núi non Thụy Sĩ cao bao nhiêu. Tuyết tan lúc nào. Khi có bão dữ dội trên hồ Luzern thì ra sao. Và chuyện nông dân nổi dậy chống lại quan Tổng trấn Gessler thế nào.
+— Anh nói đúng quá, tôi nói, chắc chắn Schiller đã làm như vậy.
+— Ông thấy đó, Nietenführ giải thích với tôi, vừa phẩy khăn ăn đuổi con ruồi, nếu ông cũng làm thế, đọc sách trước, thì dĩ nhiên ông cũng viết được chuyện chuột túi ở Úc.
+— Nhưng tôi hoàn toàn không muốn thế. Nếu có tiền, tôi muốn tới đó mà tận mắt thấy mọi thứ. Ngay tại chỗ! Còn đọc sách thì thôi, xì! Vậy tôi cho ông một lời khuyên hạng nhất, anh nói.
+— Tốt nhất là viết về những gì chính ông biết. Chẳng hạn như tàu điện ngầm, khách sạn và những thứ đại loại. Và những đứa trẻ chạy qua ngay trước mũi ông mỗi ngày, giống hệt như chúng ta hồi nhỏ.
+— Nhưng cái ông râu ông già Noel, người biết trẻ con như lòng bàn tay, đã nói chắc nịch với tôi rằng chúng không thích những chuyện như thế.
+— Vớ vẩn!
+— Nietenführ gắt.
+— Cứ tin lời tôi. Tôi có con riêng đấy. Hai thằng con trai và một đứa con gái nhỏ. Vào ngày nghỉ, tôi kể cho chúng nghe mọi chuyện xảy ra ngay tại chỗ này: có người ăn xong chuồn không trả tiền, hay có lần một gã say khướt tính túm cô bán thuốc lá nhưng lại tát nhầm một bà sang trọng tình cờ đi ngang. Lúc ấy tụi nhỏ nghe, tôi nói cho ông biết, cứ như có sấm nổ dưới hầm.
+— À, nếu anh nghĩ một chút, anh Nietenführ... tôi bực mình nói.
+— Cứ thế đi, và ông có thể đánh cược cả mạng sống, ông Kästner,
+— anh gọi to rồi biến mất, vì có một vị khách đang gõ dao mạnh vào ly, muốn thanh toán. Và thế là, chỉ vì anh bồi trưởng Nietenführ muốn vậy, tôi đã viết một câu chuyện về những điều mà chúng ta, các bạn và tôi, đã biết từ lâu. Trước tiên tôi quay về nhà, thò người ra cửa sổ một lúc, nhìn lên nhìn xuống phố Prager, nghĩ biết đâu câu chuyện tôi cần sẽ đi ngang qua. Lúc đó tôi chỉ cần vẫy nó và nói: "Ôi, xin hãy lên một tầng gác thôi! Tôi muốn viết về bạn quá." Nhưng câu chuyện cứ không đến. Và tôi bắt đầu thấy lạnh. Thế là tôi đóng sập cửa sổ lại và chạy quanh bàn năm mươi ba vòng. Cũng chẳng ích gì.
+Cuối cùng tôi lại nằm dài ra sàn, y như lần trước, và đắm mình suy tưởng thật lâu. Khi nằm bẹp trên sàn như vậy, cả thế giới mang một diện mạo hoàn toàn khác. Bạn thấy chân ghế, dép đi trong nhà, hoa văn trên tấm thảm, tàn thuốc, những cuộn bụi, và chân bàn. Thậm chí bạn còn thấy chiếc găng tay trái dưới gầm ghế sofa, chiếc mà ba hôm trước bạn đã lục tìm khắp tủ. Thế là tôi nằm đó, tò mò nhìn quanh, nghĩ xem xung quanh mình trông khác biệt đến thế nào khi nhìn từ dưới lên thay vì từ trên xuống, và bỗng nhiên, tôi kinh ngạc nhận thấy những cái chân ghế thật sự có bắp chân, những bắp chân sẫm màu to khỏe, cứ như thuộc về một gia đình toàn những cậu bé da đen, hay những cậu học trò đi tất nâu.
+Và đang lúc tôi còn đếm chân ghế, chân bàn xem rốt cuộc có bao nhiêu cậu bé da đen hay học trò đang đứng quanh trên tấm thảm của mình, thì chuyện về Emil chợt đến với tôi! Có lẽ vì tôi đang nghĩ đến những cậu học trò đi tất nâu? Hay là vì họ của Emil cũng là Tischbein? Dù sao thì chuyện của cậu bật ra trong đầu tôi đúng lúc ấy. Tôi nằm hoàn toàn im lặng. Bởi vì những ý nghĩ hay ký ức đến với bạn giống hệt những con chó đã quen bị đánh. Nếu bạn cử động đột ngột, hay nói với chúng, hay định vuốt ve chúng, vèo, chúng biến mất. Và bạn có thể đợi đến tận ngày tận thế chúng mới dám quay lại. Tischbein nghĩa là Chân bàn.
+Thế là tôi nằm im không nhúc nhích, chỉ mỉm cười dễ chịu với cảm hứng bất chợt ấy. Tôi muốn tiếp thêm can đảm cho nó. Và nó yên tâm đến nỗi gần như bắt đầu tin tôi, bước một bước rồi lại bước thêm một bước gần hơn... Tôi túm lấy gáy nó. Và thế là tôi bắt được nó! Nhưng mới chỉ bắt được gáy thôi. Lúc ấy chỉ được có vậy. Vì có sự khác biệt lớn giữa việc tóm lấy một con chó bằng lông cổ rồi giữ chặt và việc cố nhớ lại một câu chuyện. Khi bạn nắm cổ con chó, bạn có nó ở đó, toàn bộ con chó, dù tốt dù xấu: bàn chân, cái mõm, cái đuôi nhỏ, và mọi thứ khác thuộc về một con chó sống. Còn ký ức thì bạn bắt theo kiểu khác hẳn. Bạn bắt ký ức từng mẩu một.
+Trước hết, có lẽ bạn túm được chỏm tóc trên đầu. Rồi chân trước bên trái bay vào, rồi chân phải, rồi đến cái đuôi, rồi chân sau bên trái, từng mảnh một như thế. Và đến lúc bạn nghĩ câu chuyện hẳn đã đủ cả, thì bùm! Lại bay vào thêm một mẩu tai. Và cuối cùng, nếu may mắn, bạn có cả toàn bộ. Có lần tôi xem trong rạp chiếu bóng một cảnh gợi tôi nhớ đến điều tôi vừa mô tả. Một người đàn ông đứng trong phòng, trên người chỉ có mỗi chiếc áo sơ mi. Bỗng cánh cửa mở ra và chiếc quần của anh ta bay vào. Anh ta mặc quần. Rồi chiếc giày trái vèo bay vào. Rồi cây gậy chống. Rồi cái nơ. Rồi cổ áo.
+Rồi cái gi-lê, một chiếc tất, chiếc giày kia, cái mũ, cái áo khoác, chiếc tất còn lại, cặp kính. Thật là điên rồ. Nhưng cuối cùng, người đàn ông đã mặc xong xuôi, mọi thứ đều nằm đúng chỗ của nó. Câu chuyện của tôi cũng diễn ra y như thế khi tôi nằm đó trong phòng làm việc, đếm chân bàn và nghĩ về Emil. Chắc hẳn các bạn cũng từng gặp chuyện tương tự. Tôi nằm đó và bắt lấy những ký ức bay vào đầu mình từ mọi phía, đúng như cách của những ý tưởng. Cuối cùng tôi đã ráp mọi thứ lại thật đẹp, và câu chuyện đã xong. Giờ tôi chỉ còn phải ngồi xuống, viết tất cả ra cho đàng hoàng. Dĩ nhiên tôi đã làm thế. Vì nếu không, các bạn đã chẳng cầm trên tay cuốn sách hoàn chỉnh về Emil lúc này.
+Nhưng trước đó, tôi vội vã sắp xếp một thứ hoàn toàn khác. Tôi nguệch ngoạc ghi lại các phần đúng như chúng chạy ào tới từ cửa, cho đến khi gom đủ tất cả: chiếc giày trái, cổ áo, cây gậy, cái nơ, chiếc tất phải, và vân vân. Một câu chuyện phiêu lưu, một chuyện tình, một truyện cổ tích, tất cả đều giống như những sinh vật sống, và có lẽ chúng cũng thuộc về một loài nào đó. Chúng có đầu và chân, có tuần hoàn máu và quần áo, giống như con người. Và nếu một trong số chúng không có mũi trên mặt, hay đi hai chiếc giày không cùng đôi, thì nhìn kỹ bạn sẽ nhận ra.
+Nhưng trước khi tôi kể cho các bạn câu chuyện như tôi đã ráp nó lại, tôi muốn cho các bạn xem đội quân bắn phá nhỏ đã tung cho tôi những ý tưởng và mảnh ghép để cả câu chuyện sáng tỏ. Biết đâu các bạn đủ nhanh để tự ráp nên câu chuyện từ các phần khác nhau trước khi tôi kể? Đó sẽ là một màn tài tử, như thể người ta đưa bạn một đống khối gỗ và bạn phải xây một nhà ga hay một nhà thờ, mà không có bản vẽ, và không được thừa lại một khối nào. Đúng là có phần giống một bài kiểm tra. Brừ! Chỉ có điều không ai chấm điểm cho các bạn. Ơn trời! Thứ nhất: Chính Emil. Trước hết, đây là chính Emil. Trong bộ đồ chủ nhật màu xanh thẫm. Cậu không thích mặc nó lắm, chỉ mặc khi bắt buộc.
+Quần áo xanh rất dễ bị dính bẩn, và khi ấy mẹ Emil làm ẩm cái bàn chải quần áo, kẹp cậu bé giữa hai đầu gối, vừa chà vừa chải vừa nói: "Này, này, con biết mẹ không mua nổi cho con bộ khác đâu." Và đến khi quá muộn Emil mới nhớ ra rằng mẹ làm việc suốt ngày để hai mẹ con có đủ ăn và để Emil được đi học. Thứ hai: Bà Friseuse Tischbein, mẹ của Emil. Khi Emil lên năm tuổi thì cha cậu mất. Ông là Klempnermeister Tischbein. Từ đó mẹ Emil làm nghề làm tóc cho người ta. Uốn tóc. Gội đầu cho các cô bán hàng và các bà nội trợ trong khu phố. Ngoài ra bà còn phải nấu ăn, dọn dẹp nhà cửa và tự giặt giũ cả đống đồ lớn.
+Bà rất thương Emil và vui vì mình có thể làm việc kiếm tiền. Đôi khi bà hát những bài hát nhỏ vui vẻ. Đôi khi bà ốm, và Emil chiên trứng cho mẹ và cho mình. Cậu làm được việc đó. Cậu còn chiên được cả bít tết tẩm vụn bánh mì và hành tây nữa. Thứ ba: Một toa tàu khá quan trọng. Toa tàu này thuộc đoàn tàu đi Berlin. Và có lẽ ở ngay trong khoang này, trong những chương sau, sẽ xảy ra những chuyện lạ lùng. Một khoang tàu như thế là một thứ kỳ lạ. Những người hoàn toàn xa lạ ngồi cùng nhau, và chỉ vài giờ sau họ đã thân thiện như quen biết nhau từ nhiều năm. Đôi khi như thế rất dễ chịu. Nhưng đôi khi lại không.
+Vì ai mà biết họ là những người như thế nào? Thứ tư: Người đàn ông đội mũ cứng. Không ai biết ông ta. Dĩ nhiên, theo lẽ thường, bạn nên nghĩ tốt về bất cứ ai cho đến khi có bằng chứng ngược lại. Nhưng trong chuyện này, tôi xin các bạn hãy thận trọng một chút. Bởi người ta nói: "Lo xa còn hơn hối hận." Người ta bảo con người vốn tốt. Điều đó đúng. Nhưng bạn đừng vội coi người tốt ấy là điều hiển nhiên. Vì anh ta có thể bỗng nhiên trở thành kẻ xấu. Thứ năm: Pony Hütchen, em họ của Emil. Cô bé nhỏ xíu đi chiếc xe đạp nhỏ xíu là em họ của Emil ở Berlin. Nhìn chung Pony Hütchen là một đứa trẻ đáng yêu, và dĩ nhiên tên thật của cô bé hoàn toàn khác.
+Mẹ cô bé và bà Tischbein là chị em ruột. Còn Pony Hütchen chỉ là biệt danh. Thứ sáu: Khách sạn ở quảng trường Nollendorf. Quảng trường Nollendorf nằm ở Berlin. Và nếu tôi không nhầm thì ở quảng trường Nollendorf có cái khách sạn nơi vài nhân vật trong câu chuyện này gặp nhau mà chẳng hề bắt tay. Về chuyện đó, khách sạn cũng có thể nằm ở quảng trường Wittenberg. Thậm chí ở quảng trường Fehrbelliner cũng nên. Nói cách khác, tôi biết rõ nó nằm ở đâu! Nhưng ông quản lý đã tìm đến tôi, khi nghe tin tôi định viết sách về những gì xảy ra ở đó, và nói rằng tôi không được nói tên quảng trường cho các bạn biết.
+Vì theo ông, nếu thiên hạ biết "những người như thế" đã qua đêm ở đó thì chẳng phải lời quảng cáo hay ho gì cho khách sạn của ông. Tôi hiểu ngay ý ông. Rồi ông ta đi. Thứ bảy: Cậu bé với chiếc còi ô tô. Cậu tên là Gustav. Môn thể dục cậu được điểm A trọn vẹn. Cậu còn có gì nữa? Một trái tim tốt bụng và một chiếc còi ô tô. Tất cả các cậu bé lớp bốn đều biết cậu và đối xử với cậu như thể cậu là chủ tịch của họ. Khi cậu chạy khắp khu phố bấm còi, bọn trẻ bỏ hết mọi việc, lao ào xuống cầu thang xem có chuyện gì. Thường thì cậu chỉ muốn tập hợp đủ người cho hai đội bóng đá, và tất cả kéo nhau ra sân chơi. Nhưng đôi khi chiếc còi phục vụ những mục đích hoàn toàn khác.
+Như chẳng hạn trong vụ của Emil. Thứ tám: Ngân hàng chi nhánh nhỏ. Ở khắp nơi trong thành phố, các ngân hàng lớn đều có chi nhánh. Ở đó, nếu có tiền, bạn có thể mua cổ phiếu, và nếu có tài khoản, bạn có thể lĩnh séc. Đôi khi các cậu học việc và các cô chạy giấy đến đổi mười mác thành một trăm đồng mười pfennig để thu ngân của họ có tiền lẻ. Và ai muốn cũng có thể đổi đô la, phơ-răng Pháp hay lia Ý lấy tiền Đức ở đây. Thậm chí ban đêm, người ta đôi khi cũng đến ngân hàng dù chẳng có ai ở đó phục vụ. Thế là họ phải tự lo lấy. Thứ chín: Bà của Emil. Bà là bà ngoại vui tính nhất mà tôi từng biết. Thế mà suốt đời bà chỉ toàn những nỗi lo.
+Có người chẳng khó khăn gì cũng giữ được tinh thần vui vẻ. Còn với người khác, đó là một công việc nặng nhọc và nghiêm túc. Trước kia bà sống với bố mẹ Emil. Nhưng khi ông Tischbein mất, bà sang ở với người con gái khác của bà, tại Berlin. Vì mẹ Emil không kiếm đủ để nuôi ba người. Giờ bà cụ sống ở Berlin. Và lá thư nào bà viết cũng kết thúc bằng câu: "Bà khỏe, mong các con cũng vậy." Thứ mười: Phòng sắp chữ của một tờ báo lớn. Mọi chuyện xảy ra đều lên báo. Chỉ có điều nó phải khác thường một chút. Nếu một con bê có bốn chân thì dĩ nhiên chẳng ai quan tâm. Nhưng nếu nó có năm hay sáu cái, mà chuyện đó có xảy ra đấy, thì người lớn muốn đọc nó vào bữa sáng.
+Nếu ông Müller là một công dân mẫu mực, chẳng ai muốn biết gì về ông. Nhưng nếu ông Müller pha nước vào sữa rồi bán thứ đó làm kem sữa béo ngậy, thì ông sẽ lên báo, dù ông cố ngăn cản thế nào. Các bạn có bao giờ đi ngang qua một tòa soạn báo vào ban đêm chưa? Nó lạch cạch, leng keng và ầm ầm, tường rung bần bật. Đấy! Giờ thì cuối cùng chúng ta sẽ bắt đầu!
+
+[CHƯƠNG 4 - rtit] Emil giúp gội đầu
+[rtx]
+— Đây này! bà Tischbein nói.
+— Giờ con theo mẹ, mang bình nước nóng nhé. Bà cầm một bình khác và chiếc bình nhỏ màu xanh đựng xà phòng hoa cúc lỏng, đi từ bếp vào phòng khách. Emil cầm bình của mình đi theo mẹ. Trong phòng khách có một người phụ nữ đang cúi đầu trên chậu rửa trắng. Tóc bà xõa ra, rủ xuống như ba cân len. Mẹ Emil đổ xà phòng hoa cúc lỏng lên mái tóc vàng của người phụ nữ, rồi xoa cái đầu lạ lẫm ấy cho đến khi nổi bọt.
+— Có nóng quá không ạ? bà hỏi.
+— Ổn rồi, cái đầu đáp.
+— Ồ, bà Bäckermeister Wirth đây. Cháu chào bà ạ, Emil nói và đẩy bình nước của mình xuống dưới bệ rửa mặt.
+— Cháu may đấy, Emil. Nghe nói cháu sắp đi Berlin, cái đầu nói. Giọng nghe như người nói bị chôn trong đống kem tươi.
+— Lúc đầu nó chẳng muốn đi lắm, mẹ cậu nói, vừa chăm chỉ xoa đầu bà Wirth.
+— Nhưng sao lại để một đứa trẻ phí cả thời gian ở đây? Nó chưa từng thấy Berlin. Mà chị Martha của tôi thì mời mẹ con tôi sang chơi hết lần này đến lần khác. Chồng chị ấy kiếm được khá. Anh ấy làm ở bưu điện. Việc trong văn phòng. Dĩ nhiên tôi không đi cùng nó được. Trước kỳ nghỉ lễ có biết bao nhiêu việc. Nhưng nó đã đủ lớn, và phải tập tự lo cho mình. Hơn nữa mẹ tôi sẽ đón nó ở ga Friedrich Strasse. Họ sẽ đón nó ở quầy hoa.
+— Thế nào nó cũng thích Berlin. Nơi ấy sinh ra là để cho trẻ con. Chúng tôi đến đó một năm rưỡi trước cùng câu lạc bộ ném bóng gỗ. Ồn ào kinh khủng! Có những con phố ban đêm sáng như ban ngày. Và ô tô nữa chứ! bà Wirth thông báo từ đáy chậu rửa.
+— Có nhiều xe nước ngoài không ạ? Emil hỏi.
+— Sao tôi biết được chuyện đó? bà Wirth đáp, rồi phải hắt hơi. Bọt xà phòng đã chui vào mũi bà.
+— Thôi, đi đi, đi chuẩn bị đi, mẹ cậu giục.
+— Mẹ để bộ đồ đẹp của con sẵn trong phòng ngủ. Mặc vào để mình ăn cơm ngay khi mẹ làm xong tóc cho bà Wirth.
+— Con mặc áo sơ mi nào ạ?
+— Emil muốn biết.
+— Mọi thứ nằm trên giường cả. Kéo tất lên cho cẩn thận. Và trước hết phải rửa mình cho kỹ. Thay dây giày mới đi. Nhanh chân lên nào! Ôi dào! Emil nói rồi thong thả bước đi. Khi bà Wirth ra về, tóc uốn đẹp, soi gương hài lòng với dáng vẻ của mình, mẹ Emil vào phòng ngủ và thấy con trai đang đi lang thang ủ rũ.
+— Ai đã phát minh ra bộ đồ đẹp, mẹ nói cho con nghe được không?
+— Không, mẹ xin lỗi. Nhưng sao con lại muốn biết?
+— Cho con địa chỉ ông ta, con sẽ cho ông ta một trận!
+— Tội nghiệp con quá. Những đứa trẻ khác thì buồn vì chúng không có bộ đồ đẹp. Ai cũng có nỗi phiền riêng... Trước khi mẹ quên: tối nay nhớ xin dì Martha một cái mắc áo và treo bộ đồ của con cho cẩn thận. Nhưng trước hết phải chải bụi đã. Đừng quên. Còn sáng mai con lại mặc áo len và cái áo khoác cũ như áo cướp này. Giờ còn gì nữa nhỉ? Va li đã xếp xong. Hoa tặng dì Martha đã gói rồi. Tiền cho bà thì lát nữa mẹ đưa. Và giờ mình ăn cơm. Lại đây, chàng trai! Bà Tischbein choàng tay qua vai Emil và dẫn cậu vào bếp. Hôm nay có nui nấu với giăm bông và phô mai Parmesan bào. Emil ăn như một người làm ruộng.
+Chỉ thỉnh thoảng cậu ngả người ra sau nhìn mẹ, như sợ bà nghĩ cậu ăn ngon miệng quá trong khi sắp đi xa.
+— Và gửi cho mẹ một tấm thiệp ngay nhé. Mẹ để sẵn một tấm ở chỗ con dễ thấy trong va li, nằm trên cùng.
+— Chắc chắn rồi, Emil nói và khẽ khàng gạt miếng nui dính trên đầu gối xuống. May mà mẹ cậu không để ý.
+— Gửi lời hỏi thăm của mẹ đến mọi người. Và nhớ mở to mắt ra. Ở Berlin mọi thứ rất khác Neustadt. Chủ nhật con sẽ đi với bác Robert đến Bảo tàng Kaiser Friedrich. Và nhớ giữ phép tắc, đừng để người ta nghĩ nhà mình không biết cư xử.
+— Mẹ cứ tin con, Emil nói. Ăn xong, hai mẹ con vào phòng khách. Mẹ cậu lấy một chiếc hộp thiếc trong tủ ra và đếm tiền. Rồi bà lắc đầu và đếm lại.
+— Hôm qua buổi chiều ai đến nữa nhỉ, hử? Cô Thomas, Emil đáp, và bà Homburg.
+— Phải, nhưng vẫn không khớp. Bà suy nghĩ một phút, xem lại tờ giấy ghi các khoản thu, tính nhẩm, và cuối cùng tuyên bố:
+— Thiếu tám mác.
+— Sáng nay người thu tiền ga có đến.
+— Đúng rồi. Giờ thì khớp, tiếc là thế.
+— Bà huýt nhẹ một tiếng, có lẽ vì bực những nỗi lo của mình, rồi lấy ba tờ giấy bạc từ hộp thiếc ra.
+— Đây, Emil! Một trăm bốn mươi mác. Một trăm hai mươi đưa cho bà, còn hai mươi là của con. Nói với bà đừng trách mẹ vì không gửi sớm hơn, nhưng mẹ sợ bị hụt tiền. Vì thế lần này con mang nhiều hơn thường lệ. Và hôn bà một cái. Hiểu chưa? Hai mươi mác dư là của con. Con dùng nó mua vé về khi con về nhà. Như vậy con còn khoảng mười mác. Mẹ không chắc lắm. Số còn lại con dùng trả tiền ăn uống khi đi chơi. Hơn nữa, bao giờ cũng nên có vài mác dư trong túi, lúc này chưa cần dùng đến. Thế là yên tâm dù có chuyện gì xảy ra. Đấy!
+Và đây là cái phong bì lá thư dì Martha. Mẹ cất tiền vào đây. Cẩn thận đừng làm mất. Con sẽ cất nó ở đâu? Bà đặt ba tờ giấy bạc vào chiếc phong bì đã mở gọn gàng, gấp đôi lại và đưa cho Emil. Emil suy nghĩ kỹ một lúc. Rồi cậu nhét nó vào túi trong bên phải, xuống thật sâu, vỗ vào bên ngoài chiếc áo khoác xanh để chắc chắn, và tuyên bố đầy tin tưởng:
+— Đấy, thế thì nó không leo ra được đâu.
+— Và đừng nói với ai trên tàu là con mang nhiều tiền như thế.
+— Nhưng mà mẹ ơi!
+— Emil bị tổn thương. Mẹ lại nghi cậu ngốc đến thế! Bà Tischbein bỏ thêm ít tiền vào ví của mình. Rồi bà cất hộp thiếc lại vào tủ và vội đọc lại lá thư của người chị ở Berlin, trong đó ghi giờ chính xác tàu của Emil khởi hành và đến nơi... Có lẽ nhiều bạn sẽ nghĩ chẳng ai cần làm rùm beng vì một trăm bốn mươi mác như bà Tischbein đang làm vì Emil. Và nếu một người kiếm hai nghìn, hai mươi nghìn, hay thậm chí một trăm nghìn mác một tháng thì dĩ nhiên không cần như vậy. Nhưng nếu các bạn chưa biết thì xin nói: phần lớn mọi người kiếm ít hơn thế nhiều.
+Và dù thích hay không, ai kiếm ba mươi lăm mác một tuần cũng phải xem một trăm bốn mươi mác dành dụm được là một khoản tiền lớn. Với rất nhiều người, một trăm mác gần như nhiều bằng một triệu. Có thể nói họ viết "100" với sáu con số không, còn một triệu thực sự là bao nhiêu thì họ không thể hình dung nổi, kể cả trong mơ. Emil không có cha. Vì thế mẹ cậu phải làm tóc ngay trong phòng khách, gội những mái đầu vàng và những mái đầu nâu, làm việc không ngừng để có đủ ăn và trả tiền ga, than, tiền nhà, quần áo, sách vở, tiền học. Chỉ thỉnh thoảng bà mới ốm và nằm trên giường. Khi ấy bác sĩ đến kê thuốc. Và Emil chườm nóng cho mẹ và nấu ăn cho cả hai.
+Khi mẹ ngủ, Emil lau sàn bằng giẻ vải flanen ướt để bà khỏi nói: "Mẹ phải dậy. Nhà cửa sắp xuống cấp hết rồi." Tôi mong các bạn hiểu và đừng cười khi tôi nói rằng Emil là một cậu bé gương mẫu. Cậu yêu mẹ. Cậu sẽ xấu hổ đến chết nếu lười biếng trong khi mẹ làm việc, tính toán, rồi lại làm việc. Vậy làm sao cậu lơ là bài vở hay chép bài của Richard Naumann? Làm sao cậu trốn học dù có cơ hội? Cậu thấy mẹ kiệt sức vì muốn cậu không thiếu thứ gì mà các bạn cùng trường có. Làm sao cậu lừa dối mẹ, làm mẹ phiền lòng? Emil là một cậu bé gương mẫu. Thế đấy. Nhưng cậu không thuộc loại chỉ biết làm gương mẫu vì nhát gan, hà tiện, và chẳng phải cậu bé thực thụ.
+Cậu gương mẫu vì cậu muốn thế. Cậu đã quyết tâm, như người ta quyết tâm không đi xem chiếu bóng nữa, hay không ăn kẹo nữa. Cậu đã quyết tâm, và đôi khi giữ được nó rất khó. Nhưng khi về nhà vào dịp Phục sinh và có thể nói: "Mẹ ơi, đây là điểm của con, và con lại đứng nhất," thì cậu rất hạnh phúc. Cậu thích những lời khen ở trường và khắp nơi, không phải vì bản thân, mà vì nó làm mẹ vui. Cậu tự hào vì bằng cách của mình, cậu có thể báo đáp một chút những gì mẹ đã làm cho cậu suốt cả cuộc đời...
+— Trời đất! mẹ cậu nói, mình phải ra ga. Một giờ mười lăm rồi. Mà tàu chạy trước hai giờ một chút.
+— Được rồi, mình đi thôi, bà Tischbein, Emil nói với mẹ, nhưng con muốn mẹ để ý là con tự xách va li của mình.
+
+[CHƯƠNG 5 - rtit] Cảnh sát Jeschke làm thinh
+[rtx]
+Trước cửa nhà, mẹ Emil nói:
+— Nếu xe ngựa đến thì mình đi xe ra ga. Ai trong các bạn biết xe ngựa chạy đường ray trông thế nào? Trong lúc nó rẽ góc phố và dừng lại vì Emil vẫy, tôi sẽ miêu tả nhanh cho các bạn nghe trước khi nó lạch bạch đi tiếp. À, trước hết, xe ngựa là một thứ điên rồ. Hơn nữa, nó chạy trên đường ray như một chiếc xe điện thật của người lớn, và toa xe cũng khá giống vậy, chỉ có điều phía trước kéo bằng một con ngựa kéo xe thuê già nua. Với Emil và các bạn, con ngựa già ấy đơn giản là một nỗi nhục, và chúng mơ về những chiếc xe điện có dây phía trên và phía dưới, có năm đèn pha phía trước và ba đèn phía sau.
+Chỉ có ngài thị trưởng Neustadt cho rằng chặng đường bốn dặm hoàn toàn có thể chạy tốt bằng một mã lực sống. Cho đến nay vẫn chưa ai nói đến điện, và người đánh xe không phải bận tâm tay lái hay cần gạt. Thay vào đó, tay trái ông cầm cương, tay phải cầm roi. Dô! Và nếu ai sống ở số 12 phố Tòa Thị Chính mà ngồi trên xe và muốn xuống, chỉ cần gõ vào kính. Thế là ông xà ích kêu: "Prr!" và hành khách đã về đến nhà. Thật ra chỗ dừng có thể ở trước số 30 hay số 46. Nhưng điều đó chẳng quan trọng với Công ty Xe điện phố Neustadt. Họ có thời gian. Con ngựa có thời gian. Người đánh xe có thời gian. Dân Neustadt có thời gian.
+Và nếu ai đó đặc biệt vội thì đi bộ... Tại nhà ga, bà Tischbein và con trai xuống xe. Lúc Emil đang xách túi lên khỏi sân ga thì một giọng trầm vang lên sau lưng:
+— À, chắc cậu đang đi Thụy Sĩ nhỉ. Đó là trưởng cảnh sát Jeschke. Mẹ Emil đáp:
+— Không, thằng bé đi thăm họ hàng ở Berlin một tuần. Mọi thứ bỗng tối sầm xanh thẫm, gần như đen kịt trước mắt Emil. Vì cậu có lương tâm cắn rứt nặng. Gần đây, một tá học sinh trên đường đi tập thể dục về từ bãi cỏ ven sông đã chụp một cái mũ phớt cũ lên cái đầu lạnh lẽo của tượng đài Đại Công tước, người mà dân gian gọi là Karl Mặt Méo. Và rồi Emil, vì vẽ giỏi, đã được các bạn nâng lên và phải dùng bút chì màu vẽ một cái mũi đỏ và bộ ria đen như mực lên mặt Đại Công tước! Đang lúc cậu vẽ thì cảnh sát Jeschke xuất hiện ở đầu kia quảng trường. Bọn trẻ chạy như chớp. Nhưng có nguy cơ ông đã nhận ra chúng.
+Tuy nhiên ông không nói gì, chỉ chúc Emil chuyến đi vui vẻ, rồi hỏi thăm mẹ cậu về sức khỏe và công việc làm ăn. Dù vậy Emil vẫn không yên tâm. Khi xách túi băng qua quảng trường để vào ga, hai đầu gối cậu mềm nhũn. Và phút nào cậu cũng sợ cảnh sát Jeschke bỗng gầm lên sau lưng: "Emil Tischbein, cậu bị bắt. Giơ tay lên!" Nhưng chẳng có gì xảy ra cả. Có lẽ ông cảnh sát chỉ định đợi đến khi Emil quay về? Rồi mẹ cậu mua vé ở cửa sổ, một vé hạng ba, dĩ nhiên, và một vé vào sân ga cho bà. Hai mẹ con ra đường ray số một, ga Neustadt có bốn đường ray, xin các bạn biết cho, và chờ chuyến tàu đi Berlin. Chỉ còn vài phút.
+— Đừng để quên gì, con yêu! Và đừng ngồi lên hoa. Con có thể nhờ ai đó nâng va li lên giá hành lý. Nhưng phải lễ phép, nói: "Xin làm ơn."
+— Con tự nâng va li lên được. Con đâu phải con nít.
+— Thôi được. Đừng quên xuống tàu. Con sẽ đến Berlin lúc sáu giờ mười bảy. Ở ga Friedrich Strasse. Đừng xuống trước, ở ga Sở thú hay ga nào khác.
+— Bà đừng lo, thưa bà trẻ.
+— Và nhất là đừng hỗn với người ta như con hỗn với mẹ. Đừng vứt giấy xuống sàn khi ăn bánh mì kẹp, và đừng làm mất tiền! Emil nắm lấy áo khoác và thọc tay vào túi ngực bên phải. Rồi cậu thở phào và thì thầm: "Còn nguyên." Cậu khoác tay mẹ và cùng bà đi đi lại lại trên sân ga.
+— Và mẹ đừng làm việc quá sức! Đừng ốm nhé! Mẹ sẽ chẳng có ai chăm sóc. Con sẽ đi máy bay về ngay lập tức. Và thỉnh thoảng viết thư cho con. Con ở lại nhiều nhất một tuần, mẹ biết mà. Emil ôm mẹ thật chặt, và bà hôn lên mũi cậu. Rồi chuyến tàu đi Berlin ầm ầm lao vào và dừng lại. Emil siết mẹ thêm một cái nữa rồi leo lên khoang tàu, tay xách va li. Mẹ cậu đưa cho cậu bó hoa và gói bánh mì kẹp rồi hỏi cậu đã tìm được chỗ ngồi chưa. Cậu gật đầu.
+— Tốt, nhớ xuống ở Friedrich Strasse! Cậu gật đầu.
+— Và bà ngoại sẽ đợi ở quầy hoa. Cậu gật đầu.
+— Và giữ gìn nhé, thằng quỷ nhỏ. Cậu gật đầu.
+— Và đối xử tốt với Pony Hütchen. Có lẽ hai đứa chẳng nhận ra nhau đâu! Cậu gật đầu.
+— Và viết thư cho mẹ.
+— Mẹ cũng viết cho con. Và có lẽ cứ thế mãi hàng giờ nếu không có bảng giờ tàu. Người soát vé mang chiếc túi da đỏ hô to:
+— Lên tàu! Lên tàu! Các cánh cửa đóng sầm lại. Đầu máy chuyển bánh. Và thế là tàu đi. Mẹ cậu vẫy khăn tay thật lâu. Rồi bà từ từ quay lại, đi về nhà. Và vì chiếc khăn vẫn sẵn trong tay, bà khóc vài giọt vào đó. Nhưng không lâu. Vì ở nhà, bà Fleischermeister Augustin đang đợi, và bà ấy muốn được gội đầu thật kỹ.
+
+[CHƯƠNG 6 - rtit] Chuyến đi Berlin bắt đầu
+[rtx]
+Emil bỏ mũ ra và nói:
+— Cháu chào các bác. Không biết ở đây còn chỗ trống không ạ? Dĩ nhiên là có chỗ trống. Một bà béo đã cởi chiếc giày trái vì nó chật, nói với người hàng xóm, một ông thở phì phò kinh khủng sau mỗi hơi:
+— Trẻ con lễ phép như thế này ngày nay hiếm lắm. Nghĩ lại thời thơ ấu của tôi, trời ơi, hồi ấy tinh thần khác hẳn. Và bà ngọ nguậy những ngón chân bị chật trong chiếc tất bên trái theo nhịp lời nói. Emil thích thú nhìn. Còn người đàn ông thì thở phì phò đến nỗi không gật đầu nổi. Emil đã biết từ lâu rằng lúc nào cũng có những người nói: "Ôi, ngày xưa mọi thứ tốt hơn nhiều." Vì vậy cậu chẳng để ý khi ai đó bảo trước kia không khí trong lành hơn, hay những con bò đực có đầu to hơn. Bởi phần lớn điều họ nói không đúng, và họ thuộc loại người không chịu hài lòng với mọi thứ như nó vốn có vì sợ mình trở nên mãn nguyện.
+Emil sờ túi ngực phải và nhẹ lòng khi nghe tiếng phong bì sột soạt. Những người cùng đi với cậu trông đều đáng tin cậy, không giống cướp hay kẻ giết người. Cạnh ông thở phì phò là một bà đang đan chiếc khăn choàng. Còn bên cửa sổ, gần Emil, một người đàn ông đội mũ cứng đang đọc báo. Bỗng ông đặt tờ báo xuống, lấy từ túi ra một thanh sô cô la, chìa cho cậu bé và nói:
+— Này cậu bé, có muốn một ít không? Cháu cảm ơn bác nhiều, Emil đáp và nhận sô cô la. Rồi cậu vội bỏ mũ ra, như chợt nhớ thêm, cúi chào một cái và nói:
+— Cháu tên là Emil Tischbein. Các hành khách bật cười. Còn người đàn ông trịnh trọng nhấc mũ lên và nói:
+— Rất hân hạnh, tôi là Grundeis! Rồi bà béo đã cởi giày trái hỏi ông:
+— Ông chủ tiệm Kurzhals còn sống ở Neustadt không?
+— Có chứ ạ, ông Kurzhals vẫn sống ở đó, Emil cho bà biết.
+— Bà có quen ông ấy ạ? Ông ấy đã mua mảnh đất nơi đặt cửa hàng.
+— Thế à, thế thì cậu nói với ông ấy là bà Jakob ở Gross-Grünau gửi lời thăm.
+— Nhưng cháu đang đi Berlin.
+— Đợi cậu về cũng kịp mà, bà Jakob nói. Bà lại ngọ nguậy mấy ngón chân và cười đến nỗi cái mũ rơi che cả mặt.
+— Thế cậu đi Berlin hả? ông Grundeis hỏi.
+— Vâng, và bà của cháu đang đợi ở quầy hoa trong ga Friedrich Strasse, Emil đáp và sờ túi ngực. Ơn trời, phong bì lại sột soạt như trước.
+— Cậu đã từng đến Berlin chưa?
+— Chưa ạ.
+— Chà, sẽ làm cậu kinh ngạc đấy! Ở Berlin bây giờ có những ngôi nhà cao một trăm tầng, và người ta phải buộc mái nhà vào bầu trời kẻo bị gió thổi bay. Và nếu có người nào vội đi sang khu khác của thành phố, họ nhét anh ta vào một cái rương ở bưu điện, bỏ vào một cái ống, rồi bắn đi như thư khí nén đến bưu điện khu mà anh ta muốn đến. Và nếu không có tiền thì người ta đến ngân hàng, gửi bộ óc của mình làm vật cầm cố, và nhận một nghìn mác. Dĩ nhiên anh không thể chuộc lại bộ óc từ ngân hàng trừ khi trả họ một nghìn hai trăm mác. Và bây giờ người ta còn phát minh ra những dụng cụ y khoa tuyệt vời, và...
+— Rõ là ông đã để bộ óc lại ở ngân hàng rồi, người đàn ông thở phì phò nói với người đội mũ cứng.
+— Thôi đừng nói bậy nữa. Những ngón chân của bà béo đứng im vì kính sợ, còn bà đang đan thì nín thở. Emil cười ngượng ngập. Và một cuộc tranh cãi dài bắt đầu giữa hai người đàn ông. Emil nghĩ: "Mình cần gì bận tâm," rồi lấy bánh mì kẹp ra, dù vừa ăn trưa xong. Đến lúc cậu ăn miếng bánh thứ ba thì tàu dừng ở một ga. Emil không đọc được biển tên và cũng không hiểu nhân viên ga hô gì bên cửa sổ. Phần lớn hành khách xuống: ông thở phì phò, bà đan khăn, và cả bà Jakob nữa. Bà suýt trễ vì không xỏ được chiếc giày.
+— Nhớ gửi lời đến ông Kurzhals nhé, bà lại nói, và Emil gật đầu. Thế là chỉ còn lại cậu và người đàn ông đội mũ cứng. Emil không hài lòng lắm. Một người chia sô cô la cho bạn và kể những chuyện điên rồ thì hơi kỳ quặc. Emil lại muốn sờ phong bì cho đổi bầu không khí. Nhưng cậu không dám. Thay vào đó, khi tàu chạy tiếp, cậu vào nhà vệ sinh, lấy phong bì ra khỏi túi và đếm tiền. Đủ cả, rồi cậu không biết làm gì nữa. Cuối cùng cậu nghĩ ra một ý. Cậu lấy cây kim băng gài ở ve áo, xuyên qua ba tờ giấy bạc trước, rồi qua phong bì, rồi cuối cùng qua lớp lót áo khoác. Có thể nói cậu đã đóng đinh tiền chặt cứng.
+"Đấy," cậu nghĩ, "giờ thì không thể có chuyện gì xảy ra." Rồi cậu quay lại khoang. Ông Grundeis đã làm một chỗ ấm cúng trong góc và ngủ. Emil mừng vì không phải nói chuyện, và nhìn ra cửa sổ. Cây cối, cối xay gió, cánh đồng, nhà máy, từng đàn bò, những người nông dân vẫy tay lần lượt trôi qua. Và thật thú vị khi thấy tất cả quay tít như đang ở trên một chiếc đĩa hát. Nhưng người ta không thể nhìn ra cửa sổ mãi. Ông Grundeis ngủ mãi và ngáy một chút. Emil muốn đi đi lại lại, nhưng làm thế có thể đánh thức ông, mà cậu hoàn toàn không muốn. Nên cậu ngả người vào góc đối diện trong khoang và ngắm người đàn ông đang ngủ. Sao ông cứ luôn đội mũ?
+Ông có khuôn mặt khá dài, bộ ria đen nhỏ xíu, hàng trăm nếp nhăn quanh miệng, và đôi tai rất mỏng vểnh ra khỏi đầu. Hự! Emil giật mình và hoảng hốt. Cậu suýt ngủ gật. Cậu tuyệt đối không dám làm vậy. Giá mà có thêm dù chỉ một người nữa lên tàu. Tàu dừng nhiều lần nhưng chẳng có ai lên. Mới có bốn giờ, và Emil còn hơn hai tiếng nữa. Cậu véo chân mình. Cách đó trong lớp luôn hiệu nghiệm khi thầy Bremser giảng lịch sử. Một lúc thì có hiệu quả. Emil tự hỏi giờ Pony Hütchen trông ra sao. Nhưng cậu không nhớ nổi mặt cô bé. Cậu chỉ biết lần cuối cô bé đến chơi, cùng bà và dì Martha đến Neustadt, Pony đã muốn đấm bốc với cậu.
+Dĩ nhiên cậu từ chối, vì cô bé là hạng nhẹ còn cậu ít nhất là hạng bán trung. Cậu bảo như thế không công bằng. Và nếu cậu tung một cú móc thì người ta phải bóc cô bé từ trên tường xuống. Nhưng cô bé không chịu buông tha cậu cho đến khi dì Martha can thiệp. Bụp! Cậu suýt ngã khỏi ghế. Lại ngủ nữa sao? Cậu véo, véo chân mãi. Chắc chân cậu đã tím bầm khắp nơi. Vậy mà vẫn không ăn thua. Cậu thử đếm cúc áo. Đếm xuống rồi đếm ngược lên. Đếm xuống có hai mươi ba cúc, đếm lên lại có hai mươi bốn. Emil ngả người ra sau và nghĩ xem sao lại như thế. Và cậu ngủ say như chết.
+
+[CHƯƠNG 7 - rtit] Giấc mơ với rất nhiều cuộc chạy
+[rtx]
+Bỗng Emil có cảm giác con tàu đang chạy vòng tròn, giống như những đoàn tàu đồ chơi mà trẻ con hay chơi. Cậu nhìn ra cửa sổ và thấy thật kỳ quặc. Vòng tròn càng lúc càng nhỏ lại. Đầu máy càng lúc càng gần toa cuối. Có vẻ như nó cố tình làm vậy. Con tàu quay vòng quanh chính nó, y như con chó cố cắn đuôi mình. Và bên trong vòng đua đen kịt ấy có cây cối, một cối xay gió bằng thủy tinh và một ngôi nhà lớn có hai trăm tầng. Emil muốn biết mấy giờ nên bắt đầu rút đồng hồ khỏi túi. Cậu kéo, kéo mãi, cuối cùng ra cái đồng hồ quả lắc lớn trong phòng mẹ. Cậu nhìn mặt đồng hồ, trên đó ghi: "Một trăm tám mươi lăm dặm một giờ.
+Cấm nhổ xuống sàn, kẻ vi phạm sẽ bị phạt bằng tính mạng!" Cậu lại nhìn ra cửa sổ. Đầu máy càng lúc càng gần toa cuối. Và cậu lo lắng kinh khủng. Vì nếu đầu máy đâm vào toa cuối thì dĩ nhiên sẽ xảy ra tai nạn tàu. Điều đó rõ ràng. Emil tuyệt đối không muốn chờ đến lúc đó. Cậu mở cửa và chạy dọc theo bậc thang bên ngoài. Có lẽ người lái tàu đã ngủ gục? Vừa lần theo toa, cậu vừa nhìn qua cửa sổ các khoang. Chẳng có ai ngồi ở đâu cả. Tàu trống rỗng. Emil chỉ thấy một người đàn ông đội mũ cứng làm bằng sô cô la. Ông ta bẻ một miếng to từ vành mũ rồi nuốt chửng. Emil gõ vào cửa kính và chỉ về phía đầu máy.
+Nhưng người đàn ông chỉ cười, bẻ thêm một miếng sô cô la to nữa và vỗ bụng vì nó ngon quá. Cuối cùng Emil tới toa than. Rồi cậu trèo lên buồng lái. Người lái tàu ngồi co ro trên ghế xà ích, quay roi và giữ dây cương như thể có ngựa buộc trước đoàn tàu. Và quả thật là có ngựa! Sáu cặp ngựa kéo con tàu. Chúng có giày trượt patin bạc ở móng và bay vèo trên đường ray, vừa chạy vừa hát: "Phải đi, phải đi khỏi thành phố xa này sao?" Emil lay người xà ích và hét: "Ghìm ngựa lại không thì gặp tai nạn đấy!" Rồi cậu thấy người xà ích chẳng phải ai khác ngoài cảnh sát Jeschke. Ông liếc nhìn Emil một cái sắc lẻm và quát:
+— Những đứa trẻ kia là ai? Ai đã vẽ bậy lên Đại Công tước Karl? Cháu, Emil nói.
+— Còn ai nữa? Chuyện đó tôi không nói đâu!
+— Vậy thì cứ tiếp tục chạy vòng tròn! Và cảnh sát Jeschke quất ngựa khiến chúng chồm lên và lao nhanh hơn bao giờ hết về phía toa cuối. Trong toa cuối, bà Jakob ngồi, vung đôi giày trong tay, sợ chết khiếp vì lũ ngựa đã táp vào ngón chân bà.
+— Cháu sẽ cho ông hai mươi mác, thưa ông cảnh sát, Emil kêu.
+— Xin ông thôi cái trò điên rồ này đi!
+— Im đi!
+— Jeschke rít lên và vụt roi vào lũ ngựa như bị ma ám. Emil không chịu nổi nữa, cậu nhảy khỏi tàu. Cậu lộn hai chục vòng trên đường rơi xuống, nhưng không đau. Cậu đứng dậy và nhìn lại con tàu. Nó đứng im, và mười hai con ngựa quay đầu về phía Emil. Cảnh sát Jeschke đã nhảy dựng lên, quất ngựa và gào:
+— Lên kia và đuổi theo nó! Rồi mười hai con ngựa nhảy khỏi đường ray và chạy nước rút đuổi theo Emil, các toa tàu nảy tưng tưng như quả bóng cao su. Emil không phí thời gian, cậu chạy nhanh hết mức có thể. Qua một đồng cỏ, ngang nhiều cái cây, băng qua một con suối, hướng về tòa nhà chọc trời. Thỉnh thoảng cậu nhìn lại phía sau. Con tàu ầm ầm lao tới không ngừng. Nó húc cây bên phải bên trái, xé chúng tan tành. Chỉ còn một cây sồi già đứng lại, và trên cành cao nhất, bà Jakob béo ú ngồi đung đưa trong gió và khóc vì không xỏ được giày. Emil chạy tiếp. Ở ngôi nhà hai trăm tầng có một cánh cửa đen lớn. Cậu chạy vào, xuyên qua ngôi nhà và ra phía bên kia.
+Con tàu đuổi theo sau. Emil rất muốn ngồi xuống một góc ngủ một giấc, vì cậu mệt khủng khiếp và run từng chi. Nhưng cậu không dám ngủ. Con tàu đã ầm ầm lao qua ngôi nhà. Emil thấy một cái thang sắt. Nó dẫn lên tận mái nhà. Cậu bắt đầu leo. May mà cậu giỏi môn thể dục. Vừa leo cậu vừa đếm các tầng. Đến tầng thứ năm mươi, cậu mạo hiểm quay lại. Cây cối đã trở nên rất nhỏ, và cối xay gió thủy tinh gần như không nhận ra. Nhưng ôi, kinh khủng! Con tàu đang chạy thẳng lên, lên theo thành tòa nhà. Emil leo cao hơn nữa. Và con tàu phì phì, lộp cộp trèo lên các bậc thang như thể đó là đường ray.
+Tầng một trăm, một trăm hai mươi, một trăm bốn mươi, một trăm sáu mươi, một trăm tám mươi, một trăm chín mươi, hai trăm. Emil đứng trên mái nhà mà chẳng biết làm gì tiếp theo. Cậu nghe tiếng ngựa hí. Rồi cậu chạy tới đầu kia của mái nhà, lấy chiếc khăn tay trong túi ra và trải ra. Và khi lũ ngựa mồ hôi nhễ nhại bò qua mép mái nhà với con tàu theo sau, Emil giơ khăn tay lên cao quá đầu và nhảy vào khoảng không. Cậu nghe tiếng con tàu sau lưng húc đổ các ống khói. Rồi một lúc cậu chẳng nghe thấy hay nhìn thấy gì. Và rồi, bịch! Cậu rơi phịch xuống một đồng cỏ. Lúc đầu cậu nằm đó kiệt sức, nhắm mắt, ước gì được mơ một giấc mơ đẹp.
+Nhưng vì chưa cảm thấy hoàn toàn an toàn nên cậu nhìn lên ngôi nhà, và thấy mười hai con ngựa trên mái, đang giương ô. Và cảnh sát Jeschke cũng có một chiếc ô, dùng nó thúc lũ ngựa. Chúng ngồi bệt xuống hai chân sau, giật mình một cái, rồi nhảy xuống vực sâu. Và rồi con tàu lượn xuống đồng cỏ, càng lúc càng to hơn. Emil nhảy bật dậy và chạy băng qua đồng cỏ về phía cối xay thủy tinh. Nó trong suốt, và cậu thấy mẹ mình ở trong đó đang gội đầu cho bà Augustin. "Ơn trời!" cậu nghĩ và chạy qua cửa sau vào cối xay.
+— Mẹ ơi, cậu kêu, con phải làm sao đây? Chuyện gì thế, con? mẹ cậu hỏi và vẫn chăm chỉ chà tóc.
+— Mẹ nhìn qua tường đi! Bà Tischbein nhìn ra vừa kịp thấy con tàu và đàn ngựa đáp xuống đồng cỏ và lao tới cối xay.
+— Ồ, là cảnh sát Jeschke, mẹ cậu nói và lắc đầu kinh ngạc.
+— Ông ấy đuổi theo mẹ suốt từ nãy như điên.
+— Thế là sao?
+— Lúc trước, con vẽ mũi đỏ và ria mép lên Đại Công tước Karl Mặt Méo ở quảng trường chợ.
+— Phải rồi, thế còn vẽ ria mép ở chỗ nào khác chứ? bà Augustin hỏi rồi hắt hơi dữ dội.
+— Chẳng ở đâu khác, bà Augustin ạ. Nhưng đó chưa phải điều tồi tệ nhất. Ông ấy muốn biết còn ai khác ở đó. Mà con không thể nói với ông ấy. Đó là vấn đề danh dự.
+— Emil nói đúng, mẹ cậu đồng ý, nhưng mình phải làm sao? Bật động cơ lên đi, bà Tischbein thân mến, bà Augustin nói. Mẹ Emil ấn một cần gạt nằm dưới bàn. Các cánh cối xay bắt đầu quay, và vì làm bằng thủy tinh, lại có nắng chiếu vào, chúng lấp lánh rực rỡ đến mức khó mà nhìn thẳng. Còn mười hai con ngựa đang kéo tàu thì hoảng sợ đến nỗi nhảy lùi, chồm lên và không chịu bước thêm bước nào. Cảnh sát Jeschke chửi đến mức người ta nghe thấy được qua vách kính. Nhưng lũ ngựa không nhúc nhích khỏi chỗ.
+— Đấy, giờ ta có thể yên tâm gội da đầu cho tôi, bà Augustin nói.
+— Con trai bà sẽ không còn gặp chuyện gì nữa. Bà Tischbein vì thế tiếp tục công việc. Emil ngồi xuống chiếc ghế cũng bằng thủy tinh và huýt sáo một mình. Rồi cậu bật cười thành tiếng và nói:
+— Tuyệt quá. Nếu biết trước mẹ ở đây thì con đã chẳng leo lên cái nhà đáng nguyền rủa đó.
+— Mong là con không làm rách bộ đồ, mẹ cậu nói. Rồi bà hỏi: Con giữ tiền cẩn thận chứ? Nghe vậy Emil nhảy dựng lên. Và cậu rơi khỏi chiếc ghế thủy tinh đánh rầm một cái. Và tỉnh dậy.
+
+[CHƯƠNG 8 - rtit] Emil xuống nhầm ga
+[rtx]
+Emil tỉnh dậy khi tàu vừa bắt đầu chạy lại. Cậu đã ngã khỏi ghế trong lúc ngủ và nằm dưới sàn, sợ gần chết mà chẳng biết vì sao. Tim cậu đập như búa máy. Cậu ngồi xổm trên tàu và suýt quên mình đang ở đâu. Dần dần mọi thứ trở lại với cậu. Đúng rồi, cậu đang đi Berlin. Và cậu đã ngủ quên. Y hệt người đàn ông đội mũ cứng... Emil giật mình ngồi thẳng dậy và thì thầm:
+— Ông ta đi rồi. Hai đầu gối cậu run lên. Rất chậm rãi cậu đứng dậy và máy móc phủi bụi trên bộ đồ. Rồi câu hỏi tiếp theo là: "Tiền còn đó không?" Và khi nghĩ đến câu hỏi ấy, cậu cảm thấy một nỗi kinh hoàng không tả nổi. Rất lâu cậu đứng dựa vào cửa, không dám nhúc nhích. Ngay đằng kia, người đàn ông Grundeis đã ngồi, ngủ và ngáy. Và giờ ông ta đã đi mất. Dĩ nhiên mọi chuyện có thể vẫn ổn. Nghi ngờ ngay là vô lý. Chỉ vì Emil đang đi đến ga Friedrich Strasse ở Berlin không có nghĩa là ai khác cũng phải đến đó. Và tiền, dĩ nhiên, vẫn an toàn ở đúng chỗ của nó. Thứ nhất, nó ở trong túi. Thứ hai, nó ở trong phong bì. Và thứ ba, nó được ghim vào lớp lót bằng kim băng.
+Rồi cậu từ từ thò tay vào túi trong bên phải. Cái túi trống không! Tiền đã mất! Emil lục lọi trong túi bằng tay trái, trong khi bóp nắn bên ngoài bằng tay phải. Không còn nghi ngờ gì nữa: cái túi trống và tiền đã biến mất.
+— Ối! Emil rút tay ra khỏi túi. Và không chỉ tay, mà trong tay còn có cây kim băng cậu đã dùng để ghim các tờ bạc. Chỉ còn lại cây kim. Nó đâm vào ngón trỏ trái làm chảy máu. Cậu quấn khăn tay quanh ngón và bắt đầu khóc. Dĩ nhiên không phải vì chút máu bé xíu ấy. Hai tuần trước, cậu đã đâm sầm vào cột đèn mạnh đến nỗi gần gãy cả cột, và Emil vẫn còn cục u trên trán, mà cậu không hề khóc một giây. Giờ cậu khóc vì tiền. Và cậu khóc vì mẹ. Ai không hiểu được điều đó, dù có dũng cảm đến đâu, cũng hết thuốc chữa. Emil biết mẹ đã tiết kiệm suốt nhiều tháng để dành ra một trăm bốn mươi mác cho bà và cho chuyến đi Berlin của cậu.
+Vậy mà vừa lên tàu, cậu thiếu gia trẻ tuổi của bà đã thu mình vào góc, mơ một giấc mơ điên rồ và để cho cái gã đê tiện kia cướp. Thế chẳng đủ làm cậu khóc sao? Giờ cậu phải làm gì? Xuống ở Berlin và nói với bà: "Cháu đến rồi, nhưng bà cứ biết trước là bà sẽ không có tiền. Thay vào đó bà đưa cháu tiền vé về Neustadt nhé. Nếu không cháu phải đi bộ."? Tuyệt quá! Mẹ cậu đã tiết kiệm vô ích. Bà sẽ không nhận được một xu. Cậu không thể ở lại Berlin. Cậu không dám về nhà. Và tất cả chỉ vì một tên vô lại cho trẻ con sô cô la rồi giả vờ ngủ. Rồi ăn cắp của chúng. Trời ơi, thế giới thật tuyệt vời! Emil lau nước mắt và nhìn quanh.
+Nếu cậu kéo dây chuông thì tàu sẽ dừng ngay. Rồi một nhân viên phanh sẽ đến, rồi một người nữa, rồi thêm người nữa. Và họ đều sẽ hỏi: "Có chuyện gì?"
+— Tiền của cháu bị mất cắp, cậu sẽ nói.
+— Lần sau giữ cẩn thận hơn, họ sẽ trả lời.
+— Mời lên lại tàu. Cậu là ai? Cậu ở đâu? Giật chuông một lần mất một trăm mác. Hóa đơn sẽ được gửi đi. Trên các tàu tốc hành có hành lang để bạn chạy xuyên suốt từ đầu này đến đầu kia, thậm chí đến tận toa cuối, để báo trộm. Nhưng hạng ba thì không! Trên cái tàu ngu ngốc này! Ở đây bạn phải đợi đến ga sau vì phải bước ra khỏi toa này rồi đi dọc bên ngoài mới sang được toa tiếp theo. Mà trong lúc ấy gã đội mũ cứng có thể đã đi xa hàng dặm. Emil thậm chí còn không biết gã đã xuống ở ga nào. Mà bây giờ là mấy giờ rồi? Khi nào tới Berlin?
+Những ngôi nhà lớn và biệt thự có vườn tươi vui rồi những ống khói đỏ bẩn cao vút lững thững lướt qua cửa sổ. Hình như đây đã là Berlin. Ở ga tiếp theo cậu sẽ phải gọi nhân viên soát vé và kể cho ông nghe tất cả. Và ông ta sẽ lập tức báo cảnh sát. Giờ, đỉnh điểm là cậu lại dính dáng đến cảnh sát, và dĩ nhiên cảnh sát Jeschke không thể giữ im lặng nữa mà sẽ phải chính thức thú nhận: "Tôi không biết vì sao, nhưng cậu học sinh Emil Tischbein ở Neustadt kia tôi không ưa lắm. Trước hết nó bôi bẩn các tượng đài cao quý. Rồi nó để người ta cướp một trăm bốn mươi mác. Biết đâu chẳng có ai cướp cả? Một thằng bé bôi bẩn tượng đài thì sẽ nói dối. Tôi có kinh nghiệm về chuyện đó.
+Chắc nó đã chôn tiền trong rừng, hay nuốt nó rồi, và định mang sang Mỹ? Bắt tên trộm chẳng có ý nghĩa gì, không chút nào. Chính thằng bé Tischbein là tên trộm. Xin ngài Trưởng cảnh sát bắt nó." Khủng khiếp! Cậu thậm chí không thể tâm sự với cảnh sát! Cậu lấy túi xuống khỏi giá, đội mũ, cài lại cây kim vào ve áo và chuẩn bị đi. Cậu hoàn toàn không biết mình sẽ làm gì. Nhưng ở lại khoang này thêm năm phút nữa thì cậu không chịu. Điều đó chắc chắn. Trong lúc ấy tàu đang chậm lại. Emil thấy từng hàng đường ray sáng lấp lánh bên ngoài. Rồi tàu vào một ga. Vài người khuân vác chạy dọc theo toa để lấy hành lý. Tàu dừng!
+Emil nhìn qua cửa sổ và thấy một tấm biển treo cao trên các đường ray. Trên đó ghi "Vườn Động vật". Các cánh cửa bật mở. Người ta leo xuống khỏi các khoang. Những người khác đang đợi họ với vòng tay dang rộng. Emil nhoài hẳn người ra cửa sổ tìm nhân viên soát vé. Cách đó một quãng, gần như khuất giữa đám đông, cậu thấy một chiếc mũ cứng màu đen. Nếu đó là tên trộm? Biết đâu sau khi lấy tiền của Emil, hắn không xuống tàu mà chỉ chuyển sang toa khác? Giây tiếp theo Emil đã đứng trên sân ga. Cậu đặt túi xuống, leo lại lên tàu vì quên bó hoa trên giá hành lý, rồi lại xuống, vội vàng chộp lấy túi và chạy hết sức ra cửa ra. Chiếc mũ cứng đâu rồi?
+Cậu bé vấp phải chân người ta, va va li vào ai đó, và chạy tiếp. Đám đông càng lúc càng dày và khó chen qua. Kia! Chiếc mũ cứng kia rồi! Trời ơi, đằng kia lại có một cái nữa! Emil gần như không xách nổi túi. Cậu ước gì có thể bỏ nó ngay tại chỗ. Nhưng nếu thế có lẽ nó cũng sẽ bị trộm mất. Cuối cùng cậu tới sát chiếc mũ cứng. Chắc là nó. Phải không? Không. Còn cái mũ kế tiếp. Không. Người đó quá nhỏ. Emil luồn lách giữa đám đông như người da đỏ. Đây, đây rồi! Đúng là hắn! Ơn trời! Đó là Grundeis. Hắn đang chen qua cổng và có vẻ vội.
+— Cứ đợi đấy, đồ súc sinh, Emil gầm gừ, chúng tao sẽ bắt mày! Rồi cậu nộp vé, đổi túi sang tay kia, kẹp bó hoa dưới nách phải, và chạy xuống cầu thang theo sau người đàn ông. Giờ là sống chết!
+
+[CHƯƠNG 9 - rtit] Xe điện tuyến 177
+[rtx]
+Emil ước gì có thể chạy lên chỗ gã, đứng chặn trước mặt gã và quát: "Trả tiền cho tôi!" Nhưng gã không có vẻ sẽ đáp: "Sẵn lòng, cậu bé ngoan. Đây này. Tôi chắc chắn sẽ không làm thế nữa đâu." Chuyện không đơn giản như thế. Lúc này điều quan trọng nhất là không để gã ra khỏi tầm mắt. Emil nấp sau một bà cao lớn đẫy đà đi phía trước, thò đầu nhìn từ sau lưng bà, lúc bên phải, lúc bên trái, để chắc chắn người đàn ông vẫn còn trong tầm nhìn và không bất ngờ chạy sang hướng khác. Trong khi đó người đàn ông đã tới cửa chính của nhà ga và đang nhìn quanh, quét mắt qua đám đông như thể đang tìm ai. Emil bám sát sau bà to lớn và càng lúc càng đến gần.
+Giờ sẽ ra sao? Chẳng mấy chốc cậu sẽ phải đi qua người đàn ông, và mọi sự bí mật sẽ chấm dứt. Hay là bà ấy sẽ giúp cậu? Nhưng chắc bà chẳng tin cậu. Và tên trộm sẽ nói: "Xin lỗi bà, sao bà lại có ý nghĩ ấy? Trông tôi có giống người phải đi cướp trẻ con không?" Rồi tất cả những người quanh đó sẽ nhìn cậu bé và kêu: "Quá đáng thật! Nói dối về người lớn. Trẻ con ngày nay quá xấc láo." Răng Emil đã va lập cập. May thay, đúng lúc ấy người đàn ông lại quay đầu đi và bước ra ngoài trời. Nhanh như chớp Emil nhảy nấp sau cánh cửa, đặt túi xuống và nhìn trộm qua song cửa sổ. Trời ơi, tay cậu đau quá!
+Tên trộm đi chậm qua đường, nhìn lại một lần nữa, rồi đi tiếp, có vẻ yên tâm. Rồi từ bên trái có một chiếc xe điện kéo theo toa phụ, số 177, tiến đến và dừng lại. Người đàn ông do dự một giây, bước lên toa trước và ngồi xuống bên cửa sổ. Emil lại chộp lấy túi, lủi qua cửa, theo hành lang, ra cửa khác ra đường và tới toa phụ từ phía sau đúng lúc xe bắt đầu chạy lại. Cậu quăng túi lên, trèo lên theo, nhét túi vào góc, đứng chắn phía trước nó, và hít một hơi sâu. Thế là xong! Nhưng giờ thì sao? Nếu gã kia xuống giữa đường thì tiền sẽ mất hẳn. Vì cậu không thể nhảy xuống cùng cái túi. Quá nguy hiểm. Những chiếc ô tô kia!
+Chúng lao vút qua xe điện, bấm còi và rít lên, ra hiệu rẽ trái rẽ phải, ngoặt qua các góc phố; những chiếc ô tô khác lại đâm theo sau. Một đám kẹt xe! Và bao nhiêu người trên vỉa hè! Và từ mọi ngõ nhỏ, xe hơi, xe giao hàng, xe buýt hai tầng! Quầy báo ở mọi góc phố. Những tủ kính tuyệt đẹp với hoa, trái cây, sách, đồng hồ vàng, quần áo và đồ lót lụa. Và những tòa nhà cao, cao vút. Thế là đây là Berlin. Emil rất muốn được lặng lẽ ngắm tất cả. Nhưng chẳng có thời gian. Ở toa trước có một người đàn ông đang giữ tiền của Emil, có thể xuống bất cứ lúc nào rồi biến mất trong đám đông. Khi đó Emil có thể từ bỏ luôn.
+Vì ngoài kia giữa xe cộ, người đông và xe buýt máy, bạn không thể tìm lại ai được. Emil thò đầu ra. Nếu gã đã đi rồi thì sao? Khi đó một mình cậu sẽ cứ ngồi xe đi mãi, chẳng biết đi đâu, chẳng biết vì sao. Trong lúc đó bà cậu đang đợi ở quầy hoa ga Friedrich Strasse và hoàn toàn không biết cháu mình đang phi khắp Berlin trên tuyến số 177 và gặp rắc rối to. Thật phát điên. Xe dừng lần đầu. Emil dán mắt vào toa trước. Nhưng chẳng ai xuống. Chỉ có một đám hành khách mới tràn vào xe. Họ giẫm bước ngang qua cả Emil. Một người đàn ông càu nhàu vì cậu bé thò đầu ra chắn lối.
+— Không thấy người ta muốn lên sao?
+— ông gầm gừ. Người soát vé đang bán vé trong xe giật một sợi dây. Chuông reo. Và các toa chạy tiếp. Emil lui về góc, bị chen ép và bị giẫm lên chân, bỗng kinh hãi khi nghĩ: "Mình không có tiền! Khi người soát vé tới đây mình sẽ phải mua vé. Mà nếu không mua được ông ta sẽ đuổi mình xuống. Và khi đó thì mình chôn mình luôn cho xong." Cậu nhìn những người đứng xung quanh. Cậu có thể kéo áo một người mà nói: "Xin cho cháu mượn tiền mua vé" không? Ôi, ai nấy mặt mày nghiêm trang. Một người đang đọc báo. Vài người khác đang nói chuyện về một vụ cướp ngân hàng lớn.
+— Chúng đào cả một đường hầm đúng nghĩa, một người đàn ông nói, và từ đó chúng vét sạch các kho tiền của ngân hàng. Thiệt hại có lẽ lên tới vài triệu.
+— Gần như không thể xác định được trong kho thực sự có gì, người thứ hai nói, vì những người thuê két sắt không phải nói cho ngân hàng biết họ khóa gì trong đó.
+— Phải, có người sẽ khai là có kim cương trị giá một trăm nghìn mác trong khi thật ra chỉ có một xấp giấy vô giá trị hoặc một tá thìa mạ. Và cả hai khúc khích cười. "Đúng là chuyện sẽ xảy ra với mình," Emil buồn bã nghĩ. "Mình sẽ nói: 'Ông Grundeis đã lấy của cháu một trăm bốn mươi mác' mà chẳng ai tin. Tên trộm sẽ nói cháu chỉ hỗn xược và đó chỉ là ba mác rưỡi! Thật là một tình cảnh tệ hại!" Người soát vé càng lúc càng tới gần cửa. Ông đã đứng ngay ngưỡng cửa và gọi:
+— Vé? Ông xé những dải giấy trắng dài và bấm thành từng hàng lỗ bằng cái kìm. Những người ở sân đứng đưa tiền cho ông và nhận vé.
+— Còn cậu? ông hỏi cậu bé.
+— Cháu mất tiền rồi, thưa bác soát vé, Emil đáp. Vì sẽ không ai tin chuyện bị cướp.
+— Mất tiền? Chuyện này tôi biết rồi. Thế cậu muốn đi đâu?
+— Cháu... cháu chưa biết, Emil lắp bắp.
+— Vậy à? Thế cậu xuống ở ga tới và tìm hiểu xem cậu muốn đi đâu.
+— Ôi, không, thế không được. Cháu phải ở lại đây, thưa bác soát vé, xin bác.
+— Tôi bảo xuống thì phải xuống. Hiểu chưa? Đưa cho thằng bé một tấm vé! người đàn ông đang đọc báo nói. Ông đưa tiền cho người soát vé. Và người soát vé trao vé cho Emil, nói với người đàn ông:
+— Nếu ông biết ngày nào có bao nhiêu đứa nhỏ lên đây với chuyện quên tiền. Rồi chúng cười sau lưng chúng tôi.
+— Thằng bé này sẽ không cười chúng ta đâu, người đàn ông đáp. Người soát vé bước lùi vào trong xe.
+— Cháu cảm ơn bác rất, rất nhiều, Emil nói.
+— Ồ, không có gì! người đàn ông đáp rồi lại vùi mặt vào tờ báo. Rồi các toa lại dừng một lần nữa. Emil nhoài ra xem gã đội mũ cứng có xuống không. Nhưng chẳng thấy gì.
+— Cháu xin phép hỏi địa chỉ của bác được không ạ? Emil hỏi người đàn ông.
+— Để làm gì?
+— Để cháu trả lại tiền cho bác khi cháu có. Cháu ở Berlin khoảng một tuần nên có thể mang đến cho bác. Cháu tên là Tischbein. Emil Tischbein ở Neustadt.
+— Không, người đàn ông nói.
+— Tiền vé là quà tặng, dĩ nhiên. Cậu cần gì nữa không? Ồ, không, tuyệt đối không, Emil kêu lên.
+— Cháu không nhận thêm gì nữa đâu.
+— Được rồi, người đàn ông nói rồi quay lại với tờ báo. Và xe chạy tiếp. Rồi dừng. Rồi lại chạy xa hơn. Emil đọc tên con phố rộng đẹp đẽ: đại lộ Kaiser. Cậu cứ đi mà chẳng biết mình đang đi đâu. Ở toa kia có một tên trộm. Và có lẽ còn những tên trộm khác đang ngồi hay đứng trong xe. Chẳng ai để ý đến cậu. Đúng là một người xa lạ đã trả tiền vé cho cậu. Nhưng bây giờ ông ấy lại đang đọc báo của mình! Thành phố quá lớn, còn Emil thì quá nhỏ. Và chẳng ai muốn biết vì sao cậu không có tiền và vì sao cậu không biết xuống ở đâu. Bốn triệu người sống ở Berlin, và không một ai quan tâm đến Emil Tischbein. Không ai muốn biết về nỗi khổ của người khác.
+Ai cũng bận với những nỗi lo và niềm vui của riêng mình. Và khi ai đó nói: "Tôi thật sự rất tiếc về chuyện đó," thường họ chẳng có ý gì hơn: "Ôi, để tôi yên." Rồi sẽ ra sao? Emil nuốt khan và cảm thấy mình rất, rất cô độc.
+
+[CHƯƠNG 10 - rtit] Náo động ở phố Schumann
+[rtx]
+Trong lúc Emil đứng trên chiếc xe điện số 177, chạy xuống đại lộ Kaiser mà không biết mình sẽ dừng ở đâu, thì bà ngoại và Pony Hütchen, em họ cậu, đang đợi cậu ở ga Friedrich Strasse. Theo hẹn, họ đứng ở quầy hoa và cứ nhìn lên đồng hồ. Nhiều người đi qua, với rương, hòm, túi xách, ví và những bó hoa. Nhưng Emil không có trong số đó.
+— Chắc nó lớn bổ rồi, bà có nghĩ vậy không? Pony hỏi và đẩy chiếc xe đạp nhỏ sáng bóng của mình tới lui. Lẽ ra em không nên mang nó theo. Nhưng em nằn nì lâu đến nỗi cuối cùng bà đã đồng ý: "Được rồi, mang theo đi, con ngỗng ngốc." Thế là giờ con ngỗng ngốc đang vui vẻ, hạnh phúc nghĩ đến ánh mắt kính nể của Emil khi cậu thấy chiếc xe của mình.
+— Nó sẽ thấy tuyệt lắm, em nói và hoàn toàn chắc chắn mình đúng. Bà ngoại bắt đầu lo.
+— Giá mà bà biết có chuyện gì. Đã sáu giờ hai mươi rồi, mà tàu hẳn phải vào ga từ lâu. Họ đợi thêm vài phút nữa, rồi bà sai cô bé đi hỏi thăm. Dĩ nhiên Pony Hütchen mang xe theo.
+— Bác cho cháu hỏi chuyến tàu từ Neustadt ở đâu ạ? em hỏi nhân viên đứng ở cổng cầm kìm bấm vé xem mọi người đi qua có vé không.
+— Neustadt? Neustadt?
+— ông cân nhắc.
+— À, sáu giờ mười bảy! Chuyến đó vào ga lâu rồi.
+— Ôi trời, tiếc quá! Bác thấy đấy, chúng cháu đang đợi ở quầy hoa để đón anh họ cháu là Emil.
+— Hay lắm, hay lắm, người đàn ông nói.
+— Sao lại hay, thưa ông thanh tra? Pony tò mò hỏi, vừa nghịch cái chuông xe. Người nhân viên không nói gì mà quay lưng lại với đứa trẻ.
+— Ông khôn thật đấy nhỉ? Pony nói, tự ái.
+— Cháu mong sẽ gặp lại ông. Vài người bật cười. Người nhân viên cắn môi tức giận. Còn Pony lon ton chạy về quầy hoa.
+— Tàu vào ga lâu rồi, bà ạ.
+— Chuyện gì có thể xảy ra nhỉ? bà cụ lo lắng.
+— Nếu nó không đi thì mẹ nó đã đánh điện báo. Con có nghĩ nó xuống nhầm ga không? Nhưng bà đã viết rất kỹ phải làm thế nào.
+— Cháu chẳng hiểu đầu cua tai nheo gì cả, Pony tuyên bố, vẻ quan trọng.
+— Chắc chắn nó xuống nhầm ga. Con trai thì ngốc lắm. Cháu cá đấy. Bà sẽ thấy cháu nói đúng. Và vì chẳng có gì khác để làm nên họ lại đợi. Năm phút. Thêm năm phút nữa.
+— Nhưng thật sự chẳng có nghĩa lý gì, Pony nói với bà.
+— Mình đứng đây đến tím mặt cũng thế thôi. Không biết có quầy hoa nào khác không nhỉ?
+— Con đi nhìn quanh xem, nhưng đừng đi lâu. Pony lại cầm xe và đi kiểm tra nhà ga. Không có quầy hoa nào khác. Rồi em làm phiền hai nhân viên vô tội bằng những câu hỏi và quay lại, đầy tự hào.
+— Đấy, em nói, không còn quầy hoa nào nữa. Thế mới buồn cười. Cháu định nói gì nhỉ? À phải, chuyến tàu tới từ Neustadt đến sau tám rưỡi một chút. Mình về nhà cũng được. Và đúng tám giờ cháu sẽ đạp xe quay lại đây. Nếu đến lúc đó nó vẫn chưa đến thì nó sẽ nhận một lá thư nóng bỏng từ cháu.
+— Pony, ăn nói cẩn thận hơn chứ.
+— Vậy thì nói là nó sẽ nhận một lá thư lạnh tanh từ cháu. Bà ngoại có vẻ lo lắng và lắc đầu.
+— Bà không thích chuyện này, không thích chút nào. Mỗi khi bà bồn chồn thì bà luôn nói mỗi điều hai lần. Họ đi về nhà chậm rãi. Trên đường băng qua cầu Weidendammer, Pony hỏi:
+— Bà ơi, bà có muốn ngồi lên ghi-đông không? Đừng nói những lời ngốc nghếch ấy.
+— Sao ạ? Bà chẳng nặng hơn Arthur Zickler chút nào, mà bạn ấy thường ngồi đó khi cháu đạp xe.
+— Nếu chuyện đó xảy ra thêm một lần nữa thì bố con sẽ tịch thu xe của con vĩnh viễn.
+— Ôi trời, cháu chẳng nói được gì với bà cả, Pony càu nhàu. Khi họ tới nhà Heimbold, số 15 phố Schumann, ở đó đang náo động. Ai cũng muốn biết Emil ở đâu, và chẳng ai biết. Người cha đề nghị đánh điện cho mẹ Emil.
+— Trời đất ơi! vợ ông, mẹ Pony, kêu lên.
+— Chị ấy sẽ sợ chết khiếp. Khoảng tám giờ tất cả chúng ta lại ra ga. Có lẽ nó sẽ đến chuyến sau.
+— Mong là vậy, bà ngoại than thở, nhưng bà không thể không cảm thấy là bà không thích chuyện này. Bà không thích.
+— Cháu cũng không thích, Pony Hütchen nói, và trầm ngâm lắc cái đầu nhỏ qua lại.
+
+[CHƯƠNG 11 - rtit] Cậu bé với chiếc còi ô tô xuất hiện
+[rtx]
+Ở phố Trautenau, góc đại lộ Kaiser, người đàn ông đội mũ cứng xuống xe. Emil thấy gã, cầm túi và bó hoa lên, nói với người đàn ông đang đọc báo: "Cháu cảm ơn bác thêm lần nữa ạ," rồi bước xuống bậc đứng. Tên trộm đi qua phía trước xe, băng qua đường ray và hướng sang phía bên kia đường. Xe chạy tiếp, và khi đường đã thông, Emil thấy gã dừng lại, do dự một lúc rồi bước lên các bậc thềm của một quán cà phê ngoài trời. Giờ lại cần hết sức thận trọng. Như một thám tử theo dấu vết, Emil quan sát tình hình, nhìn nhanh quanh, thấy một quầy báo ở góc phố và chạy hết tốc lực để nấp sau đó. Chỗ nấp hoàn hảo. Nó nằm giữa quầy báo và một cột trụ.
+Cậu bé đặt hành lý xuống, bỏ mũ ra, và ló mắt nhìn. Người đàn ông đã ngồi xuống sân hiên sát lan can. Gã đang hút thuốc lá và có vẻ rất hài lòng với bản thân. Emil ghê tởm vì một tên trộm lại có thể thỏa mãn đến thế trong khi người bị cướp phải u sầu và chẳng biết làm gì. Thật là ý tưởng ngớ ngẩn khi nấp sau quầy báo như thể chính cậu mới là tên trộm chứ không phải gã kia. Biết rằng gã đang ngồi ở quán Josty trên đại lộ Kaiser và đang uống bia nhẹ, hút thuốc, thì có ích gì? Nếu gã đứng dậy thì cuộc truy đuổi mới tiếp tục được. Nhưng nếu gã ở yên đó thì Emil có thể nấp sau quầy cho đến khi râu mọc dài bạc trắng.
+Giờ chỉ còn thiếu một viên cảnh sát tới và nói: "Này cháu, trông cháu đáng ngờ đấy. Hãy tự nguyện theo tôi, kẻo tôi phải còng tay cháu." Bỗng có tiếng còi bóp vang lên ngay sau lưng Emil. Cậu giật mình nhảy sang bên và quay lại thấy một cậu bé đứng đó cười nhạo cậu.
+— Này, đừng có làm ầm lên, cậu bé nói.
+— Ai bấm còi sau lưng tớ? Emil hỏi.
+— Thì tớ, dĩ nhiên rồi. Cậu không phải người Wilmersdorf nhỉ? Nếu không thì cậu đã biết từ lâu là tớ có một cái còi trong túi quần. Ở quanh đây ai cũng biết tớ như biết một thằng quái.
+— Tớ ở Neustadt. Tớ vừa từ nhà ga ra.
+— Từ Neustadt hả? Thảo nào mặc bộ đồ lố bịch thế kia?
+— Rút lại đi! Không thì tớ cho cậu một trận nằm ngay đơ.
+— Chà, cậu kia vui vẻ nói, cậu giận à? Thời tiết quá đẹp để đánh nhau, nhưng tớ thì sao cũng được.
+— Chuyện đó để sau, Emil tuyên bố.
+— Giờ tớ không có thời gian cho mấy trò đó. Và cậu nhìn sang quán cà phê xem Grundeis còn ngồi đó không.
+— Tớ tưởng cậu có thừa thời gian chứ. Ôm cái túi và bó hoa nấp sau quầy báo rồi chơi trò trốn tìm với chính mình. Một người phải có dư mười, hai mươi mét thời gian mới làm thế được.
+— Không, Emil nói, tớ đang theo dõi một tên trộm! Cái gì? Lần đầu tớ nghe đúng không? cậu kia nói.
+— Nó chôm của ai? Của tớ! Emil đáp, và thực sự lấy làm tự hào.
+— Trên tàu. Lúc tớ ngủ. Một trăm bốn mươi mác. Tớ định đưa cho bà ngoại ở Berlin này. Rồi hắn lẻn sang khoang khác và xuống ở ga Vườn Thú. Tớ đuổi theo hắn, cậu tưởng tượng được mà. Rồi lên xe điện. Và bây giờ hắn ngồi đằng kia trong quán cà phê, đội mũ cứng, tự vỗ vai khen mình.
+— Nhưng mà, tuyệt quá! người mới đến kêu lên.
+— Y như phim! Giờ cậu định làm gì?
+— Chưa biết. Cứ bám theo hắn. Giờ tớ chỉ biết có thế.
+— Nói với chú cảnh sát đằng kia. Chú ấy sẽ tóm hắn cho cậu.
+— Tớ không dám. Ở nhà ở Neustadt tớ đã làm một trò không hay lắm và họ đang truy tìm tớ. Và nếu tớ...
+— Tớ hiểu.
+— Mà bà ngoại tớ đang đợi ở ga Friedrich Strasse. Cậu bé với chiếc còi suy nghĩ một lúc. Rồi cậu nói:
+— Tớ thấy vụ này là một trò hay, đẳng cấp lắm. Và này, tớ tham gia với cậu, nếu cậu đồng ý.
+— Cậu tốt quá.
+— Ôi thôi đi. Chắc chắn một điều: tớ vào cuộc. Tớ tên là Gustav.
+— Còn tớ là Emil. Họ bắt tay nhau, rất hài lòng về nhau.
+— Nhưng ta phải bắt đầu đi, Gustav khuyên.
+— Cứ đứng đây thì tên lừa đảo sẽ chuồn mất. Cậu có tiền không?
+— Không một xu. Gustav bấm còi khe khẽ cho đầu óc thêm linh hoạt. Không ăn thua.
+— Hay là, Emil hỏi, cậu rủ vài người bạn đến giúp thì sao? Ý hay tuyệt! Gustav hào hứng kêu lên.
+— Tớ chỉ cần chạy qua các sân nhà bấm còi là có cả hội ngay.
+— Vậy làm đi, nhưng mau quay lại, Emil khuyên, kẻo tên trộm kia chạy mất. Và tớ chạy theo hắn, dĩ nhiên. Khi cậu quay lại thì tớ đã mất hút.
+— Đúng thế. Tớ sẽ nhanh! Cứ tin tớ. Dù sao thì gã ở quán Josty kia đang ăn trứng luộc và đủ thứ. Hắn sẽ ở lại một lúc. Hẹn gặp lại, Emil. Tớ mê vụ này rồi. Sẽ là một chuyện tuyệt đỉnh. Nói xong cậu phóng đi. Emil thấy nhẹ nhõm lạ lùng. Dĩ nhiên xui xẻo vẫn là xui xẻo. Nhưng có vài người ủng hộ tự nguyện đứng về phía mình thì không phải an ủi nhỏ. Cậu theo dõi sát tên trộm đang thoải mái hưởng thụ, có lẽ cũng bằng tiền dành dụm của mẹ Emil, và cậu chỉ lo một điều: gã sẽ đứng dậy ra đi. Khi đó Gustav, chiếc còi của cậu và mọi thứ khác đều vô ích. Nhưng ông Grundeis đã làm ơn ở yên chỗ cũ.
+Nếu ông có ý niệm về âm mưu đang siết quanh mình như cái bao thì hẳn ông đã thuê ít nhất một chiếc máy bay. Vì bây giờ tình hình đang nóng lên với ông. Mười phút sau Emil lại nghe tiếng còi. Cậu quay lại và thấy ít nhất hai chục cậu bé đang diễu hành xuống phố Trautenau với Gustav dẫn đầu.
+— Toàn đội dừng lại! Thế nào? Gustav hỏi, mặt tươi cười rạng rỡ.
+— Tuyệt vời, Emil đáp và thọc vào sườn Gustav vì sung sướng.
+— Giờ, thưa các quý ông, đây là Emil từ Neustadt. Phần còn lại tớ đã kể rồi. Bên kia đường có con chó lợn đã chôm tiền của cậu ấy. Cái gã bên phải trên ban công với trái dưa đen trên đầu ấy. Nếu để lão ta thoát thì từ nay chúng ta chẳng còn mặt mũi nào. Hiểu chưa?
+— Nhưng Gustav ơi, ta sẽ tóm được hắn mà, một cậu bé đeo kính gọng sừng nói.
+— Đó là Giáo sư, Gustav giới thiệu. Và Emil bắt tay cậu. Rồi cả băng được giới thiệu lần lượt từng người một.
+— Nào, Giáo sư nói, giờ ta tăng tốc. Đi thôi! Trước hết là tiền! Ai cũng đưa ra những gì mình có. Những đồng xu leng keng rơi vào mũ của Emil. Thậm chí còn có một đồng đủ một mác. Nó đến từ một cậu bé rất nhỏ tên là Dienstag. Cậu bé hào hứng đến nỗi nhảy từ chân này sang chân kia, và được cho phép đếm tiền.
+— Vốn của ta là năm mác bảy mươi pfennig, cậu thông báo với những thính giả háo hức.
+— Tốt nhất là chia tiền cho ba người, phòng khi ta phải tách ra.
+— Hay, Giáo sư nói. Cậu và Emil mỗi người lấy hai mác. Gustav được một mác bảy mươi pfennig.
+— Cảm ơn các cậu rất nhiều, Emil nói.
+— Ngay khi bắt được hắn tớ sẽ trả lại. Giờ ta làm gì? Trước hết tớ muốn đem túi và hoa gửi đâu đó. Vì khi cuộc đuổi bắt bắt đầu, chúng sẽ vướng víu kinh khủng.
+— Đưa đồ đây, Gustav yêu cầu.
+— Tớ mang thẳng sang quán Josty, gửi ở quầy, và tiện thể xem mặt ngài Tên trộm luôn.
+— Nhưng cẩn thận bước đi, Giáo sư gọi.
+— Gã lừa đảo không cần biết có thám tử đang theo dấu. Làm thế sẽ khó bắt hắn hơn.
+— Cậu nghĩ tớ khùng à?
+— Gustav càu nhàu và đi.
+— Mặt hắn dữ dằn như trong tranh, cậu nhận xét khi quay lại.
+— Đồ đạc đã gửi cẩn thận. Chúng ta có thể lấy khi cần.
+— Giờ tốt nhất là họp một hội đồng chiến tranh, Emil khuyên.
+— Nhưng đừng ở đây. Có thể bị chú ý.
+— Ta sẽ tới quảng trường Nikolsburger, Giáo sư quyết định.
+— Hai người ở lại quầy báo này để canh gã đừng chuồn. Ta cử năm sáu người làm trinh sát chuyển tin. Rồi ta sẽ quay lại ngay.
+— Giao cho tớ, Gustav kêu và lập tức bắt tay tổ chức các nhân viên tình báo.
+— Tớ sẽ ở đây với các trinh sát, cậu nói với Emil,
+— đừng lo. Bọn tớ sẽ không để hắn thoát. Còn các cậu nhanh lên một chút. Đã hơn bảy giờ vài phút rồi. Sẵn sàng đi, và mau chân lên. Cậu cử các trinh sát. Còn những người khác, với Emil và Giáo sư dẫn đầu, tuôn đi về quảng trường Nikolsburger.
+
+[CHƯƠNG 12 - rtit] Các thám tử tập hợp
+[rtx]
+Họ ngồi xuống hai chiếc ghế dài trắng trong khuôn viên và trên hàng rào sắt thấp bao quanh bãi cỏ, vẻ mặt trang nghiêm. Cậu bé được gọi là Giáo sư có vẻ đã chờ đợi ngày này từ lâu. Cậu bỏ kính ra và vẫy vẫy, như cha cậu, ông Thẩm phán, vẫn làm khi phác thảo
+— Có khả năng, cậu tuyên bố, chúng ta phải tách ra, vì lý do thực tế. Vì vậy phải có một tổng đài điện thoại trung tâm. Ai trong các cậu có điện thoại? Mười hai cậu bé lên tiếng.
+— Và ai trong số các cậu có điện thoại mà bố mẹ hiểu chuyện nhất?
+— Chắc là tớ, Dienstag cất giọng.
+— Số điện thoại của cậu?
+— Bavaria 0579.
+— Đây là bút chì và giấy. Krummbiegel, làm hai chục mảnh giấy và viết số điện thoại của Dienstag lên mỗi mảnh. Nhớ viết rõ ràng. Rồi đưa mỗi người một mảnh. Tổng đài điện thoại phải luôn biết các thám tử đang ở đâu và có chuyện gì xảy ra. Ai muốn liên lạc thì cứ gọi bé Dienstag và sẽ nhận được thông tin chính xác.
+— Nhưng tớ sẽ không ở nhà, bé Dienstag nói.
+— Có, cậu sẽ ở nhà, Giáo sư đáp lại.
+— Ngay khi buổi họp này xong, cậu về nhà và trông điện thoại.
+— Nhưng tớ muốn có mặt khi bắt được tội phạm hơn. Những cậu bé nhỏ như tớ có thể rất có ích vào lúc ấy.
+— Cậu về nhà và ở bên điện thoại. Đó là một vị trí rất có trách nhiệm.
+— Thôi được, nếu các cậu muốn. Krummbiegel phát các mảnh giấy. Và mỗi cậu cất kỹ mảnh của mình vào túi. Vài cậu cẩn thận nhất học thuộc lòng số ngay lập tức.
+— Chúng ta cũng nên có lực lượng dự bị, Emil đề nghị.
+— Dĩ nhiên. Tất cả những ai không thực sự cần cho cuộc săn đuổi sẽ ở lại quảng trường Nikolsburger. Các cậu thay phiên về nhà, nói rằng có lẽ tối nay sẽ về rất muộn. Vài cậu có thể bảo là qua đêm ở nhà bạn. Để ta có người thay thế và lực lượng dự bị nếu cuộc truy đuổi kéo dài đến sáng. Gustav, Krummbiegel, Arnold, Mittenzwey, em trai cậu ấy và tớ sẽ gọi điện báo là ở ngoài đêm nay. Phải rồi, Traugott sẽ đi cùng đến nhà Dienstag làm liên lạc viên và sẽ chạy đến quảng trường Nikolsburger nếu ta cần ai. Thế là ta có thám tử, lực lượng dự bị, tổng đài điện thoại và các liên lạc viên. Đó là những bộ phận cần thiết nhất lúc này.
+— Chúng ta sẽ cần thứ gì đó để ăn, Emil gợi ý.
+— Có lẽ vài cậu có thể về nhà lấy mấy cái bánh mì kẹp.
+— Ai ở gần nhất? Giáo sư hỏi.
+— Đi đi, Mittenzwey, Gerold, Friedrich Đệ Nhất, Brunot, Zerlett. Chạy đi và mang đồ ăn về. Năm cậu bé phóng đi.
+— Các cậu ngốc nghếch, cứ nói luyên thuyên về ăn uống, điện thoại, ngủ ngoài đường. Còn cách bắt hắn thì chẳng ai nhắc tới. Đồ thầy giáo, Traugott gầm gừ. Cậu không nghĩ ra lời xúc phạm nào nặng hơn.
+— Cậu có máy lấy dấu vân tay không? Petzold hỏi.
+— Biết đâu hắn khôn, đeo găng cao su. Khi đó ta không chứng minh được gì chống lại hắn. Petzold đã xem hai mươi hai phim trinh thám, và rõ là chúng chẳng giúp ích gì cho cậu.
+— Cậu đúng là đồ mọt ăn, Traugott ghê tởm nói.
+— Họ sẽ chờ cơ hội rồi lấy lại từ hắn số tiền hắn đã chôm.
+— Vớ vẩn, Giáo sư phản đối, nếu ta ăn cắp tiền của hắn thì ta cũng thành loại trộm như hắn.
+— Đừng đùa nữa, Traugott kêu.
+— Nếu ai ăn cắp của tớ và tớ ăn cắp lại thì tớ không phải là trộm.
+— Có, cậu cũng là trộm, Giáo sư kết luận.
+— Nước sốt táo, Traugott lầm bầm.
+— Giáo sư nói đúng, Emil xen vào.
+— Nếu tớ lén lấy gì của ai thì tớ là kẻ trộm. Và dù nó là của hắn hay hắn vừa ăn cắp của tớ thì cũng như nhau.
+— Chính xác, Giáo sư nói.
+— Nhưng xin làm ơn đừng ở đây phát biểu những điều khôn ngoan mà chẳng ích gì. Việc đã được sắp xếp xong. Chúng ta bắt tên lừa đảo bằng cách nào thì chưa nói được. Phải tính toán dần dần. Chỉ chắc một điều là hắn phải tự nguyện trả lại tiền. Ăn cắp lại thì thật ngu ngốc.
+— Cái đó tớ không hiểu, bé Dienstag phản đối.
+— Tớ không thể ăn cắp thứ thuộc về mình! Cái gì của tớ thì là của tớ, dù nó đang nằm trong túi người khác.
+— Đó là những khác biệt khó hiểu, Giáo sư giải thích.
+— Về mặt đạo đức, theo ý tớ cậu đúng, nhưng tòa án vẫn sẽ phán quyết chống lại cậu. Ngay cả nhiều người lớn cũng không hiểu, nhưng sự thật là vậy.
+— Sao cũng được, Traugott nói và nhún vai.
+— Và này, hãy nhìn cho kỹ, cậu có biết làm thám tử không? Petzold hỏi.
+— Nếu không hắn sẽ quay lại thấy cậu, thế là xong!
+— Phải, cần làm thám tử thật giỏi, bé Dienstag đồng ý.
+— Vì vậy tớ nghĩ các cậu có thể dùng tớ. Tớ rón rén cực kỳ. Tớ còn có thể làm chó nghiệp vụ. Tớ biết sủa nữa.
+— Phải, rón rén ở Berlin cho khỏi ai thấy, Emil bực mình.
+— Muốn mọi người nhìn mình thì cứ bắt đầu rón rén đi.
+— Nhưng các cậu phải có súng lục! Petzold kêu. Cậu không chịu bị dập tắt những đề nghị của mình.
+— Cần súng lục thật đấy, hai ba cậu khác đồng ý.
+— Không, Giáo sư nói.
+— Tên trộm chắc chắn có rồi. Traugott muốn đánh cược chuyện đó.
+— Việc này nguy hiểm, Emil tuyên bố, và ai sợ thì nên về nhà đi ngủ.
+— Cậu nói tớ nhát gan à? Traugott dữ dội hỏi và sải bước vào giữa như một võ sĩ quyền anh chuyên nghiệp.
+— Trật tự, Giáo sư gọi, chuyện đó để mai tính. Đó là màn trình diễn gì thế? Các cậu cư xử y như... như trẻ con! Nhưng chúng ta đúng là thế mà, bé Dienstag nói, và mọi người phải bật cười.
+— Tớ thật sự nên viết một mảnh giấy cho bà, Emil nói, vì họ hàng của tớ không biết tớ ở đâu. Họ thậm chí có thể chạy ra cảnh sát. Có ai mang thư giúp tớ trong lúc ta đuổi hắn không? Họ sống ở số 15 phố Schumann. Thế thì tốt quá! Để tớ, một cậu tên Bleuer nói.
+— Nhưng viết nhanh để tớ tới đó trước khi nhà đóng cửa. Tớ đi tàu điện ngầm đến cổng Oranienburger. Ai tài trợ cho tớ? Giáo sư đưa tiền vé cho cậu. Hai mươi pfennig cho cả đi lẫn về. Emil mượn bút chì và giấy rồi viết: Bà thân mến, bà chắc đang lo không biết cháu ở đâu. Cháu đang ở Berlin. Nhưng tiếc là bây giờ cháu chưa đến được vì cháu phải lo một việc quan trọng trước. Đừng hỏi về chuyện đó. Và đừng lo. Khi mọi việc xong xuôi cháu sẽ vui vẻ đến ngay. Cậu bé mang thư là một người bạn và biết cháu ở đâu. Nhưng bạn ấy không thể nói với bà. Vì đó là một bí mật công vụ. Gửi lời yêu thương đến bác, dì và Pony Hütchen. Cháu trai trung thành của bà, EMIL. T.B.
+Mẹ gửi lời yêu thương. Cháu cũng có hoa cho bà. Bà sẽ nhận ngay khi cháu mang đến. Rồi Emil viết địa chỉ ở mặt kia, gấp tờ giấy lại và nói:
+— Nhưng cậu đừng nói với ai trong nhà tớ là tớ ở đâu và là tiền đã mất, không thì tớ gặp rắc rối to.
+— Được, Emil, Bleuer nói.
+— Đưa điện tín đây. Khi về tớ sẽ gọi bé Dienstag để nghe có chuyện gì xảy ra trong lúc ấy. Và tính tớ vào ban dự bị. Rồi cậu vội vã đi. Trong lúc đó năm cậu bé đã quay lại với những gói bánh mì kẹp. Gerold thậm chí còn mang theo cả một cây xúc xích. Cậu bảo xin được từ mẹ. Ừ, có thể. Cả năm đã báo với gia đình là sẽ vắng thêm vài giờ nữa. Emil chia bánh mì kẹp, và mỗi người cất một cái dự phòng trong túi. Emil giữ cây xúc xích dưới sự bảo quản của mình. Rồi năm cậu khác chạy về nhà xem có được phép đi lâu hơn không. Hai cậu trong số đó không quay lại. Chắc bố mẹ các cậu cấm.
+Giáo sư đưa ra mật khẩu, để họ luôn biết, nếu có ai đến hay gọi điện, người đó có phải của đội không. Mật khẩu là "Emil." Dễ hiểu. Rồi bé Dienstag, cùng Traugott, liên lạc viên hay càu nhàu, ra đi, nói: "Chúc các cậu nghẹn chết nhé." Giáo sư gọi với theo dặn cậu về nhà báo với bố rằng cậu có việc quan trọng phải lo.
+— Thế là ông sẽ yên tâm và không phản đối, cậu nói thêm.
+— Trời đất! Emil nói, ở Berlin có những bậc cha mẹ thật tuyệt.
+— Đừng tưởng ai cũng tử tế thế, Krummbiegel nói và gãi sau tai.
+— Ồ, trung bình thì được, Giáo sư đáp.
+— Đó là cách hợp lý nhất. Như thế mình không nói dối họ. Tớ đã hứa với bố mẹ không làm điều gì sai trái hay nguy hiểm. Và chừng nào tớ giữ lời thì tớ muốn làm gì cũng được. Bố tớ là một người tuyệt vời.
+— Thật tuyệt!
+— Emil lặp lại.
+— Nhưng này, có lẽ hôm nay sẽ nguy hiểm.
+— Vậy thì hủy giấy phép, Giáo sư thừa nhận và nhún vai.
+— Bố bảo tớ luôn phải cư xử như thể bố đang ở cạnh. Và hôm nay tớ đang làm vậy. Nên giờ ta lên đường. Cậu đứng trước cả băng và hô:
+— Các thám tử mong mỗi người làm tròn bổn phận. Tổng đài điện thoại đã lập xong. Tớ để tiền lại cho các cậu. Còn một mác năm mươi pfennig. Đây, Gerold, cầm lấy và đếm. Lương thực đã có. Tiền cũng có. Ai cũng biết số điện thoại. Còn một điều nữa: ai phải về nhà thì về. Nhưng ít nhất năm người phải ở lại. Gerold, cậu chịu trách nhiệm việc đó. Hãy cho thấy các cậu là những cậu bé thực thụ. Trong lúc đó chúng tớ sẽ làm hết sức. Khi cần người thay thế, bé Dienstag sẽ cử Traugott đến với chúng tớ. Có ai còn câu hỏi nào không? Mọi thứ rõ chưa? Mật khẩu, Emil!
+— Mật khẩu, Emil! các cậu bé hô vang làm quảng trường Nikolsburger rung lên, và những người qua đường nhìn họ như dao găm. Emil gần như vui mừng vì tiền của cậu đã bị lấy mất.
+
+[CHƯƠNG 13 - rtit] Bám theo một chiếc taxi
+[rtx]
+Ba nhân viên chạy tin từ phố Trautenau lao tới, vung tay loạn xạ.
+— Đi! Giáo sư nói, và ngay giây ấy cậu, Emil, hai anh em nhà Mittenzwey và Krummbiegel chạy về phía đại lộ Kaiser như thể muốn phá kỷ lục chạy trăm mét. Mười hai mét cuối đến quầy báo họ đi hết sức cẩn thận và giữ lại, vì Gustav ra hiệu dừng.
+— Muộn rồi à? Emil hỏi, hụt hơi.
+— Cậu điên à? Gustav thì thầm.
+— Khi tớ làm gì thì tớ làm cho đến nơi đến chốn. Tên trộm đang đứng bên kia đường trước quán Josty, nhìn quanh phong cảnh như đang ở Thụy Sĩ. Rồi gã mua một tờ báo chiều từ cậu bé bán báo và bắt đầu đọc.
+— Nếu hắn băng qua đây và đụng phải ta lúc này, Krummbiegel thì thầm, thì phiền phức lắm. Họ đứng sau quầy báo, nghển cổ nhìn ra bên cạnh và run lên vì hồi hộp. Tên trộm chẳng để ý chút nào, chỉ lật các trang báo với sự kiên trì đáng nể.
+— Có thể hắn đang liếc qua mép báo xem có ai theo dõi không, Mittenzwey anh quyết định.
+— Hắn có nhìn sang phía các cậu nhiều không? Giáo sư hỏi.
+— Không chớp mắt lấy một lần. Hắn ngấu nghiến như ba ngày chưa ăn.
+— Chú ý!
+— Emil gọi. Người đàn ông đội mũ cứng gấp tờ báo lại, liếc nhìn những người qua đường, rồi nhanh như chớp vẫy một chiếc taxi trống đang chạy ngang. Taxi dừng, gã lên xe, và chiếc taxi lăn bánh. Nhưng, bùm, các cậu bé đã ngồi trong chiếc taxi khác, và Gustav nói với tài xế:
+— Bác thấy chiếc xe vừa rẽ vào quảng trường Prager không? Thấy chứ? Xin bác chạy theo sau nó. Nhưng cẩn thận để hắn không để ý. Xe khởi động, băng qua đại lộ Kaiser, và chạy theo chiếc taxi kia ở khoảng cách an toàn.
+— Có chuyện gì thế? tài xế hỏi.
+— Gã phía trước vừa làm một chuyện bậy bạ, và bọn cháu bám theo hắn như đỉa, Gustav giải thích.
+— Nhưng chuyện đó chỉ giữa chúng ta thôi, bác hiểu chứ? Tùy các quý ông, tài xế đáp, và hỏi thêm: Nhưng các cậu có tiền không? Bác coi bọn cháu là gì? Giáo sư trách móc kêu lên.
+— Ồ, thôi được, người đàn ông càu nhàu.
+— Biển số của hắn là A. 3733, Emil báo.
+— Quan trọng đấy, Giáo sư quyết định và ghi lại các con số.
+— Đừng quá gần hắn, Krummbiegel cảnh báo.
+— Được rồi, tài xế lầm bầm. Thế là họ đi dọc phố Motz, phố Viktoria, quảng trường Luise và lại đi tiếp dọc phố Motz. Vài người dừng lại trên vỉa hè và cười nhìn nhóm quý ông kỳ lạ trong taxi.
+— Cúi xuống, Gustav thì thầm. Các cậu bé ném mình xuống sàn xe và nằm co cụm như cải bắp với củ cải.
+— Có chuyện gì thế? Giáo sư hỏi.
+— Đèn đỏ ở phố Luther rồi! Bác phải dừng ở đó, và xe kia cũng không qua được. Quả thật cả hai xe đều dừng và đợi, chiếc này sau chiếc kia, cho đến khi đèn xanh bật và nhường lối. Nhưng chẳng ai có thể bảo chiếc xe sau có người. Nó trông như trống rỗng. Các cậu bé cúi rạp xuống để tạo vẻ ấy. Tài xế quay lại, thấy màn trình diễn, và phải bật cười. Khi xe chạy tiếp, tất cả thận trọng nhô lên lại.
+— Mong là chuyến đi đừng quá lâu, Giáo sư nói, vừa kiểm tra đồng hồ cước.
+— Chuyến đi chơi này đã tốn tám mươi pfennig rồi. Hành trình lúc đó cũng sắp kết thúc. Tại quảng trường Nollendorf, chiếc taxi đầu tiên dừng ngay trước khách sạn Kreid. Chiếc taxi thứ hai phanh lại cùng lúc và đợi ngoài vùng nguy hiểm xem chuyện gì xảy ra tiếp. Người đàn ông đội mũ cứng bước xuống, trả tiền xe và biến mất vào khách sạn.
+— Gustav, theo hắn!
+— Giáo sư lo lắng ra lệnh.
+— Nếu chỗ đó có hai lối vào thì hắn chuồn mất. Gustav biến mất. Rồi các cậu bé khác xuống xe. Emil trả tiền. Hết một mác. Giáo sư dẫn đoàn đi qua một cổng, đi ngang rạp chiếu bóng vào một sân lớn trải dài sau rạp tới quảng trường Nollendorf. Rồi cậu sai Krummbiegel đi gọi Gustav.
+— May cho tớ nếu gã ở lại khách sạn, Emil quyết định.
+— Cái sân này là một tổng hành dinh tuyệt vời.
+— Với đủ mọi tiện nghi hiện đại, Giáo sư nói thêm, ga tàu điện ngầm đằng kia, các buồng điện thoại và chỗ ẩn nấp. Không thể tốt hơn.
+— Mong Gustav thoát ra suôn sẻ, Emil nói.
+— Cứ tin cậu ấy, Mittenzwey em đáp.
+— Cậu ấy không ngốc như vẻ ngoài đâu.
+— Giá mà cậu ấy đến sớm, Giáo sư lo lắng, và ngồi xuống chiếc ghế ai đó bỏ lại trong sân. Cậu trông như Napoléon trước trận Leipzig. Rồi Gustav quay lại.
+— Tóm được hắn rồi! cậu nói và xoa hai tay vào nhau.
+— Hắn thật sự ở lại khách sạn. Tớ thấy cậu bé thang máy dẫn hắn lên lầu. Cũng không có lối vào nào khác. Tớ đã khám xét cái hang đó từ mọi phía. Nếu hắn không trốn qua mái nhà thì hắn bị mắc bẫy.
+— Krummbiegel đang canh chừng chứ? Giáo sư hỏi.
+— Dĩ nhiên rồi! Rồi Mittenzwey anh lấy một đồng xu, chạy vào một quán cà phê và gọi điện cho bé Dienstag.
+— A lô! Dienstag à?
+— Vâng, nghe đây, bé Dienstag hót ở đầu dây bên kia.
+— Mật khẩu, Emil. Mittenzwey anh đây. Người đàn ông đội mũ cứng ở khách sạn Kreid trên quảng trường Nollendorf. Tổng hành dinh đặt trong sân rạp chiếu bóng Tây, lối vào bên trái. Bé Dienstag ghi lại tất cả một cách tận tụy, đọc lại, rồi hỏi:
+— Có cần thêm viện binh không, Mittendurch?
+— Không!
+— Cho đến giờ có khó không?
+— Ồ, tàm tạm. Gã đi một chiếc taxi, còn bọn tớ đi chiếc khác, cậu hiểu chứ, và bám sát sau hắn cho đến khi hắn xuống. Hắn thuê phòng và đang ở trên đó. Có lẽ đang xem ai nấp dưới gầm giường rồi tự chơi bài skat một mình.
+— Số phòng là mấy?
+— Chưa biết. Nhưng sẽ sớm có thôi.
+— Giá mà tớ được ở đó với các cậu! Cậu biết không, lần đầu sau kỳ nghỉ mà bọn tớ được chọn đề tài làm văn, tớ sẽ viết chuyện này.
+— Ai khác gọi chưa?
+— Chưa, chẳng ai cả. Chán chết đi được.
+— Thôi, tạm biệt, bé Dienstag.
+— Chúc các quý ông thành công. Tớ còn định nói gì nữa nhỉ?... Mật khẩu, Emil! Mật khẩu, Emil, Mittenzwey đáp, rồi quay về báo cáo ở tổng hành dinh trong sân rạp chiếu bóng Tây. Đã tám giờ. Giáo sư đi kiểm tra các chốt canh.
+— Hôm nay thì chắc chắn không bắt được hắn đâu, Gustav bực bội nói.
+— Dù vậy, may cho ta nếu hắn đi ngủ ngay, Emil giải thích.
+— Vì nếu hắn còn chạy loanh quanh nhiều giờ nữa bằng ô tô, vào nhà hàng, hay đi khiêu vũ, hay đi xem kịch, hoặc tất cả cùng lúc, thì ta phải kiếm trước một chút tín dụng nước ngoài. Giáo sư quay lại, cử hai anh em Mittenzwey làm liên lạc viên đến quảng trường Nollendorf, và rất băn khoăn.
+— Phải tính cách canh gã sát hơn, cậu nói.
+— Tất cả suy nghĩ kỹ đi. Thế là họ ngồi rất lâu và trầm ngâm nghĩ ngợi. Đúng lúc đó có tiếng chuông xe đạp reo trong sân, và một chiếc xe đạp nhỏ mạ kền lăn vào. Trên đó ngồi một cô bé, còn đứng trên bánh sau là đồng chí Bleuer, và cả hai cùng hô: "Hoan hô!" Emil nhảy dựng lên, giúp cả hai xuống xe, bắt tay cô bé nhiệt tình, và tuyên bố với những người khác:
+— Đây là em họ tớ, Pony Hütchen. Giáo sư lịch sự nhường ghế cho Pony, và cô bé ngồi xuống.
+— Đấy, Emil, đồ quỷ, cô bé nói.
+— Đến Berlin là lập tức diễn như phim. Bọn em vừa định quay lại ga Friedrich Strasse đón chuyến tàu tiếp theo từ Neustadt thì bạn anh Bleuer tới với tờ giấy. Một cậu bé dễ thương nữa. Xin chúc mừng. Bleuer ưỡn ngực và đỏ mặt.
+— Giờ thì, Pony nói tiếp.
+— Mẹ, bố và bà đang đợi ở nhà, nghĩ vỡ đầu xem anh thực sự bị làm sao. Dĩ nhiên bọn em không nói gì với họ. Em chỉ chặn Bleuer trước cửa nhà rồi lẻn đi một chút. Nhưng em phải về ngay. Không thì họ sẽ gọi cảnh sát. Vì thêm một đứa nữa mất tích cùng ngày thì thần kinh họ không chịu nổi.
+— Đây là đồng groschen cho chuyến về, Bleuer nói, rất tự hào.
+— Bọn tớ tiết kiệm được. Giáo sư cất tiền đi.
+— Họ có giận không? Emil hỏi.
+— Không chút nào, Pony đáp.
+— Bà phi nước đại quanh phòng kêu: "Cháu Emil vừa đi thăm Tổng thống!", cho đến khi bố mẹ trấn an bà. Nhưng mai anh sẽ tóm được gã đó chứ, hy vọng thế? Ai là Sherlock Holmes của anh? Đây, Emil nói, là Giáo sư.
+— Rất hân hạnh, thưa Giáo sư, Pony tuyên bố, cuối cùng cũng được gặp một thám tử thật sự. Giáo sư cười ngượng ngùng và lắp bắp vài lời khó hiểu.
+— Và giờ, Pony nói, đây là tiền tiêu vặt của em, năm mươi lăm pfennig. Anh mua xì gà đi. Emil nhận tiền. Pony ngồi như nữ hoàng sắc đẹp trên ngai, còn các cậu bé đứng quanh như các vị giám khảo.
+— Và giờ em phải biến đây, Pony Hütchen nói.
+— Sáng mai em sẽ đến sớm. Các anh ngủ ở đâu? Trời, em muốn ở lại đây pha cà phê cho các anh buổi sáng. Nhưng biết làm sao? Chỗ của phụ nữ là ở nhà. Tạm biệt. Hẹn gặp lại, các quý ông. Chúc ngủ ngon, Emil! Cô bé vỗ vai Emil, nhảy lên xe, rung chuông vui vẻ rồi lăn đi. Các thám tử đứng lặng im một lúc lâu. Cuối cùng Giáo sư mở miệng nói:
+— Trời đất ơi! Và những người khác đồng tình nhiệt liệt.
+
+[CHƯƠNG 14 - rtit] Một điệp viên lẻn vào khách sạn
+[rtx]
+Thời gian trôi chậm. Emil đi thăm ba chốt canh và muốn thay một người. Nhưng Krummbiegel và hai anh em Mittenzwey tuyên bố họ ở lại. Vì thế Emil thận trọng mạo hiểm đến khách sạn Kreid, lấy các bản tin mới nhất, và quay về sân trong hết sức hồi hộp.
+— Tớ có cảm giác, cậu nói, phải làm gì đó. Ta không thể để khách sạn cả đêm mà không có ai canh. Đúng là Krummbiegel đang đứng ở góc phố Kleist. Nhưng cậu ấy chỉ cần quay đầu đi là Grundeis có thể bay mất theo hướng khác.
+— Nói thì hay, Gustav đáp.
+— Nhưng ta không thể chạy đến chỗ người gác cổng mà nói: "Này, bọn cháu chỉ định ngồi trên bậc thềm này thôi." Và chính cậu chắc chắn không thể vào tòa nhà. Nếu gã thò đầu ra khỏi cửa phòng và nhận ra cậu thì toàn bộ màn kịch từ nãy đến giờ vô ích.
+— Tớ không có ý đó, Emil đáp.
+— Vậy là gì?
+— À, trong khách sạn có một cậu bé. Cậu chạy thang máy và các việc linh tinh. Nếu một người trong chúng ta đến chỗ cậu ấy và nói có chuyện gì, cậu ấy biết khách sạn như lòng bàn tay. Chắc chắn cậu ấy sẽ có ý hay.
+— Hay, Giáo sư nói, hay lắm. Cậu có một thói quen buồn cười là hành xử như thể đang chấm điểm cho người khác. Vì thế cậu được gọi là Giáo sư.
+— Cậu Emil này, thêm một linh cảm như thế nữa thì bọn tớ sẽ bầu cậu làm thị trưởng. Khôn như dân Berlin, Gustav kêu.
+— Đừng tưởng chỉ các cậu mới khôn!
+— Emil nhấn mạnh. Cậu cảm thấy lòng tự hào về Neustadt bị tổn thương.
+— Dù sao chúng ta vẫn còn một trận đánh phải kết thúc.
+— Vì cớ gì? Giáo sư hỏi.
+— À, cậu ta chế giễu bộ đồ đẹp nhất của tớ.
+— Trận đánh để mai, Giáo sư quyết định, mai hoặc không bao giờ.
+— Ồ, bộ đồ cũng không tệ lắm. Tớ quen dần rồi, Gustav tuyên bố vui vẻ.
+— Nhưng mình vẫn có thể đánh nhau. Chỉ cần cậu biết là tớ là nhà vô địch của băng. Nên cẩn thận đấy!
+— Còn ở trường tớ là giỏi nhất ở mọi hạng cân, Emil khoe.
+— Các cậu khoe cơ bắp kinh khủng thật, Giáo sư nói.
+— Tớ thật sự muốn tự vào khách sạn. Nhưng tớ không thể để hai cậu một mình phút nào, vì các cậu lúc nào cũng gây gổ.
+— Vậy tớ đi!
+— Gustav xen vào.
+— Đúng, Giáo sư nói, cậu đi! Và nói chuyện với cậu bé đó. Nhưng cẩn thận! Có lẽ làm được gì đó. Hỏi cho chắc xem gã ở phòng nào. Một tiếng nữa quay lại và mang thông tin về. Gustav biến mất. Giáo sư và Emil đi đi lại lại trước cửa và nói chuyện với nhau về các thầy giáo của mình. Rồi Giáo sư chỉ ra những khác biệt giữa biển số xe Đức và xe nước ngoài chạy qua cho đến khi Emil hiểu được chút ít. Rồi hai cậu trầm ngâm cùng ăn một cái bánh mì kẹp. Đến lúc ấy trời đã tối. Quảng cáo điện cháy rực khắp nơi. Tàu điện trên cao ầm ầm trên đầu. Tàu điện ngầm rền rĩ bên dưới. Xe điện và xe buýt máy, ô tô riêng và xe máy tạo nên một bản hòa tấu điên rồ. Nhạc khiêu vũ vang ra từ quán Woerz.
+Rạp chiếu bóng ở quảng trường Nollendorf bắt đầu buổi chiếu cuối. Và nhiều người chen vào.
+— Cái cây lớn như thế đằng kia, gần nhà ga, ở đây trông như quái vật, Emil trầm ngâm.
+— Trông như nó lạc đường. Cậu bé mê mẩn và phấn khích. Cậu gần như quên lý do mình ở đây và việc mình đã mất một trăm bốn mươi mác.
+— Dĩ nhiên Berlin tuyệt vời. Cậu cứ tưởng mình đang ngồi trong rạp chiếu bóng. Nhưng tớ không chắc mình có muốn sống ở đây mãi không. Ở Neustadt bọn tớ có Chợ Trên và Chợ Dưới và Quảng trường Ga! Và các sân chơi ven sông và ở công viên Amsel. Chỉ thế thôi. Nhưng dù vậy, Giáo sư ạ, tớ tin thế là đủ với tớ. Lúc nào cũng ồn ào như ngày hội, lúc nào cũng có cả trăm nghìn phố và quảng trường? Tớ sẽ lạc suốt. Cậu tưởng tượng nếu không có cậu bên cạnh mà tớ đứng đây một mình thì sao! Nghĩ đến mà nổi da gà.
+— Rồi quen thôi, Giáo sư đáp.
+— Có lẽ tớ lại không chịu nổi Neustadt, với ba quảng trường và công viên Amsel của nó.
+— Rồi quen thôi, Emil nói, nhưng Berlin là một cảnh tượng tuyệt vời. Không nghi ngờ gì, Giáo sư ạ. Tuyệt vời.
+— Mẹ cậu có thật sự rất nghiêm khắc không? cậu bé Berlin hỏi.
+— Mẹ tớ? Emil hỏi.
+— Không hề. Mẹ cho tớ làm mọi thứ. Nhưng tớ không làm. Cậu hiểu không? Không, Giáo sư thẳng thắn nói, tớ không hiểu.
+— Không à? Thế để tớ nói. Nhà cậu có nhiều tiền không? Tớ không biết. Ở nhà bọn tớ không nói nhiều về chuyện đó.
+— Tớ đoán khi người ta không nói nhiều về nó thì nghĩa là họ có nhiều. Giáo sư suy nghĩ một lúc rồi thừa nhận:
+— Rất có thể.
+— Cậu thấy đấy. Bọn tớ thì hay nói về nó, mẹ tớ và tớ. Nhà tớ có rất ít. Mẹ phải liên tục kiếm tiền, vậy mà hầu như chẳng bao giờ đủ đầu đủ đuôi. Nhưng khi lớp đi dã ngoại, mẹ cho tớ đúng bằng số tiền các bạn khác được cho. Đôi khi còn nhiều hơn.
+— Nhưng làm sao mẹ cậu làm được?
+— Cái đó tớ không biết. Nhưng mẹ làm được. Rồi tớ mang một nửa về.
+— Mẹ cậu muốn thế sao?
+— Ngốc! Tớ muốn! À ha! Giáo sư nói.
+— Ra là thế.
+— Phải, đúng thế. Và nếu mẹ cho tớ ra ngoại ô với Protzsch, ở tầng trên, và ở lại đến chín giờ, thì tớ về trước bảy giờ vì tớ không muốn mẹ ngồi một mình ăn tối trong bếp. Dĩ nhiên mẹ muốn tớ ở lại với các bạn. Và tớ cũng đã thử. Nhưng chẳng vui gì. Dù sao trong lòng mẹ cũng mừng khi tớ về sớm.
+— Ừm, Giáo sư nói, ở nhà tớ hoàn toàn khác. Nếu tớ về nhà đúng giờ thì tớ cá là bố mẹ đang ở nhà hát hay được mời đi đâu đó. Bọn tớ thương nhau, tớ phải nói thế. Nhưng bọn tớ không làm rùm beng lên.
+— Đó là điều duy nhất bọn tớ có thể có. Nhưng điều đó không làm tớ thành thằng nhóc con của mẹ, hoàn toàn không. Và nếu ai không tin thì tớ đập nó vào tường. Dễ hiểu thôi.
+— Tớ hiểu. Hai cậu bé đứng một lúc ở cổng mà không nói gì. Đêm đến. Và mặt trăng ló một mắt qua đường tàu điện trên cao. Giáo sư hắng giọng và hỏi mà không nhìn người kia:
+— Cậu rất thương mẹ phải không? Kinh khủng, Emil đáp.
+
+[CHƯƠNG 15 - rtit] Chú bé thang máy xanh lá phá kén bay ra
+[rtx]
+Khoảng mười giờ, một đội canh gác xuất hiện trong sân, mang theo đủ bánh mì kẹp cho cả trăm người đói, và hỏi xin lệnh tiếp theo. Giáo sư rất bực và giải thích rằng họ chẳng có việc gì ở đó cả, lẽ ra phải đợi ở quảng trường Nikolsburger chờ Traugott, liên lạc viên của tổng đài điện thoại.
+— Đừng khó ưa thế! Petzold nói.
+— Dĩ nhiên bọn tớ chỉ tò mò muốn biết ở chỗ các cậu mọi chuyện thế nào.
+— Với lại bọn tớ tưởng các cậu có chuyện gì vì Traugott chẳng thấy đâu, Gerold nói thêm với vẻ xin lỗi.
+— Ở quảng trường Nikolsburger còn bao nhiêu người? Emil hỏi.
+— Bốn. Hay đúng hơn là ba, Friedrich Đệ Nhất tự sửa.
+— Có khi chỉ còn hai, Gerold nói thêm.
+— Đừng hỏi lại nữa, Giáo sư giận dữ kêu, không thì lát nữa họ sẽ nói giờ chẳng còn ai ở đó cả.
+— Trời ơi, đừng la lên thế, Petzold nói.
+— Tớ chẳng thèm bị cậu ra lệnh.
+— Tôi đề nghị đuổi Petzold ngay lập tức và cấm cậu ta tham gia cuộc săn đuổi thêm nữa, Giáo sư nổi cơn thịnh nộ, giậm chân.
+— Tớ rất tiếc hai cậu giận nhau vì tớ, Emil nói.
+— Ta nên bỏ phiếu như nghị viện. Tớ đề nghị chỉ cảnh cáo nghiêm khắc Petzold thôi. Vì dĩ nhiên, không thể mỗi người trong chúng ta làm đúng điều mình muốn.
+— Tưởng mình khôn lắm hả, lũ lợn. Dù sao tớ cũng đi, nếu các cậu muốn biết. Rồi Petzold nói thêm một câu cực kỳ vô lễ và bỏ đi.
+— Đó đều là ý của cậu ấy. Nếu không thì chắc chắn bọn tớ đã chẳng đến đây, Gerold nói với họ.
+— Còn Zerlett ở lại tổng hành dinh dự bị.
+— Không nói thêm lời nào về Petzold nữa, Giáo sư ra lệnh, và cậu đã nói rất bình tĩnh trở lại. Cậu tự kiềm chế.
+— Giải tán.
+— Giờ chúng tớ sẽ ra sao? Friedrich Đệ Nhất hỏi.
+— Tốt nhất các cậu đợi cho đến khi Gustav từ khách sạn về báo cáo, Emil đề nghị.
+— Hay, Giáo sư nói.
+— Kia chẳng phải cậu bé hầu phòng sao?
+— Phải, cậu ta kia kìa, Emil đồng ý. Ở cổng có một cậu bé mặc đồng phục xanh lá, đội chiếc mũ xanh lá nghiêng nghiêng đúng góc. Cậu vẫy tay với những người khác và chậm rãi đi lại gần.
+— Đồng phục tuyệt thật, trời ơi, Gerold ghen tị nói.
+— Cậu mang tin về điệp viên Gustav của chúng tôi không? Giáo sư gọi. Cậu bé lúc này đã rất gần. Cậu gật đầu và nói:
+— Có chứ.
+— Được rồi, có chuyện gì? Emil hăm hở hỏi. Bỗng có tiếng còi bóp vang lên, và cậu bé xanh lá nhảy quanh như mất trí, cười không ngớt.
+— Emil, này! cậu gọi, cậu ngốc thật đấy! Dĩ nhiên đó chẳng phải cậu bé hầu phòng mà chính là Gustav.
+— Đồ quỷ xanh! Emil mắng đùa. Rồi những người khác cũng cười, cho đến khi có ai đó ở một ngôi nhà quanh sân mở cửa sổ và quát:
+— Im lặng dưới kia! Tuyệt vời! Giáo sư nói.
+— Nhưng nhỏ tiếng thôi, các quý ông. Lại đây, Gustav, ngồi xuống và kể hết cho bọn tớ nghe.
+— Này, hay như phim. Hay đến mèo cũng phải cười. Nào, nghe đây! Tớ lẻn vào khách sạn, thấy cậu bé hầu phòng đang đứng quanh quẩn và ra hiệu cho cậu ấy. Cậu ấy lại chỗ tớ, và tớ kể hết toàn bộ câu chuyện từ đầu đến cuối. Về Emil. Về chúng ta. Về tên trộm. Và hắn ở khách sạn này. Và chúng ta phải sáng mắt để ngày mai lấy lại tiền từ hắn. Cậu ấy nói: "Hay quá! Tớ còn một bộ đồng phục khác. Cậu mặc vào và làm hầu phòng thứ hai." Tớ đáp: "Nhưng ông trưởng gác cổng sẽ nói sao? Chắc chắn ông sẽ mách." Cậu ấy nói: "Ông sẽ không mách đâu, ông sẽ cho phép, vì ông gác cổng là bố tớ." Cậu ấy nói gì với ông già thì tớ không biết. Dù sao tớ có đồng phục.
+Tớ có thể ngủ trong một phòng người hầu trống và thậm chí dẫn thêm một người đi cùng. Giờ các cậu thấy sao? Tên trộm ở phòng nào? Giáo sư hỏi.
+— Cậu chẳng bao giờ để người ta thấy cậu hứng khởi nhỉ? Gustav bực mình nói.
+— Dĩ nhiên tớ không có việc gì làm. Tớ phải tránh đường. Cậu bé đoán tên trộm ở phòng 61. Nên tớ chạy lên tầng ba và làm gián điệp. Để không thu hút sự chú ý, cậu hiểu mà. Đứng đợi sau lan can, đại loại thế. Khoảng nửa giờ sau, đúng như vậy, cửa phòng 61 mở ra. Và ai bước ra tất tả? Ngài Tên trộm của chúng ta. Chiều nay tớ đã quan sát kỹ hắn. Đúng người rồi. Bộ ria đen nhỏ, đôi tai mà trăng có thể chiếu xuyên qua, và một khuôn mặt mà có cho không tớ cũng chẳng thèm. Khi hắn đi dọc hành lang, tớ lăn ra trước chân hắn, đứng nghiêm và hỏi hắn: "Ông cần gì không ạ?" Hắn nói: "Không. Tôi không cần gì. À, khoan!
+Cậu bảo nhân viên lễ tân gọi tôi dậy đúng tám giờ sáng mai. Phòng 61. Đừng quên!" Tớ nói: "Không, ông cứ tin ở cháu," và tớ tự véo vào quần mình vì quá phấn khích. "Cháu sẽ không quên. Đúng tám giờ chuông điện thoại sẽ reo ở phòng 61." Họ gọi người ta dậy bằng điện thoại mà. Hắn gật đầu lặng lẽ rồi lững thững về phòng.
+— Xuất sắc!
+— Giáo sư vô cùng hài lòng, và những người khác cũng thế.
+— Lúc tám giờ hắn sẽ có một vệ sĩ đợi hắn ở khách sạn. Rồi cuộc săn đuổi tiếp tục. Và rồi hắn sẽ sa bẫy.
+— Giờ hắn coi như xong rồi, Gerold kêu.
+— Xin miễn hoa, Gustav nói.
+— Giờ tớ phải chạy đây. Tớ phải bỏ một lá thư vào hộp cho phòng số 12. Tiền boa mười xu. Việc có lời. Cậu bé hầu phòng được tới mười mác một ngày. Cậu ấy nói thế! Nào, khoảng bảy giờ tớ sẽ dậy và lo sao cho gã này được gọi dậy đúng giờ. Rồi tớ quay lại đây.
+— Gustav ngoan, tớ biết ơn cậu, Emil trịnh trọng nói.
+— Giờ sẽ không còn chuyện gì xảy ra nữa. Mai hắn sẽ bị bắt. Và giờ tất cả chúng ta đi ngủ yên tâm được rồi, phải không Giáo sư?
+— Chắc chắn. Mọi người giải tán và đi ngủ. Và sáng mai, đúng tám giờ, tất cả những người có mặt phải trở lại đây. Ai gom được tiền thì cố mang. Giờ tớ sẽ gọi bé Dienstag. Cậu ấy có thể tập hợp những người khác làm lực lượng dự bị khi họ gọi cậu ấy vào buổi sáng. Có thể ta phải vây gã. Không ai biết trước được.
+— Tớ sẽ đi cùng Gustav ngủ trong khách sạn, Emil nói.
+— Đi nào! Hợp với cậu như in. Tuyệt vời lắm! Tớ gọi điện trước, Giáo sư dự tính.
+— Rồi tớ cũng về nhà và bảo Zerlett về nhà. Không thì cậu ấy sẽ đợi đến sáng ở quảng trường Nikolsburger chờ lệnh tiếp theo. Mọi thứ rõ chưa? Vâng, thưa ngài Trưởng cảnh sát, Emil cười.
+— Mai, ở sân này, đúng tám giờ, Gerold nói.
+— Mang theo ít tiền, Friedrich Đệ Nhất nhắc. Họ chia tay. Trước hết ai cũng bắt tay nhau trịnh trọng. Một số đi bộ về nhà. Gustav và Emil vào khách sạn. Giáo sư băng qua quảng trường Nollendorf để gọi điện cho bé Dienstag từ quán Hahnen. Và một giờ sau tất cả đều ngủ. Phần lớn nằm trên giường mình. Hai người trong một phòng người hầu ở tầng bốn khách sạn Kreid. Và một người bên điện thoại trên chiếc ghế bành của bố. Đó là bé Dienstag. Cậu không rời vị trí. Traugott đã về nhà. Nhưng bé Dienstag không nhúc nhích khỏi điện thoại. Cậu co mình trong đệm ghế, ngủ và mơ về bốn triệu cuộc điện đàm. Lúc nửa đêm bố mẹ cậu từ nhà hát về.
+Họ ngạc nhiên thấy con trai nằm trên ghế bành. Mẹ cậu bế cậu lên và mang vào giường. Cậu cuộn mình lại và lầm bầm trong giấc ngủ:
+— Mật khẩu, Emil!
+
+[CHƯƠNG 16 - rtit] Ông Grundeis nhận được một đội vệ binh danh dự
+[rtx]
+Các cửa sổ phòng 61 nhìn ra quảng trường Nollendorf. Và sáng hôm sau, vừa chải tóc, ông Grundeis vừa nhận thấy có vô số trẻ con lang thang ở đó. Ít nhất hai chục cậu bé đang đá bóng trước bãi cỏ giữa quảng trường. Một nhóm khác đứng ở phố Kleist. Trẻ con đứng ở lối vào tàu điện ngầm.
+— Chắc là ngày lễ, ông càu nhàu khi thắt cà vạt. Trong lúc đó Giáo sư đang họp công việc ở sân rạp chiếu bóng và mắng như một con chim sẻ Anh.
+— Tớ ở đây vắt óc ngày đêm nghĩ cách bắt gã, còn các cậu, đồ đầu đất, thì huy động cả Berlin. Có lẽ ta cần khán giả chăng? Có lẽ ta đang làm phim chăng? Nếu gã lọt khỏi tay ta thì đó là lỗi của các cậu, đồ bà cô ngồi lê đôi mách! Những người khác kiên nhẫn đứng thành vòng tròn nhưng có vẻ chẳng cảm thấy cắn rứt lương tâm nghiêm trọng nào. Họ không lo, và Gerold nói:
+— Đừng nóng, Giáo sư, kiểu gì ta cũng bắt được tên trộm.
+— Ôi, cút đi, đồ kẹp hạt dẻ ngốc! Và lo sao cho đám đông đừng tràn khắp nơi và đừng canh khách sạn. Hiểu chưa? Tiến lên, bước! Các cậu bé tản đi, chỉ còn các thám tử ở lại trong sân.
+— Tớ đã mượn mười mác của người gác cổng, Emil báo với họ.
+— Nếu gã bỏ chạy thì ta đủ tiền để theo hắn.
+— Hãy bảo mấy đứa trẻ ngoài kia về nhà đi, Krummbiegel khuyên.
+— Cậu có thật nghĩ chúng sẽ về không? Dù quảng trường Nollendorf có nổ tung thì chúng vẫn ở lại! Giáo sư nói.
+— Chỉ còn một cách giúp ta, Emil tuyên bố.
+— Ta phải đổi kế hoạch. Không thể bao vây Grundeis bằng gián điệp bí mật, mà phải công khai săn đuổi hắn. Để hắn nhận ra. Từ mọi phía và cùng với tất cả bọn trẻ.
+— Tớ cũng nghĩ ra rồi, Giáo sư tuyên bố.
+— Tốt nhất là đổi chiến thuật và dồn hắn vào góc cho đến khi hắn phải đầu hàng.
+— Tuyệt vời, Gerold reo lên.
+— Hắn sẽ thà trả tiền hơn là có cả trăm đứa trẻ chạy và la hét quanh hắn nhiều giờ cho đến khi cả thành phố đổ ra và cảnh sát tóm hắn, Emil quyết định. Những người khác gật đầu ra vẻ thông thái. Ngay lúc đó có tiếng chuông ở cổng, và Pony Hütchen rạng rỡ đạp xe vào sân.
+— Chào buổi sáng, các thám tử, cô bé gọi, nhảy khỏi yên, chào anh họ Emil, Giáo sư và những người khác, rồi lôi ra một cái giỏ nhỏ buộc ở ghi-đông.
+— Em mang cà phê cho các anh, cô bé hót, và vài chiếc bánh mì cuộn bơ. Em còn có một cái tách sạch. Ôi, tay cầm rơi mất rồi! Lúc nào cũng có cái gì đó trục trặc! Các cậu bé đều đã ăn sáng. Kể cả Emil ở khách sạn Kreid. Nhưng không ai muốn làm tổn thương cô bé. Thế là họ uống cà phê sữa bằng cái tách không quai và ăn bánh cuộn như thể bốn tuần chưa có gì vào bụng.
+— Ưm, ngon tuyệt! Krummbiegel kêu.
+— Và bánh cuộn giòn làm sao!
+— Giáo sư lầm bầm, nhai một cách trung thành.
+— Phải không ạ? Pony hỏi.
+— Phải, lúc nào cũng khác một chút khi trong nhà có một người phụ nữ!
+— Trong sân, Gerold sửa.
+— Ở phố Schumann thế nào? Emil hỏi.
+— Ổn, cảm ơn anh. Và có lời nhắn đặc biệt từ bà. Anh nên về sớm, không thì để phạt anh sẽ phải ăn cá mỗi ngày.
+— Ôi trời, Emil lẩm bẩm và nhăn mặt.
+— Sao lại "ôi trời"?
+— Mittenzwey em muốn biết.
+— Cá ngon mà. Mọi người nhìn cậu kinh ngạc, vì thói quen của cậu là không bao giờ nói một lời. Nghe vậy mặt cậu đỏ bừng, và cậu trốn sau lưng anh.
+— Emil không ăn nổi một miếng cá. Nếu thử, anh ấy phải rời khỏi phòng, Pony Hütchen giải thích. Thế là họ trò chuyện và tất cả đều rất vui vẻ. Các cậu bé đặc biệt lịch sự. Giáo sư giữ xe của Pony. Krummbiegel đi rửa bình giữ nhiệt và cái tách. Mittenzwey anh gấp giấy bọc bữa ăn thật cẩn thận. Emil buộc giỏ lại vào ghi-đông. Gerold kiểm tra lốp xe xem có đủ hơi không. Và Pony Hütchen nhảy quanh sân, tự hát một bài, và kể đủ chuyện cho họ nghe.
+— Khoan! cô bé bỗng kêu và dừng lại trên một chân.
+— Em phải hỏi các anh. Sao ngoài quảng trường Nollendorf có đông trẻ con khủng khiếp thế? Trông như trại hè.
+— Chúng tò mò. Chúng nghe về cuộc săn tội phạm của bọn mình. Và giờ chúng muốn tham gia, Giáo sư giải thích. Ngay lúc đó Gustav chạy về phía cổng, bấm còi lớn và hét:
+— Nhanh lên! Hắn đến rồi! Mọi người cùng cố ra một lúc.
+— Chú ý: nghe đây, Giáo sư hét.
+— Ta sẽ vây hắn từ mọi phía. Trẻ con sau lưng hắn, trẻ con trước mặt hắn, trẻ con bên trái và bên phải! Rõ chưa? Lệnh tiếp theo ta sẽ đưa ra khi đi. Xuất quân! Họ nhảy, chạy và loạng choạng ra khỏi cổng. Chỉ có Pony Hütchen ở lại, hơi tự ái. Nhưng rồi cô bé phóng lên chiếc xe mạ kền bé xíu, lầm bầm như chính bà ngoại mình: "Chị không ưa cái vẻ này chút nào! Chị không ưa cái vẻ này!" rồi đạp theo các cậu bé. Người đàn ông đội mũ cứng ra tới cửa khách sạn, chậm rãi bước xuống các bậc thềm và rẽ phải về phía phố Kleist. Giáo sư, Emil và Gustav vội vàng cử những người đưa tin chạy tới lui giữa các nhóm trẻ. Và ba phút sau ông Grundeis đã bị bao vây.
+Ông nhìn quanh khắp phía, hoàn toàn bối rối. Bọn trẻ nói chuyện, cười đùa, huých nhau và bước đều cùng ông. Nhiều đứa nhìn chằm chằm người đàn ông cho đến khi ông bối rối và lại nhìn thẳng về phía trước. Vèo! Một quả bóng bay sượt qua đầu ông. Ông nhảy dựng và bước nhanh hơn. Nhưng ngay lập tức bọn trẻ cũng bước nhanh hơn. Ông thử rẽ đột ngột vào một con phố nhỏ. Nhưng một toán trẻ khác đổ ào theo sau.
+— Này, mặt hắn như sắp hắt hơi, Gustav gọi.
+— Cậu chạy lên trước tớ một chút, Emil khuyên.
+— Hắn chưa nên nhận ra tớ. Rồi hắn sẽ phải đối mặt với chuyện đó sớm thôi. Gustav ưỡn vai và sải bước trước Emil như một võ sĩ quyền anh cơ bắp cuồn cuộn đến nỗi gần như không nhúc nhích được. Pony Hütchen đạp xe bên cạnh đoàn diễu hành và vui vẻ rung chuông. Người đàn ông đội mũ cứng rõ ràng bồn chồn. Ông linh cảm tối tăm về điều sắp đến với mình, và sải bước những bước khổng lồ. Nhưng vô ích. Ông không thoát khỏi kẻ thù. Bỗng ông dừng lại như bị đóng đinh, quay người lại và chạy ngược xuống con phố vừa đi lên. Đám trẻ tụ tập cũng quay lại, và đội hình hành quân tiếp tục theo hướng ngược lại.
+Rồi một cậu bé nhỏ, Krummbiegel, chạy ngang trước mặt người đàn ông khiến ông vấp.
+— Mày làm cái gì thế, đồ nhãi ranh? ông quát.
+— Tao sẽ gọi cảnh sát ngay.
+— Ồ vâng, xin cứ gọi!
+— Krummbiegel chế nhạo.
+— Bọn cháu đợi chuyện đó lâu rồi. Cứ gọi đi! Ông Grundeis hoàn toàn không có ý định gọi, trái lại. Tình thế càng lúc càng khó chịu với ông. Ông bắt đầu có những nỗi sợ không thể nhầm lẫn và không biết rẽ đường nào. Người ta đã nhìn ra từ mọi cửa sổ. Các cô bán hàng đã chạy ra trước các cửa tiệm cùng khách và hỏi có chuyện gì. Nếu bây giờ có cảnh sát đến thì ông coi như hết. Rồi tên trộm nảy ra một ý. Ông thấy một chi nhánh của Ngân hàng Thương mại và Tư nhân. Ông phá vòng vây của bọn trẻ, vội vã tới cửa và biến mất. Giáo sư nhảy tới cửa và hét:
+— Gustav và tớ theo hắn. Emil ở lại đây trong lúc đó. Khi Gustav bấm còi thì mọi việc có thể bắt đầu. Khi ấy Emil vào cùng mười cậu. Trong lúc đó tìm những người phù hợp đi, Emil. Sẽ là một việc tế nhị. Rồi Gustav và Giáo sư biến mất qua cửa. Tai Emil ù đi vì nhịp tim đập. Giờ thì việc này phải được giải quyết. Cậu gọi Krummbiegel, Gerold, hai anh em Mittenzwey và vài người khác, và ra lệnh những người còn lại giải tán. Bọn trẻ lùi vài bước khỏi tòa nhà ngân hàng, nhưng không xa. Chúng không đời nào bỏ lỡ điều sắp xảy ra. Pony Hütchen nhờ một cậu bé giữ xe và bước đến chỗ Emil.
+— Em đây, cô bé nói.
+— Ngẩng cao đầu. Giờ nghiêm trọng rồi. Trời ơi, em hồi hộp như phù thủy! Em nghĩ anh không hồi hộp chắc? Emil hỏi.
+
+[CHƯƠNG 17 - rtit] Kim băng cũng có điểm tốt
+[rtx]
+Khi Gustav và Giáo sư vào ngân hàng, người đàn ông đội mũ cứng đã đứng ở một quầy có tấm biển "Thu ngân – Chi và Nhận". Ông sốt ruột chờ đến lượt. Nhân viên ngân hàng đang nghe điện thoại. Giáo sư đứng gần tên trộm và quan sát như chó săn. Gustav đứng sau lưng người đàn ông, tay đã thọc sẵn trong túi, sẵn sàng bấm còi. Rồi thu ngân viên đến cửa sổ và hỏi Giáo sư muốn gì.
+— Cảm ơn bác, cậu nói, vị này đến trước cháu.
+— Ông cần gì ạ? thu ngân viên hỏi ông Grundeis.
+— Xin đổi cho tôi tờ một trăm mác thành hai tờ năm mươi và cho tôi bốn chục mác tiền xu bạc, ông này nói trong lúc thò tay vào túi và đặt lên quầy một tờ một trăm mác và hai tờ hai chục mác. Thu ngân viên cầm ba tờ giấy bạc và quay sang ngăn kéo tiền.
+— Khoan đã! Giáo sư kêu lớn.
+— Số tiền đó là tiền ăn cắp! Cái gìììì? nhân viên ngân hàng kinh ngạc hỏi và quay lại. Các đồng nghiệp ở các văn phòng khác, đang làm tính nhẩm, ngừng làm việc và ngóc đầu lên như bị rắn cắn.
+— Số tiền đó hoàn toàn không phải của ông này. Ông ta đã ăn cắp của một người bạn của cháu, và giờ muốn đổi để không ai chứng minh được, Giáo sư tuyên bố.
+— Suốt đời tôi chưa từng gặp sự xấc xược như thế, ông Grundeis nói. Rồi ông quay lại với thu ngân viên: Xin lỗi ông! và tặng Giáo sư một cái tát vang dội.
+— Chuyện đó không thay đổi gì cả, Giáo sư tuyên bố, và đáp lại Grundeis một cú đấm mạnh đến nỗi ông phải bám vào quầy. Và giờ Gustav bấm còi ba tiếng cực kỳ lớn. Các nhân viên ngân hàng đều nhảy dựng lên, chết vì tò mò, chạy tới quầy thu ngân. Ông phó giám đốc, trưởng phòng tiền gửi, hấp tấp lao ra khỏi văn phòng. Và qua cửa, mười cậu bé chạy ùa vào, Emil dẫn đầu, và vây quanh người đàn ông đội mũ cứng.
+— Bọn nhóc quỷ này làm sao thế? ông phó giám đốc kêu.
+— Lũ nhóc quỷ này nghĩ tôi đã ăn cắp của một đứa trong số chúng số tiền mà tôi vừa đưa cho thu ngân của ông để đổi, ông Grundeis đáp, run lên vì giận.
+— Đúng là thế! Emil kêu và nhảy tới quầy.
+— Một tờ một trăm mác và hai tờ hai mươi mác hắn ăn cắp của cháu. Chiều hôm qua. Trên tàu từ Neustadt đến Berlin. Lúc cháu ngủ! Cháu chứng minh được không? thu ngân viên nghiêm khắc hỏi.
+— Tôi đã ở Berlin một tuần, và hôm qua ở trong thành phố từ sáng đến tối, tên trộm nói và cười lịch sự.
+— Nói dối bẩn thỉu làm sao!
+— Emil hét và gần như khóc vì giận.
+— Cháu có chứng minh được người này là người đã ngồi cùng cháu trên tàu không? ông phó giám đốc hỏi.
+— Dĩ nhiên cậu ta không chứng minh được, tên trộm thản nhiên nói.
+— Vì nếu cháu nói cháu ở một mình với ông ấy trên tàu thì cháu không có nhân chứng, một người xem nhận xét. Và các bạn của Emil lo lắng.
+— Không! Emil kêu.
+— Không, cháu có nhân chứng. Đó là bà Jakob ở Gross-Grünau. Bà ngồi trong khoang lúc đầu rồi xuống sau. Và bà bảo cháu gửi lời hỏi thăm thân thiết nhất đến ông Kurzhals ở Neustadt.
+— Có vẻ ông phải đưa ra bằng chứng ngoại phạm, trưởng phòng tiền gửi nói với tên trộm.
+— Ông làm được không? Dĩ nhiên, ông tuyên bố.
+— Tôi ở khách sạn Kreid đằng kia.
+— Nhưng mới từ tối qua! Gustav kêu.
+— Cháu đã vào đó làm cậu bé thang máy nên cháu biết! Các nhân viên ngân hàng mỉm cười nghe vậy và bắt đầu quan tâm đến các cậu bé hơn.
+— Hiện giờ tốt nhất là ta giữ số tiền ở đây, thưa ông...
+— ông phó giám đốc nói và xé một mảnh giấy ghi chú để viết tên và địa chỉ.
+— Tên hắn là Grundeis! Emil gọi. Người đàn ông đội mũ cứng cười lớn và nói:
+— Đấy, ông thấy là có sự nhầm lẫn. Tên tôi là Müller.
+— Ôi, hắn nói dối giỏi làm sao! Trên tàu hắn bảo cháu tên là Grundeis, Emil giận dữ kêu.
+— Ông có giấy tờ tùy thân không? thu ngân viên hỏi.
+— Tiếc là không mang theo, tên trộm đáp.
+— Nhưng nếu các vị đợi một chút, tôi sẽ mang từ khách sạn sang.
+— Gã chỉ nói dối. Và đó là tiền của cháu. Và cháu phải lấy lại, Emil kêu.
+— Nhưng dù điều đó đúng, cháu bé ạ, thu ngân viên giải thích,
+— cũng không đơn giản đến thế. Làm sao cháu chứng minh số tiền là của cháu? Trên đó có tên cháu chăng? Hay cháu có ghi lại số tiền trên các tờ giấy bạc không? Dĩ nhiên là không, Emil nói.
+— Ai nghĩ mình sẽ bị cướp chứ? Nhưng dù sao đó là tiền của cháu, các bác nghe rõ chưa? Và mẹ cháu đưa cháu cho bà cháu, bà sống ở số 15 phố Schumann.
+— Có tờ nào bị rách góc, hay có gì khác thường không?
+— Không, cháu không biết.
+— Thật đấy, thưa các quý ông, tôi xin thề trên danh dự, số tiền là của tôi. Tôi đâu có cướp trẻ nhỏ, phải không? tên trộm hỏi.
+— Khoan!
+— Emil hét, và bỗng cậu vui đến nỗi nhảy cẫng lên.
+— Khoan! Trên tàu cháu đã ghim các tờ giấy bạc vào áo khoác bằng một cây kim băng. Vậy thì trên các tờ phải có lỗ kim. Thu ngân viên giơ các tờ giấy bạc lên ánh sáng. Những người khác nín thở. Tên trộm lùi một bước. Ông phó giám đốc gõ ngón tay bồn chồn lên quầy.
+— Cậu bé nói đúng, thu ngân viên kêu, mặt tái đi vì phấn khích.
+— Trên các tờ giấy bạc thật sự có lỗ kim.
+— Và đây còn có cây kim nữa, Emil nói và tự hào đặt cây kim lên quầy.
+— Cháu cũng bị nó đâm vào tay. Nghe vậy tên trộm quay phắt như chớp, đẩy bọn trẻ sang hai bên khiến chúng ngã chồng lên nhau, chạy qua căn phòng, giật tung cửa và biến mất.
+— Đuổi theo hắn!
+— ông phó giám đốc hét. Mọi người chạy ra cửa. Khi ra đến đường, họ thấy tên trộm đã bị ít nhất hai chục cậu bé vây kín. Chúng ôm chân hắn. Chúng treo lên tay hắn. Chúng kéo áo khoác hắn. Hắn vùng vẫy như điên, nhưng bọn trẻ không buông. Và rồi một cảnh sát chạy tới, được Pony Hütchen đưa đến bằng chiếc xe nhỏ. Ông phó giám đốc nghiêm trang yêu cầu ông bắt người đàn ông tên là Grundeis và cũng là Müller, vì rõ ràng hắn là tên trộm tàu hỏa. Thu ngân viên xin nghỉ một lát, cầm tiền và cây kim, đi cùng họ. Thật là một đoàn diễu hành buồn cười. Viên cảnh sát, nhân viên ngân hàng, tên trộm ở giữa, và theo sau là chín mươi hay một trăm đứa trẻ!
+Thế là họ tuôn tới đồn cảnh sát. Pony Hütchen đạp xe mạ kền nhỏ bên cạnh, vẫy chào Emil đang phấn khởi và gọi:
+— Emil, anh bạn! Em sẽ về nhà ngay kể hết chuyện cho mọi người! Cậu bé gật đầu đáp lại và nói:
+— Anh sẽ về ăn trưa! Gửi lời yêu thương đến mọi người! Pony lại gọi:
+— Anh có biết trông anh giống gì không? Giống một chuyến dã ngoại lớn của trường! Rồi cô bé rẽ vòng qua góc phố, rung chuông ầm ĩ.
+
+[CHƯƠNG 18 - rtit] Emil đến Sở Cảnh sát
+[rtx]
+Đoàn diễu hành đi tới đồn cảnh sát gần nhất. Viên cảnh sát báo với một đại úy những gì đã xảy ra. Emil khai vào biên bản. Rồi cậu phải nói mình sinh khi nào, ở đâu, mình là ai và sống ở đâu. Và viên đại úy ghi lại tất cả. Bằng mực.
+— Còn tên anh là gì? ông hỏi tên trộm.
+— Herbert Kiessling, tên vô lại đáp. Nghe vậy các cậu bé, Emil, Gustav và Giáo sư, phá lên cười. Và nhân viên ngân hàng, người đã giao một trăm bốn mươi mác cho viên đại úy, cũng cười theo.
+— Trời ơi, đồ củ cải! Gustav kêu.
+— Đầu tiên hắn là Grundeis. Rồi hắn là Müller. Giờ hắn là Kiessling. Giờ tớ phát điên muốn biết thực sự hắn là ai!
+— Im lặng! viên đại úy gầm gừ.
+— Chuyện đó chúng tôi cũng sẽ tìm ra. Ông Grundeis, Müller, Kiessling, khai địa chỉ tạm thời là khách sạn Kreid. Rồi hắn khai ngày sinh và quê quán. Giấy tờ tùy thân thì hắn không có.
+— Và cho đến hôm qua anh ở đâu? viên đại úy hỏi.
+— Ở Gross-Grünau, tên trộm tuyên bố.
+— Chắc chắn lại nói dối rồi, Giáo sư kêu.
+— Im lặng! viên đại úy gầm gừ.
+— Chuyện đó chúng tôi cũng sẽ tìm ra. Nhân viên ngân hàng hỏi mình có thể đi chưa. Rồi thông tin về ông được ghi lại. Ông vỗ vai Emil thân ái rồi ra về.
+— Chiều hôm qua anh có lấy cắp một trăm bốn mươi mác của cậu học sinh Emil Tischbein trên chuyến tàu từ Neustadt đến Berlin không, Kiessling? viên đại úy hỏi.
+— Có, tên trộm ủ rũ nói.
+— Tôi không biết nó xảy ra thế nào, rất đột ngột. Cậu bé ngủ trong góc. Rồi cái phong bì rơi ra. Rồi tôi nhặt lên và chỉ muốn xem bên trong có gì. Mà lúc ấy tôi hoàn toàn không có tiền...
+— Đồ lừa đảo, Emil kêu.
+— Cháu đã ghim chặt tiền trong túi áo khoác. Nó không thể rơi ra được.
+— Và hắn cũng không túng thiếu đến thế, nếu không thì đã không còn nguyên tiền của Emil trong túi. Trong lúc đó hắn còn phải trả tiền taxi, trứng luộc và bia, Giáo sư nhận xét.
+— Im lặng! viên đại úy gầm gừ.
+— Chuyện đó chúng tôi cũng sẽ tìm ra. Và ông ghi lại mọi điều được kể.
+— Ông cho tôi đi được chưa, thưa ông cảnh sát? tên trộm hỏi và nheo mắt vì quá lịch sự.
+— Tôi đã thú nhận vụ trộm. Và ông biết tôi sống ở đâu. Tôi có việc ở Berlin và muốn lo vài việc vặt.
+— Đừng làm tôi cười, viên đại úy nghiêm khắc nói, rồi gọi Sở Cảnh sát để họ cử xe tuần tra tới, vì một tên trộm đường sắt đã bị bắt trong khu vực của ông.
+— Khi nào cháu nhận lại tiền? Emil lo lắng hỏi.
+— Ở Sở Cảnh sát, viên đại úy nói.
+— Cháu sẽ đến thẳng đó, và ở đó mọi việc sẽ được thu xếp.
+— Emil này, Gustav thì thầm, giờ cậu sẽ phải đến "Alex" trên xe tù.
+— Nhảm nhí, viên đại úy nói.
+— Cháu có tiền không, Tischbein? Có ạ, Emil đáp.
+— Hôm qua các bạn quyên góp. Và người gác cổng khách sạn Kreid cho cháu mượn mười mác. "Alex" là cách người ta gọi Sở Cảnh sát.
+— Thám tử chính hiệu! Lũ quỷ đáng ghét! viên đại úy quắc mắt. Nhưng lời mắng nghe rất hiền.
+— Được rồi, Tischbein, cháu đi tàu điện ngầm đến quảng trường Alexander và trình diện Trung sĩ hình sự Lurje. Những chuyện tiếp theo cháu sẽ sớm biết. Và ở đó cháu sẽ nhận lại tiền.
+— Trước hết cháu mang mười mác trả người gác cổng được không ạ?
+— Emil muốn biết.
+— Dĩ nhiên. Vài phút sau xe cảnh sát tới. Và ông Grundeis Müller Kiessling phải leo lên xe. Viên đại úy trao cho viên cảnh sát ngồi bên trong biên bản và một trăm bốn mươi mác. Cả cây kim nữa. Rồi chiếc xe tù ầm ầm chạy đi. Những cậu bé đứng ngoài phố chế nhạo tên trộm. Nhưng hắn chẳng để ý. Có lẽ vì hắn quá tự hào có đặc quyền được đi xe riêng. Emil bắt tay viên đại úy và cảm ơn ông. Rồi Giáo sư báo với những đứa trẻ đã đợi trước đồn rằng Emil sẽ nhận tiền ở "Alex", và cuộc săn đã kết thúc. Bọn trẻ ùa về nhà thành từng đám đông. Chỉ những người bạn thân đi cùng Emil về khách sạn và ra ga tàu điện ngầm Nollendorf. Và cậu bảo họ gọi điện cho bé Dienstag vào buổi trưa.
+Để cậu biết mọi chuyện kết thúc ra sao. Và cậu rất mong được gặp lại họ trước khi về Neustadt. Và cậu cảm ơn tất cả từ đáy lòng vì sự giúp đỡ. Và họ cũng sẽ nhận lại tiền.
+— Nếu cậu dám trả lại tiền của bọn tớ thì cậu sẽ no đòn đấy! Gustav kêu.
+— Hơn nữa, ta còn một trận phải đánh vì bộ đồ ngộ nghĩnh của cậu.
+— Ôi, thôi mà! Emil nói và nắm lấy tay Gustav và Giáo sư.
+— Tớ thấy vui quá. Tốt nhất bỏ trận đánh đi. Tớ sẽ đau lòng nếu phải đánh gục cậu.
+— Cậu không làm được đâu, dù cậu có đang cáu, đồ ngốc! Gustav kêu. Rồi ba cậu đến quảng trường Alexander, đến Sở Cảnh sát, và phải đi qua nhiều hành lang, ngang vô số căn phòng. Cuối cùng họ tìm được Trung sĩ hình sự Lurje. Ông đang ăn sáng. Emil tự giới thiệu.
+— À ha, ông Lurje nói và nhai đều đều.
+— Emil Stuhlbein, thám tử tài tử nhỏ của chúng ta. Đã được báo trước qua điện thoại. Ngài Cảnh sát trưởng đang đợi cháu. Ngài muốn nói chuyện với cháu. Giờ đi với tôi.
+— Cháu tên là Tischbein, Emil sửa.
+— Nửa tá với sáu cái cũng thế thôi, ông Lurje nói và cắn thêm một miếng bánh cuộn.
+— Bọn tớ sẽ đợi cậu ở đây, Giáo sư quyết định. Và Gustav gọi với theo Emil:
+— Nhanh lên nhé. Hễ thấy ai nhai là tớ cũng đói theo. Ông Lurje đi qua thêm nhiều hành lang, trái, phải, lại trái. Rồi ông gõ cửa. Một giọng gọi: "Mời vào!" Lurje hé cửa và nói, vừa nhai:
+— Cậu thám tử nhỏ đến rồi, thưa Cảnh sát trưởng, Emil Fischbein. Ngài biết mà.
+— Cháu tên là Tischbein, Emil giải thích dứt khoát.
+— Cũng là cái tên hay, ông Lurje nói và đẩy Emil một cái khiến cậu ngã nhào vào phòng. Vị Cảnh sát trưởng là một người rất dễ mến. Emil được mời ngồi trên chiếc ghế bành thoải mái và kể toàn bộ câu chuyện, từng chút một, từ đầu. Cuối cùng vị Cảnh sát trưởng trịnh trọng nói:
+— Thế, và giờ cháu sẽ nhận lại tiền.
+— Tạ ơn trời!
+— Emil hít một hơi dài và cất tiền đi. Hết sức cẩn thận.
+— Nhưng đừng để nó bị ăn cắp lần nữa nhé!
+— Không! Không thể! Cháu sẽ mang thẳng cho bà.
+— Phải rồi! Ta suýt quên. Cháu phải cho ta địa chỉ ở Berlin. Cháu ở lại vài ngày chứ? Cháu muốn thế, Emil nói.
+— Cháu ở số 15 phố Schumann với gia đình Heimbold. Đó là tên của cậu cháu. Và của dì cháu nữa.
+— Thật tuyệt cái cách bọn trẻ các cháu làm được việc đó, vị Cảnh sát trưởng nhận xét, vừa ngậm một điếu xì gà lớn vào miệng.
+— Các bạn làm việc tuyệt vời thật, Emil hào hứng kêu.
+— Gustav với chiếc còi, và Giáo sư, và bé Dienstag, và Krummbiegel, và hai anh em Mittenzwey, thật ra là tất cả. Được làm việc với các bạn là một niềm vui. Nhất là Giáo sư. Cậu ấy là cao thủ! Ừ, nhưng chính cháu cũng không phải loại bột nhão, người đàn ông nhận xét, phả ra một làn khói.
+— Điều ta muốn hỏi cháu, thưa ngài Cảnh sát trưởng, họ sẽ làm gì Grundeis, hay tên trộm của cháu tên là gì cũng được?
+— Chúng ta đã đưa hắn đến Phòng Nhận dạng. Ở đó hắn sẽ được chụp ảnh. Và lấy dấu vân tay. Sau đó ta sẽ so sánh ảnh và dấu vân tay với những tấm ảnh trong Phòng Lưu trữ Tội phạm của ta.
+— Đó là gì ạ?
+— Ở đó có ảnh của tất cả tội phạm đã bị kết án. Và có dấu vân tay, dấu chân và những thứ tương tự của những tội phạm mà ta chưa bắt được nhưng đang truy tìm. Có thể kẻ đã lấy tiền của cháu từng gây ra những vụ trộm cắp và đột nhập khác trước khi lấy tiền của cháu. Có đúng thế không?
+— Đúng thế. Cháu chẳng hề nghĩ tới điều đó! Xin chờ một chút, vị Cảnh sát trưởng dễ mến nói khi điện thoại reo.
+— Vâng, đúng thế... có điều thú vị cho các anh... lên ngay phòng tôi, ông nói vào ống nghe. Rồi ông gác máy và nói:
+— Giờ vài người của các tờ báo sẽ tới phỏng vấn cháu.
+— Đó là gì ạ? Emil hỏi.
+— Phỏng vấn nghĩa là đặt câu hỏi.
+— Không thể nào! Emil kêu.
+— Vậy cháu sẽ lên báo ạ? Có vẻ vậy, vị Cảnh sát trưởng nói.
+— Khi một cậu học sinh bắt được trộm thì cậu ấy nổi tiếng. Có tiếng gõ cửa, và bốn người đàn ông bước vào phòng. Vị Cảnh sát trưởng bắt tay họ và kể ngắn gọn về trải nghiệm của Emil. Bốn người miệt mài ghi lại.
+— Tuyệt vời, một phóng viên nói khi nghe xong.
+— Cậu bé nhà quê làm thám tử.
+— Có lẽ ngài sẽ tuyển cậu ấy làm mật thám thường phục, một người khác khuyên và cười.
+— Sao cháu không đến thẳng chỗ một cảnh sát mà kể hết? người thứ ba hỏi. Emil bối rối. Cậu nghĩ tới cảnh sát Jeschke ở Neustadt và giấc mơ của mình. Và cổ họng cậu khô khốc.
+— Sao nào? vị Cảnh sát trưởng hỏi. Emil nhún vai và nói:
+— Thì thôi vậy! Vì ở Neustadt cháu đã vẽ một cái mũi đỏ và bộ ria to lên tượng đài Đại Công tước Karl. Xin ngài hãy bắt cháu, thưa ngài Cảnh sát trưởng! Thế là năm người đàn ông bật cười thay vì kéo dài mặt ra. Và vị Cảnh sát trưởng kêu:
+— Nhưng Emil à, chúng ta đâu thể để thám tử giỏi nhất của mình vào tù.
+— Không ạ? Thật không ạ? Ôi cháu mừng quá, cậu bé nhẹ nhõm nói. Rồi cậu quay sang một phóng viên và hỏi: Bác không nhận ra cháu sao? Không, người đàn ông nói.
+— Hôm qua bác trả tiền vé cho cháu trên tuyến 177 vì cháu không có tiền.
+— Đúng rồi! người đàn ông kêu.
+— Giờ ta nhớ ra. Cháu đã muốn biết địa chỉ của ta để gửi lại đồng groschen.
+— Giờ bác nhận lại nhé? Emil hỏi và lấy mười pfennig từ túi quần ra.
+— Vớ vẩn, người đàn ông đáp.
+— Cháu còn đã tự giới thiệu nữa chứ.
+— Chắc chắn rồi, cháu hay làm thế, cậu bé giải thích.
+— Cháu tên là Emil Tischbein.
+— Ta tên là Kästner, nhà báo nói, và họ bắt tay nhau.
+— Tuyệt vời, vị Cảnh sát trưởng kêu.
+— Chỗ người quen cũ.
+— Và giờ, Emil, ông Kästner nói, cháu có muốn đi cùng ta một lát đến tòa soạn không? Trước hết ta đi đâu đó ăn bánh kem tươi.
+— Cháu mời bác được không ạ? Emil hỏi.
+— Đúng là một thằng nhóc kiêu hãnh!
+— Những người đàn ông rất thích thú.
+— Không, cháu phải để ta trả, ông Kästner nói.
+— Cháu cũng muốn thế, Emil đáp, nhưng Giáo sư và Gustav đang đợi cháu ngoài kia.
+— Dĩ nhiên ta sẽ đưa họ theo, ông Kästner tuyên bố. Các nhà báo khác vẫn còn đủ thứ câu hỏi. Emil trả lời chính xác. Và họ lại ghi chép.
+— Tên trộm thật sự là một kẻ mới à? một người hỏi.
+— Tôi nghĩ không, vị Cảnh sát trưởng đáp.
+— Có lẽ chúng ta sắp có một bất ngờ lớn. Dù sao một giờ nữa các anh hãy gọi cho tôi, tất cả. Rồi tất cả ra về. Và Emil cùng ông Kästner quay lại chỗ Trung sĩ hình sự Lurje. Ông vẫn đang nhai và nói:
+— À, cậu bé Überbein nhỏ.
+— Tischbein, Emil nói. Rồi ông Kästner gọi taxi cho Emil, Gustav và Giáo sư, và họ đi trước tiên đến một tiệm bánh ngọt. Trên đường, Gustav bấm còi. Và họ thích thú khi ông Kästner giật mình. Trong tiệm bánh, các cậu bé rất vui vẻ. Họ ăn bánh tart anh đào với thật nhiều kem tươi và kể bất cứ điều gì nảy ra trong đầu. Họ kể về hội đồng chiến tranh ở quảng trường Nikolsburger, về cuộc đuổi taxi, về đêm ở khách sạn, về Gustav làm cậu bé hầu phòng, về cảnh náo động trong ngân hàng. Và cuối cùng ông Kästner nói:
+— Các cháu quả là ba cậu bé tuyệt vời. Nghe vậy họ rất tự hào về mình, và mỗi người ăn thêm một miếng bánh. Sau đó Gustav và Giáo sư leo lên xe buýt máy. Emil nhắc họ chiều gọi điện cho bé Dienstag, rồi cậu cùng ông Kästner đến tòa soạn. Tòa nhà báo thật đồ sộ. Nó gần lớn như Sở Cảnh sát ở quảng trường Alexander. Và trong các hành lang người ta chạy và tất bật đến nỗi bạn có thể nghĩ đang diễn ra một cuộc thi vượt chướng ngại vật. Họ vào một căn phòng nơi một quý cô tóc vàng xinh đẹp đang ngồi. Và ông Kästner đi đi lại lại, đọc cho cô gái gõ máy mọi điều Emil đã kể.
+Thỉnh thoảng ông dừng lại và hỏi Emil: "Thế đúng không?" Và khi Emil gật đầu thì ông Kästner lại bắt đầu đọc. Rồi ông gọi cho vị Cảnh sát trưởng.
+— Anh nói gì cơ? Kästner kêu.
+— Chà, thật là phi lý... Tôi chưa được nói gì với cậu ấy về chuyện đó sao? Thế cơ à, cả điều đó nữa? Chà, tôi mừng quá... Cảm ơn anh rất nhiều! Đây sẽ là một tin độc quyền thực sự. Ông gác máy, nhìn cậu bé như chưa từng thấy bao giờ và nói:
+— Emil, đi với ta nhanh! Ta phải chụp ảnh cháu.
+— Trời đất! Emil kinh ngạc nói. Tuy nhiên cậu chịu mọi thứ, cùng ông Kästner đi lên cao thêm ba tầng và bước vào một căn phòng rất sáng có nhiều cửa sổ. Trước hết cậu chải tóc, rồi chụp ảnh. Cuối cùng ông Kästner đưa cậu vào phòng sắp chữ, ở đó có tiếng lách cách như cả nghìn cái máy chữ. Ông Kästner đưa cho một người đàn ông những trang giấy cô gái tóc vàng đáng yêu đã đánh máy, và nói ông sẽ lên lại ngay vì tài liệu rất quan trọng, nhưng trước hết ông phải đưa cậu bé về với bà cậu. Rồi họ đi thang máy xuống tầng trệt và ra lối vào. Ông Kästner vẫy một chiếc taxi, cho Emil ngồi vào, đưa tiền cho tài xế dù cậu bé không muốn, và nói:
+— Đưa cậu bạn nhỏ của tôi đến số 15 phố Schumann. Họ bắt tay nhau thật thắm thiết. Và ông Kästner nói thêm:
+— Cho ta gửi lời chào đến mẹ cháu khi cháu về nhà. Bà ấy chắc là một người rất đáng mến.
+— Đúng vậy ạ, Emil nói.
+— Còn một điều nữa, ông Kästner gọi khi xe bắt đầu chạy, chiều nay đọc báo nhé. Cháu sẽ ngạc nhiên đấy, cậu bé. Emil quay lại và vẫy tay. Và ông Kästner vẫy lại. Rồi chiếc taxi rẽ vòng qua góc phố.
+
+[CHƯƠNG 19 - rtit] Ngài Cảnh sát trưởng gửi lời thăm
+[rtx]
+Chiếc xe đã tới đại lộ Unter den Linden. Emil gõ ba tiếng vào cửa kính phía sau người lái. Xe dừng. Và cậu bé hỏi:
+— Mình gần tới chưa ạ? Chắc chắn rồi, người đàn ông nói.
+— Cháu xin lỗi làm phiền bác, Emil nói, nhưng trước hết cháu phải đến đại lộ Kaiser. Đến quán Josty. Ở đó có bó hoa tặng bà cháu. Và cả va li của cháu nữa. Bác làm ơn giúp cháu được không? Cháu nói "giúp" là sao? Cháu có tiền phòng khi số tiền ta đã nhận không đủ không?
+— Cháu có tiền, thưa bác tài. Và cháu phải lấy hoa.
+— Được rồi, người đàn ông nói, rẽ trái, đi qua Cổng Brandenburg rồi xuôi xuống Vườn Thú xanh mát, bóng cây, tới quảng trường Nollendorf. Giờ khi mọi chuyện đã ổn thỏa, nơi ấy với Emil có vẻ vô hại và thân thiện hơn nhiều. Nhưng dù sao cậu cũng thận trọng thò tay vào túi trong ngực. Tiền vẫn còn đó. Rồi họ đi dọc phố Motz tới tận cuối, rẽ phải và dừng trước quán Josty. Emil bước xuống, đến quầy, xin cô phục vụ làm ơn đưa túi và hoa cho cậu, nhận được chúng, cảm ơn, rồi lại leo lên xe và nói:
+— Đây, thưa bác tài, giờ đến chỗ bà. Họ quay đầu xe, chạy một quãng dài trở lại, qua sông Spree, qua những con phố cũ với những ngôi nhà xám. Cậu bé rất muốn ngắm khu phố. Nhưng đồ đạc của cậu dường như bị yểm bùa. Chiếc va li cứ đổ nhào. Và nếu va li đứng yên một phút thì gió lại chộp lấy tờ giấy trắng gói quanh bó hoa làm nó xào xạc và rách. Và Emil phải canh chừng để bó hoa không bay mất. Cuối cùng người tài xế đạp phanh. Xe dừng. Đó là số 15 phố Schumann.
+— Thế, đến nơi rồi, Emil nói và bước xuống.
+— Bác còn cần cháu trả thêm tiền không?
+— Không, ngược lại cháu được thối lại ba mươi pfennig.
+— Vậy ạ? Emil nói.
+— Bác lấy mua vài điếu xì gà nhé.
+— Ta nhai thuốc thôi, cậu bé, người tài xế nói rồi lái đi. Rồi Emil leo lên tầng ba và bấm chuông cửa nhà Heimbold. Sau cánh cửa có tiếng kêu lớn. Rồi cửa mở. Và bà ngoại đứng đó. Bà túm cổ áo Emil, vừa hôn lên má trái vừa vỗ vào má phải, kéo cậu vào phòng bằng cả mái tóc, và kêu:
+— Ôi, thằng quỷ nhỏ, ôi thằng quỷ nhỏ! Chúng tôi nghe những chuyện hay ho về cháu đấy, dì Martha mỉm cười nói, đưa tay cho cậu. Còn Pony Hütchen chìa khuỷu tay ra cho cậu. Cô bé đang mặc một chiếc tạp dề của mẹ và rít lên: Cẩn thận, tay em ướt. Em đang rửa bát, phụ nữ tội nghiệp chúng ta! Rồi tất cả cùng vào phòng khách. Emil phải ngồi chỗ danh dự trên ghế sofa. Và bà ngoại cùng dì Martha nhìn cậu rạng rỡ như thể cậu là một bức tranh rất giá trị của Titian.
+— Anh có chiến lợi phẩm không? Pony hỏi.
+— Dĩ nhiên rồi, Emil nói, lấy ba tờ giấy bạc ra khỏi túi, đưa một trăm hai mươi mác cho bà và nói: Đây, bà ơi, tiền đây. Và mẹ gửi lời yêu thương nhất. Bà đừng trách mẹ vì mấy tháng qua mẹ chưa gửi gì. Làm ăn không khá lắm. Vì thế lần này mẹ gửi nhiều hơn thường lệ.
+— Cảm ơn con yêu, bà cụ đáp, trả lại một tờ hai mươi mác và nói: Cái này là của con vì con là một thám tử giỏi.
+— Không, cháu không nhận được. Bà thấy đó, cháu vẫn còn hai mươi mác của mẹ trong túi.
+— Emil, một cậu bé phải vâng lời bà. Cất vào túi ngay.
+— Không, cháu không nhận.
+— Đúng là một cậu bé! Pony kêu.
+— Còn chị thì chẳng ai phải bảo hai lần!
+— Ồ không, cháu không muốn.
+— Hoặc con nhận, hoặc bà bị thấp khớp vì giận, bà ngoại tuyên bố.
+— Nhanh, cất tiền đi, dì Martha nói và nhét tờ giấy bạc vào túi cậu.
+— À, nếu bà thật sự muốn, Emil lắp bắp.
+— Cháu cảm ơn bà.
+— Bà mới là người phải cảm ơn, bà đáp và vuốt tóc Emil ra sau. Rồi Emil trao bó hoa. Pony mang một cái bình tới. Nhưng khi gỡ giấy gói ra, họ không biết nên cười hay nên khóc.
+— Chỉ là rau khô! Pony Hütchen nói.
+— Chúng chưa có nước từ chiều hôm qua, Emil buồn bã giải thích.
+— Chẳng lạ gì. Hôm qua khi mẹ và cháu mua ở tiệm Stamnitz thì chúng hoàn toàn tươi.
+— Chắc chắn là vậy, chắc chắn là vậy, bà ngoại nói rồi cắm những bông hoa héo vào nước.
+— Có lẽ chúng sẽ tươi lại, dì Martha an ủi.
+— Nào, giờ ta ăn trưa. Cậu con tối mới về. Pony, dọn bàn! Vâng ạ, cô bé nói.
+— Anh Emil, mình sẽ ăn gì nhỉ?
+— Không biết.
+— Anh thích nhất món gì?
+— Nui với giăm bông.
+— Thế thì anh biết mình sẽ ăn gì rồi. Đúng là Emil đã ăn nui với giăm bông ngay hôm trước. Nhưng thứ nhất, người ta có thể chịu được việc ăn món mình thích nhất gần như mỗi ngày. Và thứ hai, với Emil dường như đã qua ít nhất một tuần kể từ bữa trưa hôm qua với mẹ ở Neustadt. Và cậu ngấu nghiến món nui như chính ông Grundeis Müller Kiessling. Ăn xong, Emil và Pony chạy xuống phố một lúc, vì cậu bé muốn thử chiếc xe mạ kền nhỏ của Pony. Bà ngoại nằm xuống sofa. Và dì Martha nướng một chiếc bánh táo. Bánh táo của dì nổi tiếng trong cả họ. Emil lăn bánh dọc phố Schumann. Còn Pony chạy theo, giữ chặt yên xe.
+Cô bé quả quyết cô phải làm thế, nếu không anh họ sẽ bay mất. Rồi Emil phải xuống, và cô bé chạy vòng tròn, số ba và số tám cho cậu xem. Bỗng một viên cảnh sát xuất hiện, mang một cặp tài liệu, và hỏi:
+— Các cháu, gia đình Heimbold có sống ở số 15 này không? Vâng ạ, Pony nói.
+— Chúng cháu là Heimbold. Xin chờ một phút, thưa ông. Cô bé nhốt chiếc xe của mình vào hầm.
+— Có chuyện gì không ổn à?
+— Emil băn khoăn. Cậu không thể không nghĩ tới Jeschke đáng nguyền rủa.
+— Trái lại. Cháu là cậu bé Emil Tischbein?
+— Vâng, cháu đây.
+— Ừm, vậy cháu có thể tự chúc mừng! Ai sinh nhật ạ? Pony hỏi, quay lại. Nhưng viên cảnh sát không nói gì với họ. Thay vào đó ông leo lên cầu thang. Dì Martha dẫn ông vào phòng khách. Bà ngoại thức dậy, đứng lên, đầy tò mò. Emil và Pony đứng bên bàn, vô cùng hồi hộp.
+— Chuyện là thế này, viên cảnh sát nói và mở cặp ra.
+— Tên trộm mà cậu học sinh Emil Tischbein giúp bắt sáng sớm nay đã được xác định là một tên cướp ngân hàng ở Hanover bị truy nã bốn tuần nay. Tên trộm này đã lấy một số tiền rất lớn. Và Phòng Nhận dạng của chúng tôi đã chuyển hắn ra xét xử. Ngoài ra hắn đã thú nhận. Họ đã thu hồi phần lớn số tiền, được khâu trong lớp lót quần áo của hắn. Toàn tờ một nghìn mác.
+— Trời đất ơi! Pony Hütchen nói.
+— Ngân hàng, viên cảnh sát tiếp tục, hai tuần nay treo thưởng cho bất cứ ai lần ra dấu vết gã. Và vì cháu, ông quay sang Emil, đã bắt được gã, nên cháu nhận tiền thưởng. Ngài Cảnh sát trưởng gửi lời thăm và vui vì biết tài năng của cháu có thể được thưởng theo cách này. Emil cúi chào. Rồi viên cảnh sát lấy một xấp giấy bạc từ cặp ra và đếm trên bàn. Dì Martha, đang chăm chú nhìn, thì thầm:
+— Một nghìn mác! Trời đất! Pony kêu.
+— Em chịu thua. Bà ngoại ký biên nhận. Rồi viên cảnh sát ra về. Nhưng trước khi đi, dì Martha rót cho ông một ly lớn rượu anh đào lấy từ tủ của cậu. Emil ngồi cạnh bà và không nói nên lời. Bà cụ choàng tay qua cậu và nói, lắc đầu:
+— Thật không thể tin nổi! Thật không thể tin nổi! Pony Hütchen nhảy lên một chiếc ghế, bắt đầu đánh nhịp như đang chỉ huy dàn hợp xướng, và hát:
+— Giờ ta sẽ mời, giờ ta sẽ mời, tất cả các cậu bé khác đến dự tiệc.
+— Phải, Emil nói, hay lắm. Nhưng trước hết, giờ có lẽ, em nghĩ sao nhỉ? Mẹ cũng có thể đến Berlin...
+
+[CHƯƠNG 20 - rtit] Bà Tischbein xúc động bồn chồn
+[rtx]
+Sáng hôm sau bà Wirth bấm chuông cửa nhà bà Tischbein ở Neustadt.
+— Chào bà Tischbein, bà nói.
+— Bà khỏe không?
+— Chào bà Wirth. Tôi lo quá. Con trai tôi chẳng gửi cho tôi lấy một lời. Mỗi lần chuông reo tôi lại nghĩ đó là người đưa thư. Tôi làm tóc cho bà nhé?
+— Không, tôi chỉ đến mang cho bà một tin.
+— Xin bà...
+— Lời chào từ Emil và...
+— Trời ơi, nó làm sao rồi? Nó ở đâu? Bà biết gì? bà Tischbein kêu. Bà xúc động kinh khủng và giơ cả hai tay lên lo sợ.
+— Nhưng nó ổn, bà thân mến, rất ổn. Nó đã bắt được một tên trộm. Nghĩ mà xem! Và cảnh sát đã tặng nó một khoản thưởng một nghìn mác. Bà nói sao? Hử? Và giờ bà phải đi chuyến tàu trưa đến Berlin.
+— Nhưng sao bà biết hết những chuyện ấy? Chị bà, bà Heimbold, vừa gọi cho tôi từ Berlin tới tiệm. Emil cũng nói vài lời. Và bà phải lên đó ngay. Chừng nào có nhiều tiền như vậy thì đó là điều nên làm.
+— Vâng, vâng, dĩ nhiên, bà Tischbein lơ đãng lẩm bẩm.
+— Một nghìn mác? Vì bắt một tên trộm? Sao nó lại nảy ra ý ấy? Nó chỉ toàn gây rắc rối!
+— Nhưng lần này người ta thưởng cho nó. Một nghìn mác là nhiều tiền lắm!
+— Ôi, thôi đi với một nghìn mác của bà!
+— Ồ, thôi, có thể còn tệ hơn. Vậy bà đi chứ?
+— Dĩ nhiên, tôi sẽ không yên một phút nào cho đến khi tôi gặp thằng bé.
+— Vậy chúc bà may mắn, và chuyến đi vui vẻ! Cảm ơn bà Wirth, người thợ làm tóc nói, lắc đầu, và đóng cửa lại. Nhưng khi chiều hôm ấy bà ngồi trên chuyến tàu đi Berlin, bà có thêm một bất ngờ khác lớn hơn. Đối diện bà, một người đàn ông đang đọc báo. Ánh mắt bà Tischbein đảo bồn chồn từ góc này sang góc kia. Bà đếm những cột điện báo diễu hành qua cửa sổ và muốn chạy theo sau con tàu để đẩy giúp. Thời gian trôi lê thê. Trong lúc bà ngọ nguậy, quay đầu bên này bên kia, bà tình cờ liếc vào tờ báo đối diện.
+— Trời đất ơi! bà kêu, và giật tờ báo khỏi tay người đàn ông đang đọc. Ông ta tưởng người đàn bà bỗng nhiên phát điên, và gần như sợ hãi.
+— Kia, kia! bà lắp bắp.
+— Đó... đó là con trai tôi! Và bà chỉ ngón tay vào một tấm ảnh trên trang nhất tờ báo.
+— Thật không ạ? người đàn ông vui vẻ nói.
+— Bà là mẹ của Emil Tischbein? Đó là một cậu bé tuyệt vời. Xin ngả mũ trước bà, bà Tischbein! Vâng, vâng, người thợ làm tóc nói.
+— Ông cứ đội mũ đi, thưa ông! Rồi bà bắt đầu đọc bài báo. Phía trên bằng chữ khổng lồ là dòng tít: MỘT CẬU BÉ LÀM THÁM TỬ @center HÀNG TRĂM TRẺ EM BERLIN TRUY ĐUỔI MỘT TÊN TỘI PHẠM Và tiếp theo là một câu chuyện chi tiết đầy đủ về những trải nghiệm của Emil từ ga Neustadt đến Sở Cảnh sát Berlin. Bà Tischbein tái đi vì xúc động. Và tờ báo sột soạt như có gió thổi, dù cửa sổ đều đóng chặt. Người đàn ông gần như không đợi nổi bà đọc xong bài. Nhưng nó rất dài, chiếm gần hết trang nhất. Và ở giữa là ảnh của Emil. Cuối cùng bà đặt tờ báo xuống, nhìn người đàn ông và nói:
+— Những màn như thế, hễ nó ở một mình! Mà tôi đã dặn nó kỹ lưỡng phải giữ cẩn thận một trăm bốn mươi mác ấy. Sao nó có thể bất cẩn đến thế? Như thể nó không biết nhà chúng tôi chẳng có tiền cho người ta ăn cắp.
+— Chắc cậu bé mệt lả. Biết đâu tên trộm còn thôi miên cậu ấy. Người ta nói có chuyện đó, người đàn ông gợi ý.
+— Nhưng bà không thấy tuyệt vời cái cách bọn trẻ tiến hành vụ việc sao? Đó là thiên tài thuần túy. Đơn giản là phi thường, đơn giản là phi thường! Vâng, chắc vậy, bà Tischbein đáp, dịu đi đôi chút.
+— Nó là một cậu bé thông minh, con trai tôi. Luôn đứng đầu lớp và luôn siêng năng. Nhưng thử tưởng tượng nếu có chuyện gì xảy ra với nó! Tóc tôi dựng đứng lên, dù chuyện đã qua rồi. Không, tôi không bao giờ để nó đi một mình nữa. Tôi sẽ chết vì lo.
+— Cậu ấy trông có giống ảnh không? người đàn ông hỏi. Bà Tischbein xem lại tấm ảnh và nói:
+— Vâng, ảnh đẹp. Ông có thấy nó ưa nhìn không? Chắc chắn rồi! người đàn ông kêu.
+— Một cậu bé đàng hoàng như thế, bà có thể mong đợi nhiều điều lớn lao về sau.
+— Nó nên đứng thẳng lưng hơn một chút, mẹ cậu bồn chồn.
+— Áo khoác nhăn nhúm. Nó phải luôn cởi cúc trước khi ngồi. Nhưng nó chẳng bao giờ nghe! À, nếu cậu ấy không có lỗi nào lớn hơn thế... người đàn ông cười.
+— Không, nó thật sự chẳng có lỗi nào, Emil của tôi, mẹ cậu nói, hỉ mũi vì xúc động quá mức. Rồi người đàn ông xuống tàu. Bà được giữ lại tờ báo của ông, và bà đọc đi đọc lại những trải nghiệm của Emil cho đến ga Friedrich Strasse ở Berlin. Tổng cộng mười một lần. Khi họ tới Berlin, Emil đã có mặt trên sân ga. Để tôn vinh mẹ, cậu mặc bộ đồ đẹp nhất, và khi ôm choàng cổ mẹ, cậu hỏi:
+— Giờ mẹ nói gì về con nào?
+— Đừng tự cao thế, đồ khỉ con! Chà, bà Tischbein, cậu nói trong lúc móc tay vào tay bà, con thật sự rất vui là mẹ đã đến.
+— Mẹ thấy bộ đồ của con chẳng khá lên chút nào sau cuộc đuổi trộm, mẹ cậu nhận xét, nhưng nghe không có vẻ giận lắm.
+— Nếu mẹ muốn, con có thể mua bộ mới.
+— Từ ai cơ?
+— Ôi, một cửa hàng quần áo muốn tặng con và Giáo sư và Gustav những bộ đồ mới. Rồi họ sẽ báo trên báo rằng các thám tử chỉ mua quần áo ở chỗ họ. Đó là quảng cáo, mẹ hiểu chứ!
+— Phải, mẹ hiểu!
+— Nhưng chắc bọn con sẽ từ chối, Emil tiếp tục, sải những bước dài, dù đổi lại mỗi đứa có thể nhận một quả bóng đá mới. Mẹ biết đấy, bọn con nghĩ cái cảnh người ta làm ầm ĩ vì bọn con thật lố bịch. Người lớn có thể làm mấy chuyện ấy, theo ý bọn con. Họ buồn cười và không thể không làm thế. Nhưng trẻ con thì nên bỏ đi.
+— Hay lắm! mẹ cậu nói.
+— Cậu Heimbold đã khóa tiền lại. Một nghìn mác! Tuyệt không mẹ? Trước hết mình sẽ mua cho mẹ một cái máy sấy tóc điện. Rồi một cái áo khoác mùa đông lót lông. Còn con? Con phải nghĩ lại. Có lẽ cuối cùng là một quả bóng đá mới. Hoặc một cái máy ảnh. Con sẽ xem.
+— Mẹ nghĩ tốt nhất là tiết kiệm và gửi vào ngân hàng. Sau này con sẽ biết rõ hơn phải làm gì với nó.
+— Không, mẹ có cái máy sấy và cái áo ấm. Phần còn lại mình cất đi, nếu mẹ muốn.
+— Mình sẽ bàn lại, mẹ cậu nói và siết tay cậu.
+— Mẹ biết không, ảnh của con đã lên tất cả các báo? Và có cả những bài dài về con?
+— Mẹ đã đọc một bài trên tàu. Lúc đầu mẹ lo cho con. Con chắc chắn không có chuyện gì chứ?
+— Không có gì cả. Thật tuyệt. Con sẽ kể mẹ nghe hết. Nhưng trước hết mẹ phải gặp các bạn con.
+— Họ ở đâu?
+— Ở phố Schumann. Ở nhà dì Martha. Hôm qua dì nướng bánh táo. Và rồi bọn con mời cả bọn. Giờ họ đang ở nhà, làm ồn lắm. Quả thật, nhà Heimbold đang rất náo nhiệt. Họ có mặt đủ cả: Gustav, Giáo sư, Krummbiegel, hai anh em Mittenzwey, Gerold, Friedrich Đệ Nhất, Traugott, bé Dienstag và tất cả những người khác. Hầu như không đủ ghế. Pony Hütchen chạy từ người này sang người kia, rót sô cô la nóng từ một cái nồi khổng lồ. Và chiếc bánh táo của dì Martha thật là một bài thơ. Bà ngoại ngồi trên sofa, cười và trông trẻ ra mười tuổi. Khi Emil bước vào cùng mẹ, mọi người chào đón nhiệt liệt. Mỗi cậu bé bắt tay bà.
+Và bà cảm ơn tất cả vì đã giúp Emil của bà rất nhiều.
+— Và giờ, Emil xen vào, những bộ đồ mới và những quả bóng đá, bọn mình sẽ không nhận. Bọn mình không tiếp tay cho trò quảng cáo nào. Chúng ta đồng ý chứ?
+— Đồng ý!
+— Gustav hô, và bấm còi đến nỗi các chậu hoa của dì Martha rung lên. Rồi bà ngoại gõ thìa vào chiếc tách vàng, đứng lên và tuyên bố:
+— Giờ các cháu nghe bà nói đây, các hướng đạo sinh nhỏ. Bà sẽ phát biểu một bài. Nhưng đừng bắt đầu tưởng tượng. Bà sẽ không khen các cháu. Những người khác đã làm các cháu gần phát ngốc rồi. Bà sẽ không làm thế nữa. Bà sẽ không làm thế nữa. Các cậu bé đã trở nên rất im lặng và thậm chí không dám nhai tiếp.
+— Đuổi theo một tên trộm, bà ngoại tiếp tục, và vây hắn bằng một trăm đứa trẻ, không, đó không phải là thành tích lớn. Các cháu đừng phật lòng. Nhưng trong các cháu có một người muốn rón rén theo dõi ông Grundeis. Cậu ấy rất muốn làm gián điệp là cậu bé hầu phòng xanh lá trong khách sạn. Nhưng cậu ở nhà vì cậu đã đồng ý, vì cậu đã đồng ý. Mọi người nhìn bé Dienstag. Cậu đỏ mặt như củ cải đường và rất bối rối.
+— Đúng thế. Bà muốn nói bé Dienstag. Đúng thế, bà ngoại nói.
+— Cậu ngồi hai ngày bên điện thoại. Cậu biết bổn phận mình ở đâu. Và cậu đã làm tròn, dù cậu không thích. Thế là rất đáng quý, các cháu hiểu không? Thế là rất đáng quý. Tất cả các cháu có thể lấy cậu làm gương. Và giờ ta đứng lên hoan hô: "Hoan hô bé Dienstag!" Các cậu bé đồng loạt nhảy dựng lên. Pony Hütchen đặt hai tay như cái kèn trước miệng. Dì Martha và mẹ Emil từ bếp đi vào. Và tất cả hô vang:
+— Ba tiếng hoan hô bé Dienstag! Rồi tất cả ngồi xuống lại. Và bé Dienstag hít một hơi sâu và nuốt khan.
+— Cảm ơn mọi người rất nhiều. Nhưng thế là quá nhiều rồi. Các cậu cũng sẽ làm vậy thôi. Cậu bé nào cũng làm điều mình phải làm. Đủ rồi! Thế thôi. Pony Hütchen giơ cao cái nồi sô cô la lớn và kêu:
+— Ai muốn uống thêm gì nữa nào, các chàng trai? Giờ ta uống mừng Emil!
+
+[CHƯƠNG 21 - rtit] Ta có học được gì từ tất cả chuyện này không?
+[rtx]
+Chiều muộn các cậu bé ra về. Và Emil phải trịnh trọng hứa sẽ cùng Pony Hütchen đến nhà Giáo sư vào chiều ngay hôm sau. Rồi cậu Heimbold về, và họ ăn tối. Sau đó ông đưa một nghìn mác cho chị dâu, bà Tischbein, và khuyên bà gửi tiền vào ngân hàng.
+— Tôi cũng định thế, người thợ làm tóc nói.
+— Không, Emil phản đối, thế thì chẳng vui với con. Mẹ phải mua một cái máy sấy tóc điện và một cái áo khoác mới lót lông. Con không biết cậu đang nghĩ gì. Số tiền đó là của con. Con có thể làm gì tùy ý với nó hay không? Chắc chắn là không, cậu Heimbold tuyên bố.
+— Cháu chỉ là một đứa trẻ. Và quyết định phải làm gì với số tiền thuộc về mẹ cháu. Emil đứng dậy khỏi bàn và đi tới cửa sổ.
+— Trời đất, bố Heimbold ơi, bố đúng là đồ đầu đất! Pony Hütchen nói với bố.
+— Bố không thấy Emil vui vì có thể tặng gì đó cho mẹ sao? Người lớn các bố ngốc quá.
+— Dĩ nhiên bác ấy sẽ có máy sấy và cái áo khoác, bà ngoại dỗ dành.
+— Nhưng phần còn lại có thể gửi vào ngân hàng, được không, cháu? Dĩ nhiên, Emil đồng ý.
+— Mẹ cũng nói thế chứ ạ?
+— Nếu con muốn thế, đồ triệu phú nhỏ.
+— Sáng mai mình đi mua sắm sớm, Emil kêu.
+— Pony, em đi cùng nhé.
+— Anh nghĩ em ở nhà bắt ruồi chắc? Pony cười.
+— Nhưng anh cũng phải mua gì đó cho mình. Dĩ nhiên dì Tischbein phải có máy sấy, nhưng anh phải mua cho mình một chiếc xe đạp, để khỏi phải đạp hỏng xe của em họ.
+— Emil, mẹ cậu lo lắng hỏi, con làm hỏng xe của em à?
+— Dĩ nhiên không, mẹ ơi, con chỉ nâng ghi-đông lên cao hơn một chút. Em ấy lúc nào cũng cúi rạp người như khỉ cho giống tay đua.
+— Anh mới là khỉ! Pony kêu.
+— Nếu anh lại thay đổi xe của em thì mình chấm dứt, anh hiểu chưa?
+— Nếu em không phải con gái mà lại gầy như que củi thì anh sẽ dạy em vài điều, cô bé ạ. Dù sao hôm nay anh không bận tâm chuyện đó, nhưng anh mua gì hay không mua gì bằng số tiền ấy không phải việc của em. Và Emil thọc cả hai nắm tay vào túi.
+— Đừng cãi nhau, đừng đánh nhau, thay vào đó hãy cào mắt nhau đi, bà ngoại gọi, nhẹ nhàng, và đề tài được bỏ qua. Lát sau cậu Heimbold dẫn chó đi dạo. Nghĩa là nhà Heimbold chẳng có con chó nào, nhưng Pony luôn nói thế mỗi khi bố đi uống ly bia buổi tối. Bà ngoại, hai người phụ nữ, Pony Hütchen và Emil ngồi trong phòng khách và nói chuyện về mấy ngày vừa qua, thật náo động.
+— À, có lẽ chuyện này cũng có điểm tốt, dì Martha nói.
+— Chắc chắn rồi, Emil đồng ý.
+— Con rút ra một bài học từ đó: Đừng bao giờ tin ai cả. Và mẹ cậu nói thêm:
+— Mẹ rút ra rằng đừng bao giờ để trẻ con đi một mình.
+— Vớ vẩn, bà ngoại lầm bầm, sai hết, sai hết.
+— Vớ vẩn! Vớ vẩn! Vớ vẩn!
+— Pony hát, cưỡi một chiếc ghế quanh phòng.
+— Vậy mẹ nghĩ ta không học được gì từ trải nghiệm này sao? dì Martha hỏi.
+— Có chứ, bà ngoại đáp.
+— Vậy là gì ạ? tất cả hỏi cùng một hơi.
+— Đừng bao giờ gửi tiền mặt, hãy luôn gửi bằng phiếu chuyển tiền, bà ngoại càu nhàu và cười khúc khích như chiếc hộp nhạc.
+— Hoan hô! Pony Hütchen kêu, và cô bé cưỡi chiếc ghế vào phòng ngủ.
+
