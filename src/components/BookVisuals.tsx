@@ -13,12 +13,31 @@ interface BookCoverArtProps {
 export function BookCoverArt({ book, size = 'lg', className = '' }: BookCoverArtProps) {
   if (book.coverUrl) {
     return (
-      <div className={`relative overflow-hidden rounded-r-lg rounded-l-[3px] shadow-xl ${className}`}>
+      <div
+        className={`relative overflow-hidden rounded-r-lg rounded-l-[2px] bg-[#f4efe3] select-none shadow-[0_20px_42px_-12px_rgba(0,0,0,0.48)] ${className}`}
+      >
         <img
           src={book.coverUrl}
           alt={`Bìa sách ${book.title}`}
           loading="lazy"
-          className="h-full w-full object-cover"
+          className="h-full w-full scale-[1.04] object-cover"
+        />
+        {/* Hardcover spine hinge groove & subtle protective sheen */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-y-0 left-0 w-3 opacity-40"
+          style={{
+            background:
+              'linear-gradient(90deg, rgba(0,0,0,0.45) 0%, rgba(255,255,255,0.22) 45%, rgba(0,0,0,0.12) 85%, transparent 100%)',
+          }}
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(135deg, rgba(255,255,255,0.14) 0%, transparent 45%)',
+          }}
         />
       </div>
     );

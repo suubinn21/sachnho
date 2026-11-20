@@ -14,6 +14,7 @@ import {
 } from '../../storage/backup';
 
 const RAW_DIR = path.resolve(process.cwd(), 'src/data/raw');
+const COVERS_DIR = path.resolve(process.cwd(), 'src/data/covers');
 
 function makeMeta(overrides: Partial<BookMeta>): BookMeta {
   const title = overrides.title ?? 'Mắt biếc';
@@ -65,6 +66,14 @@ describe('Real 128-book dataset integrity', () => {
     expect(groupCounts['Nguyễn Nhật Ánh']).toBe(40);
     expect(groupCounts['Văn học Việt Nam']).toBe(18);
     expect(groupCounts['Văn học nước ngoài']).toBe(70);
+
+    const coverFiles = fs.readdirSync(COVERS_DIR);
+    for (const id of ids) {
+      const hasCover = coverFiles.some((f) =>
+        new RegExp(`^book-${id}\\.(jpg|jpeg|png|webp)$`, 'i').test(f),
+      );
+      expect(hasCover, `Missing cover for book-${id}`).toBe(true);
+    }
   });
 
   it('handles nested parentheses in author name like Alexandre Dumas (con)', () => {

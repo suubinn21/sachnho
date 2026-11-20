@@ -225,13 +225,22 @@ export function BottomDock({
                         className="flex w-full cursor-pointer items-center gap-2.5 rounded-xl border border-[var(--border-soft)] bg-[var(--sheet)] p-2 text-left transition hover:border-[var(--cobalt)]"
                       >
                         <div
-                          className="flex h-10 w-7 shrink-0 items-center justify-center rounded-sm font-serif-book text-xs font-semibold shadow-sm"
+                          className="flex h-10 w-7 shrink-0 items-center justify-center overflow-hidden rounded-sm font-serif-book text-xs font-semibold shadow-sm"
                           style={{
                             background: book.spinePalette.bg,
                             color: book.spinePalette.text,
                           }}
                         >
-                          {book.title.charAt(0)}
+                          {book.coverUrl ? (
+                            <img
+                              src={book.coverUrl}
+                              alt=""
+                              loading="lazy"
+                              className="h-full w-full object-cover"
+                            />
+                          ) : (
+                            book.title.charAt(0)
+                          )}
                         </div>
                         <div className="min-w-0 flex-1">
                           <p className="truncate font-serif-book text-sm font-medium text-[var(--ink)]">
