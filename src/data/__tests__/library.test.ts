@@ -68,11 +68,12 @@ describe('Real 128-book dataset integrity', () => {
     expect(groupCounts['Văn học nước ngoài']).toBe(70);
 
     const coverFiles = fs.readdirSync(COVERS_DIR);
-    for (const id of ids) {
-      const hasCover = coverFiles.some((f) =>
-        new RegExp(`^book-${id}\\.(jpg|jpeg|png|webp)$`, 'i').test(f),
-      );
-      expect(hasCover, `Missing cover for book-${id}`).toBe(true);
+    const coverBases = new Set(
+      coverFiles.map((f) => f.replace(/\.(jpg|jpeg|png|webp)$/i, '').normalize('NFC')),
+    );
+    for (const file of files) {
+      const base = file.replace(/\.txt$/i, '').normalize('NFC');
+      expect(coverBases.has(base), `Missing cover for ${file}`).toBe(true);
     }
   });
 
@@ -91,10 +92,25 @@ describe('Real 128-book dataset integrity', () => {
     expect(gatsbyContent.chapters.length).toBeGreaterThan(5);
     expect(gatsbyContent.chapters[0].paragraphs.length).toBeGreaterThan(5);
 
-    const paginated = paginateBookContent(gatsbyContent);
+    const paginated = paginateBookContent(gatsbyContent, {
+      leafWidth: 400,
+      leafHeight: 480,
+      zoom: 100,
+    });
     expect(paginated.pages[0].kind).toBe('intro');
     expect(paginated.pages[1].kind).toBe('toc');
     expect(paginated.pages.length).toBeGreaterThan(10);
+
+    const zoomedOut = paginateBookContent(gatsbyContent, {
+      leafWidth: 400,
+      leafHeight: 480,
+      zoom: 200,
+    });
+    expect(zoomedOut.pages.length).toBeGreaterThan(paginated.pages.length);
+    const hasSplitParagraph = zoomedOut.pages.some((p) =>
+      p.blocks.some((b) => b.isContinuation),
+    );
+    expect(hasSplitParagraph).toBe(true);
 
     const thoDienRaw = fs.readFileSync(path.join(RAW_DIR, 'Thơ điên.txt'), 'utf8');
     const thoDien = parseBookTxtContent(thoDienRaw, 'book-36', { isPoetry: true });

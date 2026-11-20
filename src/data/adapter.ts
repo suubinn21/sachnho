@@ -15,20 +15,35 @@ const coverImageUrls = import.meta.glob('./covers/*.{jpg,jpeg,png,webp}', {
   eager: true,
 }) as Record<string, string>;
 
+const normalizedCoverUrls = new Map<string, string>(
+  Object.entries(coverImageUrls).map(([k, v]) => [k.normalize('NFC'), v]),
+);
+
 const contentCache = new Map<string, BookContent>();
 
 function resolveCoverUrl(book: BookMeta): string | undefined {
   if (book.coverUrl) return book.coverUrl;
+  const rawBase = book.contentRef
+    .replace(/^\.\/raw\//, '')
+    .replace(/\.txt$/i, '')
+    .normalize('NFC');
   const candidates = [
+    `./covers/${rawBase}.webp`,
+    `./covers/${rawBase}.jpg`,
+    `./covers/${rawBase}.jpeg`,
+    `./covers/${rawBase}.png`,
     `./covers/${book.id}.webp`,
     `./covers/${book.id}.jpg`,
+    `./covers/${book.id}.jpeg`,
     `./covers/${book.id}.png`,
     `./covers/${book.numericId}.webp`,
     `./covers/${book.numericId}.jpg`,
+    `./covers/${book.numericId}.jpeg`,
     `./covers/${book.numericId}.png`,
   ];
   for (const key of candidates) {
-    if (coverImageUrls[key]) return coverImageUrls[key];
+    const hit = normalizedCoverUrls.get(key.normalize('NFC'));
+    if (hit) return hit;
   }
   return undefined;
 }

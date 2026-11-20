@@ -159,10 +159,25 @@ export function BookReader({
   const [pendingSelection, setPendingSelection] = useState<{
     text: string;
     pageNumber: number;
+    chapterId?: string;
+    paragraphIndex?: number;
     chapterTitle?: string;
   } | null>(null);
 
   const spreadContainerRef = useRef<HTMLDivElement>(null);
+  const leafMeasureRef = useRef<HTMLDivElement>(null);
+  const [leafSize, setLeafSize] = useState<{ width: number; height: number }>({
+    width: 420,
+    height: 520,
+  });
+  const [fontsReady, setFontsReady] = useState(false);
+
+  const readingAnchorRef = useRef<{
+    kind: 'intro' | 'toc' | 'content';
+    chapterId?: string;
+    paragraphIndex?: number;
+  } | null>(null);
+  const prevLayoutKeyRef = useRef<string>('');
 
   useEffect(() => {
     const mq = window.matchMedia('(max-width: 767px)');
@@ -171,6 +186,40 @@ export function BookReader({
     mq.addEventListener('change', update);
     return () => mq.removeEventListener('change', update);
   }, []);
+
+  useEffect(() => {
+    let active = true;
+    if (typeof document !== 'undefined' && document.fonts?.ready) {
+      void document.fonts.ready.then(() => {
+        if (active) setFontsReady(true);
+      });
+    } else {
+      setFontsReady(true);
+    }
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    const el = leafMeasureRef.current;
+    if (!el) return;
+    const measure = () => {
+      const w = el.clientWidth;
+      const h = el.clientHeight;
+      if (w > 120 && h > 120) {
+        setLeafSize((prev) =>
+          Math.abs(prev.width - w) > 2 || Math.abs(prev.height - h) > 2
+            ? { width: w, height: h }
+            : prev,
+        );
+      }
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [isLoading, isMobile]);
 
   const fetchContent = useCallback(async () => {
     setIsLoading(true);
@@ -192,8 +241,16 @@ export function BookReader({
   }, [fetchContent]);
 
   const paginated = useMemo(
-    () => (content ? paginateBookContent(content) : null),
-    [content],
+    () =>
+      content
+        ? paginateBookContent(content, {
+            leafWidth: leafSize.width,
+            leafHeight: leafSize.height,
+            zoom,
+            isPoetry: book.isPoetry,
+          })
+        : null,
+    [book.isPoetry, content, fontsReady, leafSize.height, leafSize.width, zoom],
   );
 
   const totalPages = paginated?.pages.length ?? 1;
@@ -209,6 +266,59 @@ export function BookReader({
 
   const leftPage = paginated?.pages[leftPageNum - 1] ?? null;
   const rightPage = rightPageNum ? paginated?.pages[rightPageNum - 1] ?? null : null;
+
+  // Keep reading position anchored to the current chapter/paragraph when zoom or viewport changes
+  useEffect(() => {
+    if (!paginated) return;
+    const layoutKey = `${zoom}:${leafSize.width}x${leafSize.height}`;
+    const prevKey = prevLayoutKeyRef.current;
+    prevLayoutKeyRef.current = layoutKey;
+
+    if (!prevKey || prevKey === layoutKey) return;
+    const anchor = readingAnchorRef.current;
+    if (!anchor) return;
+
+    if (anchor.kind === 'intro') {
+      setCurrentPage(1);
+      return;
+    }
+    if (anchor.kind === 'toc') {
+      setCurrentPage(paginated.tocStartPage);
+      return;
+    }
+    if (anchor.chapterId) {
+      const matchPage = paginated.pages.find((p) =>
+        p.blocks.some(
+          (b) =>
+            b.chapterId === anchor.chapterId &&
+            (anchor.paragraphIndex === undefined || b.paragraphIndex >= anchor.paragraphIndex),
+        ),
+      );
+      if (matchPage) {
+        const target = isMobile
+          ? matchPage.pageNumber
+          : matchPage.pageNumber % 2 === 0
+            ? Math.max(1, matchPage.pageNumber - 1)
+            : matchPage.pageNumber;
+        setCurrentPage(target);
+      }
+    }
+  }, [isMobile, leafSize.height, leafSize.width, paginated, zoom]);
+
+  useEffect(() => {
+    if (!leftPage) return;
+    if (leftPage.kind === 'intro') {
+      readingAnchorRef.current = { kind: 'intro' };
+    } else if (leftPage.kind === 'toc') {
+      readingAnchorRef.current = { kind: 'toc' };
+    } else if (leftPage.blocks[0]) {
+      readingAnchorRef.current = {
+        kind: 'content',
+        chapterId: leftPage.blocks[0].chapterId,
+        paragraphIndex: leftPage.blocks[0].paragraphIndex,
+      };
+    }
+  }, [leftPage]);
 
   useEffect(() => {
     if (!paginated) return;
@@ -227,9 +337,6 @@ export function BookReader({
       setFlipDirection(direction);
       setPendingSelection(null);
       setCurrentPage(normalized);
-      spreadContainerRef.current?.querySelectorAll('.reader-leaf-scroll').forEach((el) => {
-        el.scrollTop = 0;
-      });
     },
     [isMobile, totalPages],
   );
@@ -296,9 +403,18 @@ export function BookReader({
       setPendingSelection(null);
       return;
     }
+    const anchorEl =
+      sel?.anchorNode instanceof Element
+        ? sel.anchorNode
+        : sel?.anchorNode?.parentElement;
+    const paraEl = anchorEl?.closest('[data-chapter-id]') as HTMLElement | null;
     setPendingSelection({
       text: selectedText.slice(0, 400),
       pageNumber: page.pageNumber,
+      chapterId: paraEl?.dataset.chapterId ?? page.blocks[0]?.chapterId,
+      paragraphIndex: paraEl?.dataset.paraIdx
+        ? Number(paraEl.dataset.paraIdx)
+        : page.blocks[0]?.paragraphIndex,
       chapterTitle: page.blocks[0]?.chapterTitle,
     });
   };
@@ -313,31 +429,54 @@ export function BookReader({
     }
 
     const fontPx = Math.round((16 * zoom) / 100);
-    const pageHighlights = highlights.filter((h) => h.pageNumber === page.pageNumber);
+    const introFontPx = Math.min(fontPx, 17);
 
     if (page.kind === 'intro') {
+      const compactIntro = leafSize.height < 460;
+      const introLineH = Math.ceil(introFontPx * 1.62);
+      const reservedHeight = compactIntro ? 215 : 265;
+      const maxIntroLines = Math.max(
+        2,
+        Math.floor((leafSize.height - reservedHeight) / introLineH),
+      );
+
       return (
-        <div className="flex h-full flex-col justify-between">
-          <div>
-            <p className="font-sans-ui text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--cobalt)]">
-              {book.categoryGroup} · {book.genre}
-            </p>
-            <h2 className="font-serif-book mt-2 text-2xl font-medium leading-tight sm:text-3xl">
-              {book.title}
-            </h2>
-            <p className="font-sans-ui mt-1 text-sm text-[var(--muted)]">
-              Tác giả: <strong className="font-medium text-[var(--ink)]">{book.author}</strong>
-            </p>
-            <div className="my-5 h-px bg-[var(--border-soft)]" />
-            <p
-              className="font-serif-book leading-relaxed text-[var(--ink)]"
-              style={{ fontSize: `${fontPx}px` }}
-            >
-              {book.synopsis || 'Bắt đầu lật trang để đọc nội dung tác phẩm.'}
-            </p>
+        <div className="flex h-full flex-col justify-between gap-3 overflow-hidden">
+          <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
+            <div className="shrink-0">
+              <p className="font-sans-ui text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--cobalt)]">
+                {book.categoryGroup} · {book.genre}
+              </p>
+              <h2
+                className={`font-serif-book mt-1.5 line-clamp-2 font-medium leading-tight ${
+                  compactIntro ? 'text-xl' : 'text-2xl sm:text-3xl'
+                }`}
+              >
+                {book.title}
+              </h2>
+              <p className="font-sans-ui mt-1 text-xs text-[var(--muted)] sm:text-sm">
+                Tác giả: <strong className="font-medium text-[var(--ink)]">{book.author}</strong>
+              </p>
+              <div className="my-3 h-px bg-[var(--border-soft)] sm:my-3.5" />
+            </div>
+            <div className="min-h-0 flex-1 overflow-hidden">
+              <p
+                className="font-serif-book text-[var(--ink)]"
+                style={{
+                  fontSize: `${introFontPx}px`,
+                  lineHeight: `${introLineH}px`,
+                  display: '-webkit-box',
+                  WebkitBoxOrient: 'vertical',
+                  WebkitLineClamp: maxIntroLines,
+                  overflow: 'hidden',
+                }}
+              >
+                {book.synopsis || 'Bắt đầu lật trang để đọc nội dung tác phẩm.'}
+              </p>
+            </div>
           </div>
-          <div className="mt-6 flex items-center gap-4">
-            <div className="w-20 shrink-0">
+          <div className="flex shrink-0 items-center gap-3 pt-1 sm:gap-4">
+            <div className={compactIntro ? 'w-14 shrink-0' : 'w-16 shrink-0 sm:w-20'}>
               <BookCoverArt book={book} size="sm" className="aspect-[2/3] w-full" />
             </div>
             <div className="font-sans-ui text-xs text-[var(--muted)]">
@@ -350,46 +489,54 @@ export function BookReader({
     }
 
     if (page.kind === 'toc') {
+      const tocItems = page.tocItems ?? [];
+      const isFirstTocPage = page.pageNumber === (paginated?.tocStartPage ?? 2);
+
       return (
-        <div className="flex h-full flex-col">
-          <div className="mb-3 flex items-center justify-between border-b border-[var(--border-soft)] pb-2">
-            <h3 className="font-serif-book text-xl font-medium">Mục lục</h3>
+        <div className="flex h-full flex-col overflow-hidden">
+          <div className="mb-2 flex shrink-0 items-center justify-between border-b border-[var(--border-soft)] pb-2">
+            <h3 className="font-serif-book text-xl font-medium">
+              Mục lục {!isFirstTocPage ? '(tiếp)' : ''}
+            </h3>
             <span className="font-sans-ui text-xs text-[var(--muted)]">
               {content?.chapters.length ?? 0} chương
             </span>
           </div>
 
-          {bookmarks.length > 0 && (
-            <div className="mb-3 rounded-xl border border-[var(--border-soft)] bg-[var(--paper)] p-3">
-              <p className="font-sans-ui mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-[var(--cobalt)]">
-                🔖 Trang đã đánh dấu ({bookmarks.length})
-              </p>
-              <div className="flex flex-wrap gap-1.5">
-                {bookmarks.map((bm) => (
-                  <button
-                    key={bm.id}
-                    type="button"
-                    onClick={() => goToPage(bm.pageNumber, 'next')}
-                    className="cursor-pointer rounded-full border border-[var(--border-soft)] bg-[var(--sheet)] px-2.5 py-0.5 font-sans-ui text-[11px] hover:border-[var(--cobalt)]"
-                  >
-                    Trang {bm.pageNumber}
-                  </button>
-                ))}
-              </div>
+          {isFirstTocPage && bookmarks.length > 0 && (
+            <div className="mb-2 flex shrink-0 flex-wrap items-center gap-1.5 rounded-xl border border-[var(--border-soft)] bg-[var(--paper)] px-2.5 py-1.5">
+              <span className="font-sans-ui text-[11px] font-semibold text-[var(--cobalt)]">
+                🔖 Đã đánh dấu:
+              </span>
+              {bookmarks.slice(0, 4).map((bm) => (
+                <button
+                  key={bm.id}
+                  type="button"
+                  onClick={() => goToPage(bm.pageNumber, 'next')}
+                  className="cursor-pointer rounded-full border border-[var(--border-soft)] bg-[var(--sheet)] px-2 py-0.5 font-sans-ui text-[10px] hover:border-[var(--cobalt)]"
+                >
+                  Tr. {bm.pageNumber}
+                </button>
+              ))}
+              {bookmarks.length > 4 && (
+                <span className="font-sans-ui text-[10px] text-[var(--muted)]">
+                  +{bookmarks.length - 4}
+                </span>
+              )}
             </div>
           )}
 
-          <ol className="flex-1 space-y-1 overflow-y-auto pr-1">
-            {content?.chapters.map((ch) => {
-              const targetPage = paginated?.chapterStartPages[ch.id] ?? 3;
+          <ol className="min-h-0 flex-1 overflow-hidden">
+            {tocItems.map((ch) => {
+              const targetPage = paginated?.chapterStartPages[ch.chapterId] ?? 3;
               return (
-                <li key={ch.id}>
+                <li key={ch.chapterId} className="h-[33px]">
                   <button
                     type="button"
                     onClick={() => goToPage(targetPage, 'next')}
-                    className="flex w-full cursor-pointer items-baseline justify-between gap-3 rounded-lg px-2 py-1.5 text-left transition hover:bg-black/5 dark:hover:bg-white/10"
+                    className="flex h-full w-full cursor-pointer items-center justify-between gap-3 rounded-lg px-2 text-left transition hover:bg-black/5 dark:hover:bg-white/10"
                   >
-                    <span className="font-serif-book text-sm text-[var(--ink)]">
+                    <span className="truncate font-serif-book text-sm text-[var(--ink)]">
                       <span className="font-sans-ui mr-1.5 text-xs font-semibold text-[var(--cobalt)]">
                         {String(ch.orderIndex).padStart(2, '0')} ·
                       </span>
@@ -411,30 +558,50 @@ export function BookReader({
       <div
         onMouseUp={() => handleTextSelectionCapture(page)}
         onTouchEnd={() => handleTextSelectionCapture(page)}
-        className="space-y-3"
-        style={{ fontSize: `${fontPx}px`, lineHeight: book.isPoetry ? 1.65 : 1.75 }}
+        className="h-full overflow-hidden"
       >
-        {page.blocks.map((block, idx) => (
-          <div key={`${block.chapterId}-${block.paragraphIndex}-${idx}`}>
-            {block.isChapterStart && (
-              <div className="mb-4 border-b border-[var(--border-soft)] pb-2">
-                <p className="font-sans-ui text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--cobalt)]">
-                  Chương {block.chapterId.split('-ch-')[1]}
-                </p>
-                <h3 className="font-serif-book mt-0.5 text-xl font-medium text-[var(--ink)] sm:text-2xl">
-                  {block.chapterTitle}
-                </h3>
-              </div>
-            )}
-            <p
-              className={`font-serif-book text-[var(--ink)] ${
-                block.isPoetry ? 'mb-1 text-[0.96em]' : 'indent-5 text-justify'
-              }`}
-            >
-              {renderHighlightedParagraph(block.text, pageHighlights)}
-            </p>
-          </div>
-        ))}
+        {page.blocks.map((block, idx) => {
+          const isPoetry = Boolean(block.isPoetry);
+          const lineHeightPx = Math.ceil(fontPx * (isPoetry ? 1.65 : 1.75));
+          const paraGapPx = isPoetry ? 4 : Math.round(fontPx * 0.6);
+          const indentPx = isPoetry || block.isContinuation ? 0 : Math.round(fontPx * 1.25);
+
+          const matchingHighlights = highlights.filter(
+            (h) =>
+              h.pageNumber === page.pageNumber ||
+              (h.chapterId === block.chapterId && h.paragraphIndex === block.paragraphIndex),
+          );
+
+          return (
+            <div key={`${block.chapterId}-${block.paragraphIndex}-${idx}`}>
+              {block.isChapterStart && (
+                <div className="mb-[15px] border-b border-[var(--border-soft)] pb-[10px]">
+                  <p className="mb-[2px] font-sans-ui text-[11px] leading-[16px] font-semibold uppercase tracking-[0.16em] text-[var(--cobalt)]">
+                    Chương {block.chapterId.split('-ch-')[1]}
+                  </p>
+                  <h3 className="font-serif-book text-[22px] leading-[29px] font-medium text-[var(--ink)]">
+                    {block.chapterTitle}
+                  </h3>
+                </div>
+              )}
+              <p
+                data-chapter-id={block.chapterId}
+                data-para-idx={block.paragraphIndex}
+                className={`font-serif-book text-[var(--ink)] ${
+                  isPoetry ? 'text-left text-[0.96em]' : 'text-justify'
+                }`}
+                style={{
+                  fontSize: `${fontPx}px`,
+                  lineHeight: `${lineHeightPx}px`,
+                  marginBottom: `${paraGapPx}px`,
+                  textIndent: `${indentPx}px`,
+                }}
+              >
+                {renderHighlightedParagraph(block.text, matchingHighlights)}
+              </p>
+            </div>
+          );
+        })}
       </div>
     );
   };
@@ -451,7 +618,9 @@ export function BookReader({
         <div className="flex items-center gap-1.5 sm:gap-2">
           <button
             type="button"
-            onClick={() => goToPage(1, 'prev')}
+            onClick={() =>
+              goToPage(isMobile ? (paginated?.tocStartPage ?? 2) : 1, 'prev')
+            }
             className="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-[var(--border-soft)] bg-[var(--paper)] px-3 py-1 font-sans-ui text-xs font-medium transition hover:border-[var(--cobalt)]"
           >
             <List className="h-3.5 w-3.5" />
@@ -592,6 +761,8 @@ export function BookReader({
               onClick={() => {
                 onAddHighlight(book.id, {
                   pageNumber: pendingSelection.pageNumber,
+                  chapterId: pendingSelection.chapterId,
+                  paragraphIndex: pendingSelection.paragraphIndex,
                   selectedText: pendingSelection.text,
                   color,
                   chapterTitle: pendingSelection.chapterTitle,
@@ -659,10 +830,12 @@ export function BookReader({
                     : ''
               }`}
             >
-              {/* Left / Single Page Leaf */}
-              <article className="reader-leaf-scroll relative flex h-full flex-col overflow-y-auto px-5 py-6 shadow-[inset_-14px_0_24px_-18px_rgba(0,0,0,0.16)] sm:px-9 sm:py-8">
-                <div className="flex-1">{renderPageContent(leftPage)}</div>
-                <footer className="mt-4 flex items-center justify-between border-t border-[var(--border-soft)] pt-2 font-sans-ui text-[11px] text-[var(--muted)]">
+              {/* Left / Single Page Leaf (never scrolls vertically; fits cleanly in viewport) */}
+              <article className="relative flex h-full flex-col overflow-hidden px-5 py-5 shadow-[inset_-14px_0_24px_-18px_rgba(0,0,0,0.16)] sm:px-9 sm:py-7">
+                <div ref={leafMeasureRef} className="min-h-0 flex-1 overflow-hidden">
+                  {renderPageContent(leftPage)}
+                </div>
+                <footer className="mt-3 flex shrink-0 items-center justify-between border-t border-[var(--border-soft)] pt-2 font-sans-ui text-[11px] text-[var(--muted)]">
                   <span className="truncate">{book.title}</span>
                   <span className="tabular-nums">Trang {leftPageNum}</span>
                 </footer>
@@ -670,9 +843,11 @@ export function BookReader({
 
               {/* Right Page Leaf (Desktop / Tablet 2-page spread) */}
               {!isMobile && (
-                <article className="reader-leaf-scroll relative flex h-full flex-col overflow-y-auto border-l border-[var(--border-soft)] px-9 py-8 shadow-[inset_18px_0_28px_-18px_rgba(0,0,0,0.26)]">
-                  <div className="flex-1">{renderPageContent(rightPage)}</div>
-                  <footer className="mt-4 flex items-center justify-between border-t border-[var(--border-soft)] pt-2 font-sans-ui text-[11px] text-[var(--muted)]">
+                <article className="relative flex h-full flex-col overflow-hidden border-l border-[var(--border-soft)] px-9 py-7 shadow-[inset_18px_0_28px_-18px_rgba(0,0,0,0.26)]">
+                  <div className="min-h-0 flex-1 overflow-hidden">
+                    {renderPageContent(rightPage)}
+                  </div>
+                  <footer className="mt-3 flex shrink-0 items-center justify-between border-t border-[var(--border-soft)] pt-2 font-sans-ui text-[11px] text-[var(--muted)]">
                     <span className="truncate">{currentChapterTitle ?? book.author}</span>
                     <span className="tabular-nums">
                       {rightPageNum ? `Trang ${rightPageNum}` : ''}
@@ -818,7 +993,10 @@ export function BookReader({
                             type="button"
                             onClick={() => {
                               setNotesDialogOpen(false);
-                              goToPage(hl.pageNumber, 'next');
+                              const livePage = paginated?.pages.find((p) =>
+                                p.blocks.some((b) => b.text.includes(hl.selectedText)),
+                              );
+                              goToPage(livePage?.pageNumber ?? hl.pageNumber, 'next');
                             }}
                             className="flex-1 cursor-pointer text-left"
                           >

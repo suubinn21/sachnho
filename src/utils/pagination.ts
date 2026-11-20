@@ -61,7 +61,7 @@ function createTextMeasurer(): TextMeasurer {
         if (cached !== undefined) return cached;
         if (ctx.font !== font) ctx.font = font;
         const w = ctx.measureText(text).width;
-        if (fontCache.size < 12000) fontCache.set(text, w);
+        if (fontCache.size < 60000) fontCache.set(text, w);
         return w;
       };
     }
@@ -156,9 +156,6 @@ export function paginateBookContent(
   const safeHeight = Math.max(110, opts.leafHeight - 10);
   const fontPx = Math.round((16 * opts.zoom) / 100);
   const isBookPoetry = Boolean(opts.isPoetry);
-  const lineHeightPx = Math.ceil(fontPx * (isBookPoetry ? 1.65 : 1.75));
-  const paraGapPx = isBookPoetry ? 4 : Math.round(fontPx * 0.6);
-  const indentPx = isBookPoetry ? 0 : Math.round(fontPx * 1.25);
   const bodyFont = `400 ${fontPx}px "Newsreader", Georgia, serif`;
 
   const measure = createTextMeasurer();
@@ -234,13 +231,13 @@ export function paginateBookContent(
       const paraWords = para.split(/\s+/).filter(Boolean).length;
       totalWords += paraWords;
 
-      let lines = wrapParagraphToLines(para, leafWidth, chIndent, bodyFont, measure);
+      const lines = wrapParagraphToLines(para, leafWidth, chIndent, bodyFont, measure);
       if (lines.length === 0) return;
 
-      let isFirstSliceOfParagraph = true;
+      let cursor = 0;
       let needsChapterHeader = paraIdx === 0;
 
-      while (lines.length > 0) {
+      while (cursor < lines.length) {
         const headingCost = needsChapterHeader ? headerH : 0;
         const availableForLines = safeHeight - usedHeight - headingCost;
         const linesThatFit = Math.floor(availableForLines / chLineH);
@@ -252,12 +249,10 @@ export function paginateBookContent(
         }
 
         // Always take at least 1 line on an empty page to guarantee forward progress
-        const takeCount = Math.max(1, Math.min(lines.length, linesThatFit || 1));
-        const sliceLines = lines.slice(0, takeCount);
-        const remainingLines = lines.slice(takeCount);
-
-        const sliceText = sliceLines.join(' ');
+        const takeCount = Math.max(1, Math.min(lines.length - cursor, linesThatFit || 1));
+        const sliceText = lines.slice(cursor, cursor + takeCount).join(' ');
         const sliceWords = sliceText.split(/\s+/).filter(Boolean).length;
+        const isFirstSlice = cursor === 0;
 
         currentBlocks.push({
           chapterId: chapter.id,
@@ -265,29 +260,20 @@ export function paginateBookContent(
           paragraphIndex: paraIdx,
           text: sliceText,
           isChapterStart: needsChapterHeader,
-          isContinuation: !isFirstSliceOfParagraph,
+          isContinuation: !isFirstSlice,
           isPoetry,
         });
 
         currentWords += sliceWords;
         usedHeight += headingCost + takeCount * chLineH;
         needsChapterHeader = false;
+        cursor += takeCount;
 
-        if (remainingLines.length === 0) {
-          // Completed paragraph: add bottom spacing if room remains, else next paragraph starts new page
+        if (cursor >= lines.length) {
           usedHeight += chGap;
-          lines = [];
         } else {
-          // Paragraph splits across page boundary: re-wrap remaining text cleanly with 0 indent on next page
-          isFirstSliceOfParagraph = false;
+          // Remaining lines already fit leafWidth without re-wrapping (O(N) total)
           flushPage();
-          lines = wrapParagraphToLines(
-            remainingLines.join(' '),
-            leafWidth,
-            0,
-            bodyFont,
-            measure,
-          );
         }
       }
     });

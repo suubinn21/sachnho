@@ -20,7 +20,7 @@ export function BookCoverArt({ book, size = 'lg', className = '' }: BookCoverArt
           src={book.coverUrl}
           alt={`Bìa sách ${book.title}`}
           loading="lazy"
-          className="h-full w-full scale-[1.04] object-cover"
+          className="h-full w-full object-cover"
         />
         {/* Hardcover spine hinge groove & subtle protective sheen */}
         <div

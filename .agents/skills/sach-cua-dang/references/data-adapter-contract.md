@@ -131,6 +131,7 @@ Tùy theo hình thức bộ data 128+ cuốn sách mà người dùng cung cấp
   - Mỗi chương: `[CHƯƠNG <stt> - rtit] <Tên chương>`, theo sau là dòng `[rtx]` và các đoạn văn bản (`1 dòng = 1 đoạn` hoặc `1 dòng thơ`).
 - **Vite Virtual Catalog Plugin (`plugins/viteBooksTxtPlugin.ts`):** Quét `src/data/raw/*.txt` khi chạy `dev`/`build` để tạo module ảo `virtual:books-catalog` chỉ chứa metadata nhẹ (`~30KB` cho 128+ cuốn) và tự theo dõi HMR khi thêm/bớt tệp `.txt`.
 - **Lazy-load nội dung:** Dùng `import.meta.glob('./raw/*.txt', { query: '?url', import: 'default', eager: true })` lấy URL tài nguyên tĩnh theo từng file và `fetch(url)` + `parseBookTxtContent()` theo yêu cầu khi người dùng bấm `Đọc ngay`, kết hợp cache trong bộ nhớ (`Map<string, BookContent>`). Cách này tránh gộp 90+ MB chữ vào JS bundle khởi đầu và giúp `vite build` đóng gói cực nhanh.
+- **Ảnh bìa tự động khớp (`src/data/covers/`):** `src/data/adapter.ts` tự ánh xạ ảnh `.jpg/.jpeg/.png/.webp` trong `src/data/covers/` theo **tên tệp sách gốc** (khớp 1:1 với tên tệp `.txt` trong `src/data/raw/`, chuẩn hóa NFC) hoặc theo `book-<id>` / `<id>`.
 - **Nhạc nền tự động nạp (`src/data/audio/`):** `src/data/audioLoader.ts` dùng `import.meta.glob('./audio/*.{mp3,wav,ogg,m4a,aac,flac}', { query: '?url', import: 'default', eager: true })` để tự động nhận diện mọi tệp nhạc người dùng thả vào `src/data/audio/` (không cần sửa code), ưu tiên phát cùng 10 bản piano tích hợp sẵn qua `AmbientAudioEngine` và các file MP3 lưu cục bộ trong IndexedDB.
 
 ---
