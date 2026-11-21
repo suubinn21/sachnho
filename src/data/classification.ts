@@ -104,7 +104,16 @@ export function inferGenre(title: string, author: string): string {
     return 'Truyện ngắn';
   }
   if (lower.includes('ghi chép pháp y')) return 'Ký sự pháp y';
+  if (lower.includes('quỷ xá')) return 'Kinh dị & Huyền bí';
   if (
+    author === 'Yuval Noah Harari' ||
+    lower.includes('lược sử') ||
+    lower.includes('21 bài học')
+  ) {
+    return 'Khoa học & Lịch sử';
+  }
+  if (
+    author === 'C. S. Lewis' ||
     lower.includes('harry potter') ||
     lower.includes('đoàn hộ nhẫn') ||
     lower.includes('hai tòa tháp') ||

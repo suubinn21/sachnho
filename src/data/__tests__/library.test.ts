@@ -41,10 +41,10 @@ function makeMeta(overrides: Partial<BookMeta>): BookMeta {
   };
 }
 
-describe('Real 128-book dataset integrity', () => {
-  it('parses all 128 raw .txt files cleanly into 40 NNA + 18 VN + 70 Foreign', () => {
+describe('Real 140-book dataset integrity', () => {
+  it('parses all 140 raw .txt files cleanly into 40 NNA + 18 VN + 82 Foreign', () => {
     const files = fs.readdirSync(RAW_DIR).filter((f) => f.endsWith('.txt'));
-    expect(files.length).toBe(128);
+    expect(files.length).toBe(140);
 
     const groupCounts: Record<string, number> = {};
     const ids = new Set<number>();
@@ -62,10 +62,10 @@ describe('Real 128-book dataset integrity', () => {
       groupCounts[grp] = (groupCounts[grp] ?? 0) + 1;
     }
 
-    expect(ids.size).toBe(128);
+    expect(ids.size).toBe(140);
     expect(groupCounts['Nguyễn Nhật Ánh']).toBe(40);
     expect(groupCounts['Văn học Việt Nam']).toBe(18);
-    expect(groupCounts['Văn học nước ngoài']).toBe(70);
+    expect(groupCounts['Văn học nước ngoài']).toBe(82);
 
     const coverFiles = fs.readdirSync(COVERS_DIR);
     const coverBases = new Set(
